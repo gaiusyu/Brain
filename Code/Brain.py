@@ -383,25 +383,26 @@ def parse(sentences,filter,dataset,threshold,delimiter,tag,starttime,efficiency)
     print("### Time cost4 ###" + str(endtime-starttime))
     if efficiency==True:
         return endtime
-    with open('../Parseresult/' + dataset + 'result.csv', 'a+') as f:
-        template_num = 0
-        for k1 in template_set.keys():
-            group_accuracy = {''}
-            group_accuracy.remove('')
-            for i in template_set[k1]:
-                group_accuracy.add(structured[i])
-
-                f.write(sentences[i])
-                f.write(' ' + str(list(k1)))
-                f.write(' E' + str(template_num))
-                f.write('\n')
-                template_num += 1
-            if len(group_accuracy) == 1:
-                count = a.count(a[i])
-                if count == len(template_set[k1]):
-                    group_accuracy_correct += len(template_set[k1])
-        f.close()
-    with open('../Parseresult/' + dataset + '_template.csv', 'a+') as f:
+    '''
+    output parsing result
+    '''
+    template=sentences
+    template_num = 0
+    group_accuracy_correct=0
+    for k1 in template_set.keys():
+        group_accuracy = {''}
+        group_accuracy.remove('')
+        for i in template_set[k1]:
+            group_accuracy.add(structured[i])
+            template[i]=k1
+            template_num += 1
+        if len(group_accuracy) == 1:
+            count = a.count(a[i])
+            if count == len(template_set[k1]):
+                group_accuracy_correct += len(template_set[k1])
+    df_example['Template']=template
+    df_example.to_csv('../Parseresult/' + dataset + 'result.csv', index=False)
+    with open('../Parseresult/' + dataset + '_template.csv', 'w') as f:
         template_num = 0
         for k1 in template_set.keys():
             f.write(' '.join(list(k1)))
@@ -411,6 +412,8 @@ def parse(sentences,filter,dataset,threshold,delimiter,tag,starttime,efficiency)
 
     Groupaccuracy=group_accuracy_correct/2000
     return Groupaccuracy
+
+
 
 
 
@@ -465,7 +468,7 @@ class format_log:    # this part of code is from LogPai https://github.com/LogPa
                     linecount += 1
                 except Exception as e:
                     pass
-                if linecount==1000000:
+                if linecount==2000000:
                     break
         logdf = pd.DataFrame(log_messages, columns=headers)
         logdf.insert(0, 'LineId', None)
@@ -503,3 +506,5 @@ class format_log:    # this part of code is from LogPai https://github.com/LogPa
         'delimiter': ['[,!?=]']
     },
 '''
+
+

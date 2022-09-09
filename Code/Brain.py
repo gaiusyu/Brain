@@ -400,7 +400,7 @@ def parse(sentences,filter,dataset,threshold,delimiter,tag,starttime,efficiency)
             count = a.count(a[i])
             if count == len(template_set[k1]):
                 group_accuracy_correct += len(template_set[k1])
-    df_example['Template']=template
+    df_example['Predicted_Template']=template
     df_example.to_csv('../Parseresult/' + dataset + 'result.csv', index=False)
     with open('../Parseresult/' + dataset + '_template.csv', 'w') as f:
         template_num = 0

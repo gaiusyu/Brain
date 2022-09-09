@@ -164,7 +164,7 @@ for dataset, setting in benchmark_settings.items():
     # Time = form['Time']
     start = datetime.datetime.now()
     sentences = content.tolist()
-    GA=Ba.parse(sentences,setting['regex'],dataset,setting['theshold'],setting['delimiter'],setting['tag'],starttime,efficiency=False)
+    GA=Ba.parse(sentences,setting['regex'],dataset,setting['theshold'],setting['delimiter'],setting['tag'],starttime,efficiency=False,form=form)
     print('====='+dataset+'======   :'+str(GA))
     sum_GA+=GA
     i+=1

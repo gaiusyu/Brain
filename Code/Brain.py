@@ -1,3 +1,4 @@
+import copy
 import datetime
 from collections import Counter
 import os
@@ -330,7 +331,7 @@ def output_result(wordlist,parse_result,tag):
             template_set.setdefault(template,[]).append(pr[len(pr)-1][0])
     return template_set
 
-def parse(sentences,filter,dataset,threshold,delimiter,tag,starttime,efficiency):
+def parse(sentences,filter,dataset,threshold,delimiter,tag,starttime,efficiency,form):
 
     wordlist, frequency, frequency_common = get_frequecy_vector(sentences, filter,delimiter,dataset)
     sorted_frequency, sorted_frequency_common, sorted_frequency_tuple = tuple_generate(wordlist, frequency,
@@ -386,25 +387,30 @@ def parse(sentences,filter,dataset,threshold,delimiter,tag,starttime,efficiency)
     '''
     output parsing result
     '''
-    template=sentences
+    template=copy.copy(sentences)
+    eventID=copy.copy(sentences)
     template_num = 0
     group_accuracy_correct=0
     for k1 in template_set.keys():
         group_accuracy = {''}
         group_accuracy.remove('')
+        template_num += 1
         for i in template_set[k1]:
             group_accuracy.add(structured[i])
-            template[i]=k1
-            template_num += 1
+            template[i]=' '.join(list(k1))
+            eventID[i]='E'+str(template_num)
         if len(group_accuracy) == 1:
             count = a.count(a[i])
             if count == len(template_set[k1]):
                 group_accuracy_correct += len(template_set[k1])
-    df_example['Predicted_Template']=template
-    df_example.to_csv('../Parseresult/' + dataset + 'result.csv', index=False)
+    form['predicted_Template']=template
+    form['EventID'] = eventID
+    form.to_csv('../Parseresult/' + dataset + 'result.csv', index=False)
     with open('../Parseresult/' + dataset + '_template.csv', 'w') as f:
         template_num = 0
         for k1 in template_set.keys():
+            template_num += 1
+            f.write(''.join('E'+str(template_num))+' ')
             f.write(' '.join(list(k1)))
             f.write('  ' + str(len(template_set[k1])))
             f.write('\n')

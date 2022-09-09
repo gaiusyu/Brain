@@ -1,17 +1,7 @@
 import datetime
 import Brain as Ba
 import pandas as pd
-benchmark_settings = {
-  'HDFS': {
-        'log_file': 'HDFS/HDFS.log',
-        'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
-        'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
-        'delimiter': [],
-        'tag': 0,
-        'theshold': 2
-        },
-}
-'''
+
 benchmark_settings = {
 'Proxifier': {
         'log_file': 'Proxifier/Proxifier_2k.log',
@@ -158,7 +148,7 @@ benchmark_settings = {
 
 
 
-}'''
+}
 A_GA=0
 sum_GA=0
 i=0

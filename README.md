@@ -7,7 +7,7 @@ Reproduce
 
 Parsing result wiil be saved in Parseresult/
 
-Experimental data is saved in ExperimentalDATA.docx
+Experimental data is saved in ExperimentalData.docx
 
 ·ABSTRACT
 

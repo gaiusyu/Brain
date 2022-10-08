@@ -7,6 +7,8 @@ Reproduce
 
 Parsing result wiil be saved in Parseresult/
 
+Experimental results are saved in ExperimentalResults.docx
+
 ·ABSTRACT
 
 Automated log analysis can facilitate failure diagnosis for developers and operators using a large volume of logs. Log

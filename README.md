@@ -1,13 +1,13 @@
 # Brain
-##Brain: Log Parsing with Bidirectional Parallel Tree
+## Brain: Log Parsing with Bidirectional Parallel Tree
 
-####Reproduce
+#### Reproduce
 
 1.run  Code/runBrain.py
 
 Parsing result wiil be saved in Parseresult/
 
-####Docker images:
+#### Docker images:
 1. docker pull docker.io/gaiusyu/brain:v1
 2. docker run -it --name brain gaiusyu/brain:v1
 

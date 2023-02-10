@@ -1,5 +1,6 @@
 # Brain
 ## Brain: Log Parsing with Bidirectional Parallel Tree
+Revising in IEEE Transaction on Severice Computing
 
 #### Reproduce
 

@@ -15,7 +15,7 @@ benchmark_settings = {
         'log_file': 'HDFS/HDFS_2k.log',
         'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
         'regex': [r'blk_-?\d+', r'(\d+\.){3}\d+(:\d+)?'],
-        'delimiter': [],
+        'delimiter': [''],
         'tag': 0,
         'theshold': 2
         },
@@ -42,7 +42,7 @@ benchmark_settings = {
         'log_file': 'Zookeeper/Zookeeper_2k.log',
         'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
         'regex': [r'(/|)(\d+\.){3}\d+(:\d+)?'],
-        'delimiter': [r'\(.*?\)'],
+        'delimiter': [],
         'tag': 1,
         'theshold': 3
         },
@@ -59,8 +59,8 @@ benchmark_settings = {
     'HPC': {
         'log_file': 'HPC/HPC_2k.log',
         'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
-        'regex': [r'=\d+'],
-        'delimiter': [r'\(.*?\)'],
+        'regex': [],
+        'delimiter': [],
         'tag': 0,
         'theshold': 5
         },
@@ -78,7 +78,7 @@ benchmark_settings = {
         'log_file': 'Windows/Windows_2k.log',
         'log_format': '<Date> <Time>, <Level>                  <Component>    <Content>',
         'regex': [r'0x.*?\s'],
-        'delimiter': [r'\(.*?\)'],
+        'delimiter': [],
         'tag': 1,
         'theshold': 3
         },
@@ -131,7 +131,7 @@ benchmark_settings = {
     'OpenStack': {
         'log_file': 'OpenStack/OpenStack_2k.log',
         'log_format': '<Logrecord> <Date> <Time> <Pid> <Level> <Component> \[<ADDR>\] <Content>',
-        'regex': [r'((\d+\.){3}\d+,?)+', r'/.+?\s', r'\d+'],
+        'regex': [r'((\d+\.){3}\d+,?)+', r'/.+?\s ', r'\d+'],
         'delimiter': [],
         'tag': 0,
         'theshold': 5,
@@ -164,7 +164,7 @@ for dataset, setting in benchmark_settings.items():
     # Time = form['Time']
     start = datetime.datetime.now()
     sentences = content.tolist()
-    GA=Ba.parse(sentences,setting['regex'],dataset,setting['theshold'],setting['delimiter'],setting['tag'],starttime,efficiency=False,form=form)
+    GA=Ba.parse(sentences,setting['regex'],dataset,setting['theshold'],setting['delimiter'],setting['tag'],starttime,efficiency=False)
     print('====='+dataset+'======   :'+str(GA))
     sum_GA+=GA
     i+=1

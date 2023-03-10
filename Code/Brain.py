@@ -1,4 +1,3 @@
-import copy
 import datetime
 from collections import Counter
 import os
@@ -24,12 +23,53 @@ def get_frequecy_vector(sentences,filter,delimiter,dataset):
         if dataset=='HealthApp':
             s = re.sub(':', ': ', s)
             s = re.sub('=', '= ', s)
+            s = re.sub('\|', '| ', s)
+        if dataset=='Android':
+            s = re.sub('\(', '( ', s)
+            s = re.sub('\)', ') ', s)
         if dataset=='Android':
             s = re.sub(':', ': ', s)
             s = re.sub('=', '= ', s)
         if dataset=='HPC':
             s = re.sub('=', '= ', s)
-        s = re.sub(',', ' ', s)
+            s = re.sub('-', '- ', s)
+            s = re.sub(':', ': ', s)
+        if dataset == 'BGL':
+                s = re.sub('=', '= ', s)
+                s = re.sub('\.\.', '.. ', s)
+                s = re.sub('\(', '( ', s)
+                s = re.sub('\)', ') ', s)
+        if dataset == 'Hadoop':
+                s = re.sub('_', '_ ', s)
+                s = re.sub(':', ': ', s)
+                s = re.sub('=', '= ', s)
+                s = re.sub('\(', '( ', s)
+                s = re.sub('\)', ') ', s)
+        if dataset == 'HDFS':
+                s = re.sub(':', ': ', s)
+        if dataset == 'Linux':
+            s = re.sub('=', '= ', s)
+            s = re.sub(':', ': ', s)
+        if dataset == 'Spark':
+            s = re.sub(':', ': ', s)
+        if dataset == 'Thunderbird':
+                s = re.sub(':', ': ', s)
+                s = re.sub('=', '= ', s)
+        if dataset == 'Windows':
+                s = re.sub(':', ': ', s)
+                s = re.sub('=', '= ', s)
+                s = re.sub('\[', '[ ', s)
+                s = re.sub(']', '] ', s)
+        if dataset == 'Zookeeper':
+                s = re.sub(':', ': ', s)
+                s = re.sub('=', '= ', s)
+
+
+
+
+
+
+        s = re.sub(',', ', ', s)
         s = re.sub(' +',' ',s).split(' ')
         s.insert(0,str(line_id))
         lenth = 0
@@ -251,7 +291,8 @@ class tupletree:
     def down_split(self,root_set_detail,root_set,threshold, fr_inorder):
 
         father_template_set = {}
-
+        over2 = 0
+        over = 0
         for key in root_set.keys():
             thre = threshold
             tree_node = root_set[key]
@@ -275,6 +316,8 @@ class tupletree:
                         #child.setdefault(i, []).append(tuple([n for n in node[:i+1]]))
                         child.setdefault(i, []).append(node[i][1])
             v_flag = 0
+
+
             for i in m:
                 next={''}
                 next.remove('')
@@ -282,6 +325,7 @@ class tupletree:
                 freq = len(result)
                 if freq>=thre:
                         variable=variable.union(result)
+
                 v_flag+=1
             i=0
             while i < len(root_set_detail[key]):
@@ -331,7 +375,7 @@ def output_result(wordlist,parse_result,tag):
             template_set.setdefault(template,[]).append(pr[len(pr)-1][0])
     return template_set
 
-def parse(sentences,filter,dataset,threshold,delimiter,tag,starttime,efficiency,form):
+def parse(sentences,filter,dataset,threshold,delimiter,tag,starttime,efficiency):
 
     wordlist, frequency, frequency_common = get_frequecy_vector(sentences, filter,delimiter,dataset)
     sorted_frequency, sorted_frequency_common, sorted_frequency_tuple = tuple_generate(wordlist, frequency,
@@ -371,6 +415,7 @@ def parse(sentences,filter,dataset,threshold,delimiter,tag,starttime,efficiency,
                     break
                 correct_choose+=1
         '''
+
         root_set_detail = Tree.up_split(root_set_detail, root_set)
         parse_result = Tree.down_split(root_set_detail, root_set, threshold, fr_inorder)
         template_set.update(output_result(wordlist, parse_result,tag))
@@ -387,30 +432,25 @@ def parse(sentences,filter,dataset,threshold,delimiter,tag,starttime,efficiency,
     '''
     output parsing result
     '''
-    template=copy.copy(sentences)
-    eventID=copy.copy(sentences)
+    template=sentences
     template_num = 0
     group_accuracy_correct=0
     for k1 in template_set.keys():
         group_accuracy = {''}
         group_accuracy.remove('')
-        template_num += 1
         for i in template_set[k1]:
             group_accuracy.add(structured[i])
-            template[i]=' '.join(list(k1))
-            eventID[i]='E'+str(template_num)
+            template[i]=k1
+            template_num += 1
         if len(group_accuracy) == 1:
             count = a.count(a[i])
             if count == len(template_set[k1]):
                 group_accuracy_correct += len(template_set[k1])
-    form['predicted_Template']=template
-    form['EventID'] = eventID
-    form.to_csv('../Parseresult/' + dataset + 'result.csv', index=False)
+    df_example['Template']=template
+    df_example.to_csv('../Parseresult/' + dataset + 'result.csv', index=False)
     with open('../Parseresult/' + dataset + '_template.csv', 'w') as f:
         template_num = 0
         for k1 in template_set.keys():
-            template_num += 1
-            f.write(''.join('E'+str(template_num))+' ')
             f.write(' '.join(list(k1)))
             f.write('  ' + str(len(template_set[k1])))
             f.write('\n')

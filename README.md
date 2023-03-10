@@ -9,8 +9,8 @@ Revising in IEEE Transaction on Severice Computing
 Parsing result wiil be saved in Parseresult/
 
 #### Docker images:
-1. docker pull docker.io/gaiusyu/brain:v1
-2. docker run -it --name brain gaiusyu/brain:v1
+1. docker pull docker.io/gaiusyu/brain:v2
+2. docker run -it --name brain gaiusyu/brain:v2
 
 Experimental data is saved in ExperimentalData.docx
 

@@ -2,7 +2,6 @@
 ## Brain: Log Parsing with Bidirectional Parallel Tree
 IEEE Transaction on Severice Computing
 
-# The current version of the paper on IEEEExplore is wrong, it is a very old draft version, and we are contacting IEEE to correct it. 
 
 #### Reproduce
 

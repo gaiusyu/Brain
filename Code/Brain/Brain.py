@@ -4,18 +4,23 @@ import os
 import pandas as pd
 import re
 
-
-
+RED = "\033[31m"
+RESET = "\033[0m"
+PINK = "\033[38;2;255;192;203m"
 
 def get_frequecy_vector(sentences,filter,delimiter,dataset):
     '''
-    根据日志生成每条日志的频次向量。
+    Counting each word's frequency in the dataset and convert each log into frequency vector
+    Output:
+        wordlist: log groups based on length
+        tuple_vector: the word in the log will be converted into a tuple (word_frequency, word_character, word_position)
+        frequency_vector: the word in the log will be converted into its frequency
+
     '''
-    wordlist = {}
+    group_len = {}
     set = {}
     line_id=0
-    for s in sentences:
-
+    for s in sentences:  # using delimiters to get split words
         for rgex in filter:
             s = re.sub(rgex, '<*>', s)
         for de in delimiter:
@@ -63,12 +68,6 @@ def get_frequecy_vector(sentences,filter,delimiter,dataset):
         if dataset == 'Zookeeper':
                 s = re.sub(':', ': ', s)
                 s = re.sub('=', '= ', s)
-
-
-
-
-
-
         s = re.sub(',', ', ', s)
         s = re.sub(' +',' ',s).split(' ')
         s.insert(0,str(line_id))
@@ -77,198 +76,110 @@ def get_frequecy_vector(sentences,filter,delimiter,dataset):
             set.setdefault(str(lenth), []).append(token)
             lenth += 1
         lena=len(s)
-        wordlist.setdefault(lena,[]).append(s)
+        group_len.setdefault(lena,[]).append(s)  # first grouping: logs with the same length
         line_id+=1
-    frequency = {}
-    frequency_common={}
-    a = max(wordlist.keys())
+    tuple_vector = {}
+    frequency_vector={}
+    a = max(group_len.keys())  # a: the biggest length of the log in this dataset
     i=0
-    fre_set={}
-    while i < a :
-
-        for word in set[str(i)]:
+    fre_set={}   # saving each word's frequency
+    while i < a:
+        for word in set[str(i)]:   # counting each word's frequency
             word=str(i)+' '+word
-            if word in fre_set.keys():  # 判断当前key是否已经存在
-                fre_set[word] = fre_set[word] + 1  # 在当前key的个数上加 1
+            if word in fre_set.keys():  # check if the "word" in fre_set
+                fre_set[word] = fre_set[word] + 1  # frequency of "word" + 1
             else:
                 fre_set[word] = 1
         i += 1
-    for key in wordlist.keys():
-
-
-        for s in wordlist[key]:
-            lenth = 0
+    for key in group_len.keys():  # using fre_set to generate frequency vector for the log
+        for s in group_len[key]:  # in each log group with the same length
+            position = 0
             fre = []
             fre_common = []
             skip_lineid=1
-            for t in s:
+            for word_character in s:
                 if skip_lineid==1:
                     skip_lineid=0
                     continue
-                a=fre_set[str(lenth+1)+' '+t]
-                tt = ((a), t, lenth)
-                fre.append(tt)
-                fre_common.append((a))
-                lenth += 1
-            frequency.setdefault(key,[]).append(fre)
-            frequency_common.setdefault(key,[]).append(fre_common)
-    return wordlist,frequency,frequency_common
+                frequency_word=fre_set[str(position+1)+' '+word_character]
+                tuple = ((frequency_word), word_character, position)  # tuple=(frequency,word_character, position)
+                fre.append(tuple)
+                fre_common.append((frequency_word))
+                position += 1
+            tuple_vector.setdefault(key,[]).append(fre)
+            frequency_vector.setdefault(key,[]).append(fre_common)
+    return group_len,tuple_vector,frequency_vector
 
 
-
-
-def parse1(wordlist,frequency):
+def tuple_generate(group_len,tuple_vector,frequency_vector):
     '''
-    frequency为建立好的频次向量
+    Generate word combinations
+    Output:
+        sorted_tuple_vector: each tuple in the tuple_vector will be sorted according their frequencies.
+        word_combinations:  words in the log with the same frequency will be grouped as word combinations and will
+                            be arranged in descending order according to their frequencies.
+        word_combinations_reverse:  The word combinations in the log will be arranged in ascending order according
+                                    to their frequencies.
+
     '''
-    index_list = []
-    wait_set = {}
-    count = 0
-    for fre in frequency:
-        number = Counter(fre)
-        result = number.most_common()
-        sorted_result=sorted(result, key=lambda tup: tup[0], reverse=True)
-        sorted_result_reverse = sorted(result, key=lambda tup: tup[0])
-        if result[0] == sorted_result[0]:
-            inde = []
-            for index, token in enumerate(fre):
-                if token == result[0][0]:
-                    inde.append(index)
-            index_list.append(inde)
-        else:
-            index_list.append("placeholder")
-            wait_set.setdefault(count,[]).append(sorted_result_reverse)
-        count += 1
-    return index_list,wait_set
-
-class Tuple_Node():
-    # 初始化一个节点
-    def __init__(self,val = None):
-        self.val = val       # 节点值
-        self.child = set()    # 子节点
-    # 添加子节点
-    def add_child(self,node):
-        if node=='':
-            return
-        self.child.add(node)
-
-
-
-
-class Tuple_tree:
-
-    def __init__(self, root=None):
-        self.root = root
-
-    def child_num(self, node):
-
-        return node.get_child()
-
-    def find_node_val(self,node, node_val):
-        for c in node.child:
-            if c.val==node_val:
-                return  c
-            else:
-                c=self.find_node_val(c,node_val)
-                return c
-
-
-
-
-
-    def split(self, threshold,node):
-        flag=0
-        if threshold == 0:
-            print('threhold cant be 0')
-            return
-        branch=node.child
-        if node.child==None:
-            return 0
-        if len(branch)>threshold:
-            return 0
-        else:
-            flag+=1
-            return flag
-    def cut_branch(self,node,child_set):
-        for c in child_set:
-            if isinstance(c,node):
-                child_set.add(c.val)
-                child_set.remove(c)
-        return child_set
-
-    def generate_template_path(self, threshold,node):
-        flag=0
-        if threshold == 0:
-            print('threhold cant be 0')
-            return
-        branch=node.child
-        if node.child==None:
-            return 0
-        if len(branch)>threshold:
-            new_child=self.cut_branch(node,child_set=node.child)
-            return 0
-        else:
-            flag+=1
-            return flag
-
-def tuple_generate(wordlist,frequency,frequency_common):
-    sorted_frequency = {}
-    sorted_frequency_common = {}
-    sorted_frequency_tuple = {}
-    for key in wordlist.keys():
+    sorted_tuple_vector = {}
+    word_combinations = {}
+    word_combinations_reverse = {}
+    for key in group_len.keys():
         root_set = {''}
-        Tree_set = {''}
-        for fre in frequency[key]:
+        for fre in tuple_vector[key]:
             sorted_fre_reverse = sorted(fre, key=lambda tup: tup[0], reverse=True)
             root_set.add(sorted_fre_reverse[0])
-            sorted_frequency.setdefault(key,[]).append(sorted_fre_reverse)
-        for fc in frequency_common[key]:
+            sorted_tuple_vector.setdefault(key,[]).append(sorted_fre_reverse)
+        for fc in frequency_vector[key]:
             number = Counter(fc)
             result = number.most_common()
             sorted_result = sorted(result, key=lambda tup: tup[1], reverse=True)
             sorted_fre = sorted(result, key=lambda tup: tup[0], reverse=True)
-            sorted_frequency_common.setdefault(key,[]).append(sorted_result)
-            sorted_frequency_tuple.setdefault(key,[]).append(sorted_fre)
-    return sorted_frequency, sorted_frequency_common, sorted_frequency_tuple
+            word_combinations.setdefault(key,[]).append(sorted_result)
+            word_combinations_reverse.setdefault(key,[]).append(sorted_fre)
+    return sorted_tuple_vector, word_combinations, word_combinations_reverse
 
 class tupletree:
+    '''
+    tupletree(sorted_tuple_vector[key], word_combinations[key], word_combinations_reverse[key], tuple_vector[key], group_len[key])
 
-    def __init__(self,sorted_frequency,sorted_frequency_common,sorted_frequency_tuple,frequency,wordlist):
-        self.sorted_frequency=sorted_frequency
-        self.sorted_frequency_common=sorted_frequency_common
-        self.sorted_frequency_tuple = sorted_frequency_tuple
-        self.frequency = frequency
-        self.wordlist = wordlist
+    '''
+    def __init__(self,sorted_tuple_vector,word_combinations,word_combinations_reverse,tuple_vector,group_len):
+        self.sorted_tuple_vector=sorted_tuple_vector
+        self.word_combinations=word_combinations
+        self.word_combinations_reverse = word_combinations_reverse
+        self.tuple_vector = tuple_vector
+        self.group_len = group_len
 
     def find_root(self, threshold_per):
+        root_set_detail_ID={}
         root_set_detail={}
-        detail_inorder={}
         root_set = {}
         i=0
-        for fc in self.sorted_frequency_common:
-            count=self.wordlist[i]
+        for fc in self.word_combinations:
+            count=self.group_len[i]
             threshold=(max(fc, key=lambda tup: tup[0])[0])*threshold_per
             m=0
             for fc_w in fc:
                 if fc_w[0]>=threshold:
-                    a = self.sorted_frequency[i].append((int(count[0]), -1, -1))
-                    root_set_detail.setdefault(fc_w,[]).append(self.sorted_frequency[i])
-                    root_set.setdefault(fc_w,[]).append(self.sorted_frequency_tuple[i])
-                    detail_inorder.setdefault(fc_w, []).append(self.frequency[i])
+                    a = self.sorted_tuple_vector[i].append((int(count[0]), -1, -1))
+                    root_set_detail_ID.setdefault(fc_w,[]).append(self.sorted_tuple_vector[i])
+                    root_set.setdefault(fc_w,[]).append(self.word_combinations_reverse[i])
+                    root_set_detail.setdefault(fc_w, []).append(self.tuple_vector[i])
                     break
                 if fc_w[0]>=m:
                     candidate=fc_w
                     m=fc_w[0]
                 if fc_w == fc[len(fc)-1]:
-                    a = self.sorted_frequency[i].append((int(count[0]), -1, -1))
-                    root_set_detail.setdefault(candidate, []).append(self.sorted_frequency[i])
-                    root_set.setdefault(candidate, []).append(self.sorted_frequency_tuple[i])
-                    detail_inorder.setdefault(fc_w, []).append(self.frequency[i])
+                    a = self.sorted_tuple_vector[i].append((int(count[0]), -1, -1))
+                    root_set_detail_ID.setdefault(candidate, []).append(self.sorted_tuple_vector[i])
+                    root_set.setdefault(candidate, []).append(self.word_combinations_reverse[i])
+                    root_set_detail.setdefault(fc_w, []).append(self.tuple_vector[i])
             i+=1
-        return root_set_detail,root_set,detail_inorder
+        return root_set_detail_ID,root_set,root_set_detail
 
     def up_split(self,root_set_detail,root_set):
-        new_root_set_detail={}
         for key in root_set.keys():
             tree_node=root_set[key]
             father_count = []
@@ -288,16 +199,10 @@ class tupletree:
                     break
         return root_set_detail
 
-    def down_split(self,root_set_detail,root_set,threshold, fr_inorder):
-
-        father_template_set = {}
-        over2 = 0
-        over = 0
-        for key in root_set.keys():
+    def down_split(self,root_set_detail_ID,threshold, root_set_detail):
+        for key in root_set_detail_ID.keys():
             thre = threshold
-            tree_node = root_set[key]
-            detail=root_set_detail[key]
-            detail_order=fr_inorder[key]
+            detail_order=root_set_detail[key]
             m=[]
             child={}
             variable={''}
@@ -313,11 +218,8 @@ class tupletree:
             for i in m:
                 for node in detail_order:
                     if i <len(node):
-                        #child.setdefault(i, []).append(tuple([n for n in node[:i+1]]))
                         child.setdefault(i, []).append(node[i][1])
             v_flag = 0
-
-
             for i in m:
                 next={''}
                 next.remove('')
@@ -325,80 +227,52 @@ class tupletree:
                 freq = len(result)
                 if freq>=thre:
                         variable=variable.union(result)
-
                 v_flag+=1
             i=0
-            while i < len(root_set_detail[key]):
+            while i < len(root_set_detail_ID[key]):
                 j=0
-                while j < len(root_set_detail[key][i]):
-                    if isinstance(root_set_detail[key][i][j],tuple):
-                        if root_set_detail[key][i][j][1] in variable:
-                            root_set_detail[key][i][j] = (
-                            root_set_detail[key][i][j][0], '<*>', root_set_detail[key][i][j][2])
+                while j < len(root_set_detail_ID[key][i]):
+                    if isinstance(root_set_detail_ID[key][i][j],tuple):
+                        if root_set_detail_ID[key][i][j][1] in variable:
+                            root_set_detail_ID[key][i][j] = (
+                            root_set_detail_ID[key][i][j][0], '<*>', root_set_detail_ID[key][i][j][2])
                     j += 1
                 i+=1
-        return root_set_detail
+        return root_set_detail_ID
 
-def output_result(wordlist,parse_result,tag):
+def output_result(parse_result):
     template_set={}
     for key in parse_result.keys():
-
         for pr in parse_result[key]:
-
             sort = sorted(pr, key=lambda tup: tup[2])
             i=1
             template=[]
-
             while i < len(sort):
                 this=sort[i][1]
-                if bool(re.search(r"/", this)):
-                    template.append('<*>')
-                    i += 1
-                    continue
-                if this.isdigit():
-                    template.append('<*>')
-                    i+=1
-                    continue
                 if bool('<*>' in this):
                     template.append('<*>')
                     i+=1
                     continue
-                if tag ==1:
-                    if bool(re.search(r'\d', this)):
+                if has_two_or_more_digits(this):
                         template.append('<*>')
                         i += 1
                         continue
                 template.append(sort[i][1])
                 i+=1
-
             template=tuple(template)
             template_set.setdefault(template,[]).append(pr[len(pr)-1][0])
     return template_set
 
-def parse(sentences,filter,dataset,threshold,delimiter,tag,starttime,efficiency):
-
-    wordlist, frequency, frequency_common = get_frequecy_vector(sentences, filter,delimiter,dataset)
-    sorted_frequency, sorted_frequency_common, sorted_frequency_tuple = tuple_generate(wordlist, frequency,
-                                                                                          frequency_common)
-    df_example = pd.read_csv('../logs/' + dataset + '/' + dataset + '_2k.log_structured.csv',
-                             encoding='UTF-8', header=0)
-    structured = df_example['EventId']
-    template=df_example['EventTemplate']
-    a=list(template)
-    group_accuracy_correct = 0
+def parse(sentences,filter,dataset,threshold,delimiter,starttime,efficiency,df_input):
+    group_len, tuple_vector, frequency_vector = get_frequecy_vector(sentences, filter,delimiter,dataset)
+    sorted_tuple_vector, word_combinations, word_combinations_reverse= tuple_generate(group_len, tuple_vector,frequency_vector)
+    df_example = df_input
     template_set = {}
-    loglines = 0
-    correct_choose = 0
-    for key in wordlist.keys():
-        sf = sorted_frequency[key]
-        sfc = sorted_frequency_common[key]
-        sft = sorted_frequency_tuple[key]
-        fr = frequency[key]
-        wl=wordlist[key]
-        Tree = tupletree(sf, sfc, sft, fr,wl)
-        root_set_detail, root_set, fr_inorder = Tree.find_root(0)
+    for key in group_len.keys():
+        Tree = tupletree(sorted_tuple_vector[key], word_combinations[key], word_combinations_reverse[key], tuple_vector[key], group_len[key])
+        root_set_detail_ID, root_set, root_set_detail = Tree.find_root(0)
         '''
-        ### code for root node choose evaluation.
+        ### code for root node selection evaluation.
         for k in root_set_detail:
             choose_flag=1
             for log in root_set_detail[k]:
@@ -415,52 +289,52 @@ def parse(sentences,filter,dataset,threshold,delimiter,tag,starttime,efficiency)
                     break
                 correct_choose+=1
         '''
-
-        root_set_detail = Tree.up_split(root_set_detail, root_set)
-        parse_result = Tree.down_split(root_set_detail, root_set, threshold, fr_inorder)
-        template_set.update(output_result(wordlist, parse_result,tag))
+        root_set_detail_ID = Tree.up_split(root_set_detail_ID, root_set)
+        parse_result = Tree.down_split(root_set_detail_ID, threshold, root_set_detail)
+        template_set.update(output_result(parse_result))
     '''
-    ### code for root node choose evaluation.
+    ### code for root node selection evaluation.
     print(
         "correct choose root noed ratio ==" + str(correct_choose / loglines) + "===detail===correct_choose:" + str(
             correct_choose) + " logline:" + str(loglines))
     '''
     endtime=datetime.datetime.now()
-    print("### Time cost4 ###" + str(endtime-starttime))
+    print("Parsing done...")
+    print("Time taken   =   " +PINK+ str(endtime-starttime)+RESET)
     if efficiency==True:
         return endtime
     '''
     output parsing result
     '''
-    template=sentences
-    template_num = 0
-    group_accuracy_correct=0
+    template_=len(sentences)*[0]
+    EventID=len(sentences)*[0]
+    IDnumber=0
     for k1 in template_set.keys():
         group_accuracy = {''}
         group_accuracy.remove('')
         for i in template_set[k1]:
-            group_accuracy.add(structured[i])
-            template[i]=k1
-            template_num += 1
-        if len(group_accuracy) == 1:
-            count = a.count(a[i])
-            if count == len(template_set[k1]):
-                group_accuracy_correct += len(template_set[k1])
-    df_example['Template']=template
-    df_example.to_csv('../Parseresult/' + dataset + 'result.csv', index=False)
+            template_[i]=' '.join(k1)
+            EventID[i] ="E"+str(IDnumber)
+        IDnumber+=1
+    df_example['EventTemplate']=template_
+    df_example['EventId'] =EventID
+    return df_example,template_set
+
+
+def save_result(dataset,df_output,template_set):
+    df_output.to_csv('../Parseresult/' + dataset + 'result.csv', index=False)
     with open('../Parseresult/' + dataset + '_template.csv', 'w') as f:
-        template_num = 0
         for k1 in template_set.keys():
             f.write(' '.join(list(k1)))
             f.write('  ' + str(len(template_set[k1])))
             f.write('\n')
         f.close()
 
-    Groupaccuracy=group_accuracy_correct/2000
-    return Groupaccuracy
 
-
-
+def has_two_or_more_digits(string):
+    pattern = r'\d'
+    digits = re.findall(pattern, string)
+    return len(digits) >= 2 or string.isdigit() or re.match(r'^[\d.,;:]+$', string) or string.count('/') >= 2
 
 
 class format_log:    # this part of code is from LogPai https://github.com/LogPai
@@ -525,32 +399,5 @@ class format_log:    # this part of code is from LogPai https://github.com/LogPa
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.log_format)
         self.df_log = self.log_to_dataframe(os.path.join(self.path, self.logName), regex, headers, self.log_format)
-
-'''
-              else:
-                  print(k1)
-                  print(str(count)+'ground truth count')
-                  print(len(template_set[k1]))
-          else:
-              print(k1)
-              print('wrong merge'+str(len(group_accuracy)))
-
-          '''
-
-
-
-
-
-
-
-#SB.get_eval_metric('../SaveFiles&Output/Parseresult/Proxifier/Proxifier88.csv','../SaveFiles&Output/Parseresult/Proxifier/template.csv')
-'''
-
-    'HDFS': {
-        'log_file': 'HDFS/HDFS_2k.log',
-        'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
-        'delimiter': ['[,!?=]']
-    },
-'''
 
 

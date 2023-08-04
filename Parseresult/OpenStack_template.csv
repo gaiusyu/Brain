@@ -1,0 +1,43 @@
+<*> "GET <*> <*> status: <*> len: <*> time: <*>  931
+<*> "POST <*> <*> status: <*> len: <*> time: <*>  64
+<*> "DELETE <*> <*> status: <*> len: <*> time: <*>  22
+[instance: <*> Took <*> seconds to deallocate network for instance.  21
+[instance: <*> VM Started (Lifecycle Event)  22
+[instance: <*> VM Paused (Lifecycle Event)  22
+[instance: <*> VM Resumed (Lifecycle Event)  44
+[instance: <*> VM Stopped (Lifecycle Event)  21
+Creating event <*> for instance <*>  22
+[instance: <*> Deleting instance files <*>  21
+[instance: <*> Deletion of <*> complete  21
+Removing base or swap file: <*>  21
+Successfully synced instances from host <*>  2
+[instance: <*> During sync_power_state the instance has a pending task (spawning). Skip.  43
+[instance: <*> Took <*> seconds to spawn the instance on the hypervisor.  22
+[instance: <*> Took <*> seconds to destroy the instance on the hypervisor.  21
+The instance sync for host <*> did not match. Re-created its InstanceList.  5
+image <*> at <*> checking  82
+[instance: <*> Instance spawned successfully.  22
+[instance: <*> Instance destroyed successfully.  22
+Compute_service record updated for <*>  15
+image <*> at <*> in use: on this node <*> local, <*> on other nodes sharing this instance storage  82
+Active base files: <*>  82
+[instance: <*> Terminating instance  22
+Unknown base file: <*>  30
+Removable base files: <*>  30
+[instance: <*> Claim successful  21
+[instance: <*> Creating image  21
+[instance: <*> Took <*> seconds to build instance.  22
+Auditing locally available compute resources for node <*>  15
+Total usable vcpus: <*> total allocated vcpus: <*>  15
+Final resource view: <*> <*> <*> <*> <*> <*> <*> pci_stats=[]  15
+HTTP exception thrown: No instances found for any event  21
+[instance: <*> Total memory: <*> MB, used: <*> MB  21
+[instance: <*> Total disk: <*> GB, used: <*> GB  21
+[instance: <*> Total vcpu: <*> VCPU, used: <*> VCPU  21
+[instance: <*> memory limit: <*> MB, free: <*> MB  21
+[instance: <*> disk limit not specified, defaulting to unlimited  21
+[instance: <*> vcpu limit not specified, defaulting to unlimited  21
+Base or swap file too young to remove: <*>  9
+[instance: <*> Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU  21
+Running instance usage audit for host <*> from <*> <*> to <*> <*> <*> instances.  1
+While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.  1

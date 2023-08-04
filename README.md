@@ -6,7 +6,7 @@ IEEE Transaction on Severice Computing
 
 #### Reproduce
 
-1.run  Code/runBrain.py
+1.run  Code/evaluate.py
 
 Parsing result wiil be saved in Parseresult/
 

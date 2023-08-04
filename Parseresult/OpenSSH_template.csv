@@ -1,0 +1,27 @@
+reverse mapping checking getaddrinfo for <*> <*> failed - POSSIBLE BREAK-IN ATTEMPT!  85
+PAM <*> more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= <*> user=root  2
+Invalid <*> <*> from <*>  113
+input_userauth_request: invalid <*> <*> [preauth]  113
+pam_unix(sshd:auth): check pass; user unknown  135
+Connection closed by <*> [preauth]  34
+pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= <*>  110
+Failed password for <*> from <*> port <*> ssh2  383
+Accepted password for fztu from <*> port <*> ssh2  1
+Failed password for invalid <*> <*> from <*> port <*> ssh2  135
+Failed none for invalid <*> <*> from <*> port <*> ssh2  4
+Received disconnect from <*> <*> Closed due to user request. [preauth]  7
+PAM <*> more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= <*>  6
+PAM <*> more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= <*>  2
+Received disconnect from <*> <*> Bye Bye [preauth]  413
+Received disconnect from <*> <*> disconnected by user  1
+Disconnecting: Too many authentication failures for root [preauth]  2
+Disconnecting: Too many authentication failures for admin [preauth]  1
+PAM service(sshd) ignoring max retries; <*> > <*>  7
+pam_unix(sshd:session): session opened for user fztu by (uid=0)  1
+fatal: Write failed: Connection reset by peer [preauth]  1
+pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= <*> <*>  384
+error: Received disconnect from <*> <*> <*> Auth fail [preauth]  2
+message repeated <*> times: [ Failed password for root from <*> port <*> ssh2]  2
+Did not receive identification string from <*>  10
+error: Received disconnect from <*> <*> No more user authentication methods available. [preauth]  45
+pam_unix(sshd:session): session closed for user fztu  1

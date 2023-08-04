@@ -1,0 +1,172 @@
+printFreezingDisplayLogsopening app wtoken = <*> token= <*> <*> u0 <*> <*> allDrawn= false, startingDisplayed = false, startingMoved = false, isRelaunching = false  1
+acquire lock= <*> flags= <*> tag= "View Lock", name= <*> ws= null, uid= <*> pid= <*>  1
+release: lock= <*> flg= <*> tag= "View Lock", name= <*> ws= null, uid= <*> pid= <*>  1
+overlapAmount: <*> previousNotificationEnd: <*> newYTranslation: <*> location: <*> i: <*> getTopPadding: <*> getLocationOnScreen( ) <*> <*>  13
+Skipping, withExcluded: false, tr.intent: Intent { act= <*> flg= <*> cmp= <*> ( has extras) }  14
+START u0 {flg= <*> cmp= <*> ( has extras) } from uid <*> on display <*>  1
+ready= true, policy= <*> wakefulness= <*> wksummary= <*> uasummary= <*> bootcompleted= true, boostinprogress= false, waitmodeenable= false, mode= false, manual= <*> auto= <*> adj= <*> <*>  199
+Taking screenshot from Surface with crop: [Rect( <*> <*> - <*> <*> ], width: <*> height: <*> minLayer: <*> maxLayer: <*> inRotation: [false], rot: <*>  4
+enqueueNotificationInternal: pkg= <*> id= <*> notification= Notification( pri= <*> contentView= null vibrate= <*> sound= null tick defaults= <*> flags= <*> color= <*> vis= PRIVATE)   1
+Skipping <*> token= <*> <*> u0 <*> <*> -- going to hide  4
+new Process app= <*> <*> <*> <*> name: <*> qzone, euid: <*>  1
+visible is <*>  3
+mVisiblity.getValue is false  5
+updateDimmedActivatedHideSensitive overlap: false  52
+updateDimmedActivatedHideSensitive overlap: true  13
+shouldBlockLocation running <*>  37
+shouldBlockLocation ret: false  33
+shouldBlockLocation ret: true  4
+logNotificationVisibilityChanges runInThread start  6
+logNotificationVisibilityChanges runInThread over  6
+playSoundEffect effectType: <*>  10
+cancelNotification, index: <*>  23
+setLightsOn( true)   181
+getRecentTasks: topActivity= <*>  14
+makeExpandedInvisible: mExpandedVisible= true  3
+received broadcast <*>  4
+makeExpandedInvisible: mExpandedVisible= false  1
+getLastAudibleStreamVolume treamType: <*>  9
+getDevicesForStream streamType: <*>  2
+setSpeakerphoneOn on: true  2
+RefreshBatteryInfo isBatteryLow: <*>  2
+cleanUpApplicationRecord -- <*>  6
+stopWifiDisplayScanLocked record.mWifiDisplayScanRequested= false  6
+stopWifiDisplayScanLocked mWifiDisplayScanRequestCount= <*>  6
+addNotification key= <*>  2
+getStreamVolume treamType: <*>  1
+ApStaDisabledState what= <*>  1
+DefaultState what= <*>  1
+updateChargingLocked: charging= false  1
+onReceive, action: <*>  1
+ACTION_BATTERY_CHANGED pluggedType: <*>  1
+visible is <*> gt <*>  2
+notifyUiVisibilityChanged: vis= <*> SystemUiVisibility= <*>  19
+getNeighboringCellInfo calling app is <*>  5
+<*> Must execute in UI  3
+*** register callback for <*>  1
+*** unregister callback for null  1
+*** unregister callback for <*>  1
+updateNotificationShade: total= <*> active= <*>  13
+setWiredDeviceConnectionState type: <*> state: <*>  2
+ActivityManagerService, attachApplication, callingPid = <*>  4
+cleanUpApplicationRecordLocked, pid: <*> restart: false  6
+Marking notification as seen <*>  2
+setDataSource( <*> <*> <*>   1
+ACTION_BATTERY_CHANGED AMP: <*> Volt: <*>  1
+updateClipping isOverlap: false, getTopPadding= <*> Translation= <*>  52
+updateClipping isOverlap: true, getTopPadding= <*> Translation= <*>  13
+interceptKeyBeforeQueueing: key <*> <*> result <*> <*>  14
+<*> <*> cannot be cast to <*>  1
+[HSM] stayAwake false uid: <*> pid: <*>  1
+ChargingSpeed Wattage: <*> ST: <*> --> <*>  1
+onTouchEvent: <*> <*> x= <*> y= <*>  2
+getRecentTasks: num= <*> flags= <*> totalTasks= <*>  14
+getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output  81
+getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output  37
+userActivityNoUpdateLocked: eventTime= <*> event= <*> flags= <*> uid= <*>  69
+Screen frozen for <*> due to <*> u0 <*>  1
+rotationForOrientationLw( orient= <*> last= <*> <*> user= <*> USER_ROTATION_LOCKED  3
+animateCollapsePanels: flags= <*> force= true, delayed= true, mExpandedVisible= true  2
+animateCollapsePanels: flags= <*> force= false, delayed= false, mExpandedVisible= true  1
+animateCollapsePanels: flags= <*> force= false, delayed= false, mExpandedVisible= false  5
+Start dump, calling from <*> pid= <*> uid= <*>  1
+release: lock= <*> flg= <*> tag= <*> name= <*> ws= <*> uid= <*> pid= <*>  9
+release: lock= <*> flg= <*> tag= <*> name= <*> ws= null, uid= <*> pid= <*>  16
+acquire lock= <*> flags= <*> tag= <*> name= <*> ws= null, uid= <*> pid= <*>  17
+acquire lock= <*> flags= <*> tag= <*> name= <*> ws= <*> uid= <*> pid= <*>  8
+Skipping, withExcluded: false, tr.intent: Intent { flg= <*> cmp= <*> bnds= <*> <*> <*> }  14
+cancelNotificationWithTag pid <*> uid = <*> tag = null, pkg = <*> id = <*>  20
+Unable to start service Intent { act= <*> cmp= <*> } U= <*> not found  1
+setSystemUiVisibility vis= <*> mask= <*> oldVal= <*> newVal= <*> diff= <*> fullscreenStackVis= <*> dockedStackVis= <*> fullscreenStackBounds= Rect( <*> <*> - <*> <*> <*> dockedStackBounds= Rect( <*> <*> - <*> <*>   200
+cancelAutohide  15
+suspendAutohide  23
+resumeSuspendedAutohide  10
+querySoundEffectsEnabled...  17
+schedulePeek  1
+onTrackingStarted  1
+isBluetoothA2dpOn...  1
+isBluetoothScoOn...  1
+getMode...  1
+unregisterAudioFocusListener...  1
+abandonAudioFocus  1
+isWiredHeadsetOn...  1
+handleBatteryUpdate  1
+getRingtonePlayer...  2
+onExpandingStarted  2
+onExpandingFinished  2
+removeNotificationChildren  12
+closeQs  12
+isMusicActive...  12
+instantCollapse  9
+handleTimeUpdate  3
+getRingerMode...  3
+mHeadsUpExistenceChangedRunnable  4
+Destroying surface Surface( name= SurfaceView - <*> called by <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <bottom of call stack> <bottom of call stack>  1
+Destroying surface Surface( name= <*> called by <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>  7
+Destroying surface Surface( name= InputMethod) called by <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>  3
+orientation change is complete, call stopFreezingDisplayLocked  1
+Animating brightness: target= <*> rate= <*>  85
+isSimPinSecure mSimDatas is null or empty  1
+[PhoneIntfMgr] getDataEnabled: subId= <*> phoneId= <*>  1
+[PhoneIntfMgr] getDataEnabled: subId= <*> retVal= true  1
+ActivityRecord info: <*> <*> euid: <*>  4
+cleanUpApplicationRecordLocked, reset pid: <*> euid: <*>  6
+ACTIVITY check resid: <*> size= <*>  2
+startAnimation begin  1
+startAnimation end  1
+onNotificationClick called  2
+cancelNotificationLocked: <*>  2
+removeNotification: <*>  2
+onNotificationExpansionChanged called  2
+cancelPeek: false  20
+onTrackingStopped: true  1
+onNotificationVisibilityChanged called  6
+remove( <*> <*> <*> broadcastIntent}}) changed bounds; rebatching  2
+cancelNotification, cancelNotificationLocked, callingUid = <*> callingPid = <*>  2
+cancelNotificationLocked called, tell the app, reason = <*>  2
+Process <*> qzone ( pid <*> has died  1
+Scheduling restart of crashed service <*> in <*>  1
+Start proc <*> <*> <*> for service <*>  1
+Application requested orientation <*> got rotation <*> which has compatible metrics  3
+updateLightsLocked, mInCall = false, mScreenOn = true, ledNotification = = null?true  4
+updateLightsLocked, mInCall = false, mScreenOn = true, ledNotification = = null?false  2
+flingToHeight: vel= <*> expand= true, target= <*> collapseSpeedUpFactor= <*> expandBecauseOfFalsing= false  1
+flingToHeight: vel= <*> expand= false, target= <*> collapseSpeedUpFactor= <*> expandBecauseOfFalsing= false  1
+updateIsPoweredLocked: wasPowered= false, mIsPowered= false, oldPlugType= <*> mPlugType= <*> mBatteryLevel= <*>  1
+Releasing suspend blocker "PowerManagerService.WakeLocks".  33
+Acquiring suspend blocker "PowerManagerService.WakeLocks".  33
+HBM brightnessIn = <*>  85
+HBM brightnessOut = <*>  85
+Bad activity token: <*>  1
+updateLightsLocked, turn off notificationLight  6
+state.clipTopAmount: <*> i: <*>  13
+registerCallback not in UI.  3
+cancelNotificationLocked, remove = <*>  2
+enqueueNotificationInternal: n.getKey = <*>  2
+applyOptionsLocked: Unknown animationType= <*>  2
+Received TIME_TICK alarm; rescheduling  3
+scheduleTimeTickEvent triggerAtTime = <*>  3
+Pid: <*> MediaPlayer destructor  1
+battery changed pluggedType: <*>  1
+interceptKeyTq keycode= <*> interactive= true keyguardActive= false policyFlags= <*> down true canceled false  7
+interceptKeyTq keycode= <*> interactive= true keyguardActive= false policyFlags= <*> down false canceled false  7
+The change in focus caused us to need to do a layout begin  6
+The change in focus caused us to need to do a layout end  6
+disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >  3
+disable: < expand icons* alerts system_info* back home recent clock navigationbar search quick_settings >  3
+Skipping, withExcluded: false, tr.intent: Intent { flg= <*> cmp= <*> ( has extras) }  21
+Sending non-protected broadcast <*> from system <*> <*> pkg <*>  2
+Killing <*> <*> ( adj <*> <*> empty for <*>  1
+getAllCellInfo is blocked by permission manager <*> callingPackage = <*>  3
+getCellLocation is blocked by permission manager uid: <*> pid: <*>  1
+onInterceptTouchEvent MotionEvent { action= ACTION_DOWN, actionButton= <*> <*> <*> <*> <*> <*> <*> <*> TOOL_TYPE_FINGER, buttonState= <*> metaState= <*> flags= <*> edgeFlags= <*> pointerCount= <*> historySize= <*> eventTime= <*> downTime= <*> deviceId= <*> source= <*> }, mBlockTouches= false  2
+onInterceptTouchEvent MotionEvent { action= ACTION_UP, actionButton= <*> <*> <*> <*> <*> <*> <*> <*> TOOL_TYPE_FINGER, buttonState= <*> metaState= <*> flags= <*> edgeFlags= <*> pointerCount= <*> historySize= <*> eventTime= <*> downTime= <*> deviceId= <*> source= <*> }, mBlockTouches= false  2
+START u0 {act= <*> flg= <*> cmp= <*> ( has extras) } from uid <*> on display <*>  1
+startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg= <*> cmp= <*> ( has extras) }  1
+Skipping, withExcluded: false, tr.intent: Intent { act= <*> dat= tel: xxxxxxxxxxx flg= <*> cmp= <*> ( has extras) }  7
+Skipping, withExcluded: false, tr.intent: Intent { act= <*> dat= file: <*> typ= <*> flg= <*> cmp= <*> ( has extras) }  7
+sending alarm <*> type <*> when <*> <*> <*> android broadcastIntent}}}, repeatInterval = <*> listenerTag = time_tick  3
+sending alarm <*> type <*> when <*> <*> <*> <*> broadcastIntent}}}, repeatInterval = <*> listenerTag = null  2
+Destroying surface Surface( name= PopupWindow: <*> called by <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>  14
+START u0 {act= <*> cat= <*> flg= <*> cmp= <*> bnds= <*> <*> <*> from uid <*> on display <*>  2
+enqueueNotificationInternal: pkg= <*> id= <*> notification= Notification( pri= <*> contentView= null vibrate= [] sound= null tick defaults= <*> flags= <*> color= <*> category= msg vis= PRIVATE)   1

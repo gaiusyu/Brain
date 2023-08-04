@@ -1,0 +1,155 @@
+session closed for user root  24
+synchronized to <*> stratum <*>  568
+[ib_sm_sweep.c: <*> No topology change  62
+kernel time sync disabled <*>  1
+kernel time sync enabled <*>  1
+Received SNMP packet(s) <*> <*>  1
+HPET id: 0xffffffff <*> <*>  1
+<*> USB HID <*> driver  1
+CentOS-4 (Kernel Module GPG key)  1
+Probing PCI hardware (bus <*>  1
+assuming drive cache: write through  1
+Creating Topspin /dev entries:   1
+Started working: <*> available service  1
+LAPIC_NMI <*> high edge <*>  4
+(C) <*> Netfilter core team  4
+PCI Interrupt Routing Table <*>  10
+Using IOAPIC for interrupt routing  1
+Using ACPI for IRQ routing  1
+<*> ANSI SCSI revision: <*>  2
+<*> running on <*> privileges.  2
+asking for cache data failed  1
+Using <*> MHz HPET timer.  1
+session opened for user root by (uid= 0)  19
+data_thread() got not answer from any <*> datasource  819
+Trace cache: <*> uops, L1 D cache: <*>  5
+apic_id <*> version <*> address <*> GSI <*>  3
+routing cache hash table of <*> buckets, <*>  1
+MegaRAID Model: LD <*> RAID1 <*> Rev: <*>  1
+scanning scsi channel <*> [virtual] for logical drives  1
+<*> AUX port at <*> <*> irq <*>  1
+<*> KBD port at <*> <*> irq <*>  1
+(root) CMD (run-parts <*>  14
+(root) CMD <*> <*>  5
+<*> disconnected: Connection closed.  3
+<*> lost: 'Connection closed.'  3
+<*> used by override.  3
+time reset <*> s  1
+(supports S0 S4 S5)  1
+Power Button (FF) [PWRF]  1
+Mounted root (ext2 filesystem).  1
+initializing netlink socket (disabled)  1
+<*> <*> initialised: <*>  1
+no floppy controllers found  1
+LSI Logic MegaRAID driver  1
+sda1 sda2 sda3 sda4  1
+<*> <*> <*> gsi_base[0])  1
+<*> <*> <*> <*>  2
+<*> APIC address <*>  1
+<*> MMCONFIG at <*>  1
+<*> in permissive mode  1
+<*> public key data  1
+<*> secondary module capability  1
+<*> version <*> starting  1
+<*> <*> MHz processor.  1
+<*> HPET based timekeeping.  1
+LAPIC <*> <*> enabled)  4
+Processor <*> <*> C1)  4
+registered <*> <*> hiddev  1
+registered <*> <*> hub  1
+registered <*> <*> usbfs  1
+registered <*> <*> usbhid  1
+Physical Processor ID: <*>  5
+Registered protocol family <*>  5
+Using configuration type <*>  1
+allocating divert_blk for <*>  2
+Mounting NFS filesystems: <*>  1
+Mounting other filesystems: <*>  1
+[ib_sm_sweep.c: <*> ********************** NEW SWEEP ********************  62
+[ib_sm_sweep.c: <*> No configuration change required  62
+START: tftp pid= <*> from= <*>  1
+Intel(R) Xeon(TM) CPU <*> stepping <*>  1
+fw version: <*> bios version: <*>  1
+<*> Root Bridge [PCI0] <*> <*>  1
+<*> <*> DELL ) @ <*>  1
+<*> bridge - <*> <*> <*>  1
+<*> image found at block <*>  1
+<*> permissions on special file <*>  1
+mounted filesystem with ordered data mode.  3
+eth0: <*> Intel(R) <*> Network Connection  1
+eth1: <*> Intel(R) <*> Network Connection  1
+User <*> coming from <*> authenticated.  2
+unable to qualify my own domain name <*> -- using short name  10
+DHCPOFFER on <*> to <*> <*> <*> e3: ba: c3 via eth1  5
+DHCPACK on <*> to <*> <*> <*> e3: ba: c3 via eth1  3
+Assuming <*> system bus speed <*> PIO modes; override with idebus= xx  1
+error: Bind to port <*> <*> <*> failed: Address already in use.  1
+Device: <*> Temperature changed -2 <*> to <*> <*> since last report  1
+<*> from= root, size= <*> class= <*> nrcpts= <*> msgid= <*> relay= #7#@localhost  10
+DHCPREQUEST for <*> <*> from <*> <*> <*> e3: ba: c3 via eth1  3
+PCI Interrupt Link [LNKB] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>  1
+PCI interrupt <*> <*> <*> -> GSI <*> (level, low) -> IRQ <*>  11
+root= LABEL= / initrd= <*> console= tty0 console= ttyS0, <*> fastboot BOOT_IMAGE= <*>  1
+probe new device <*> <*> <*> <*> bus <*> slot <*> func <*>  1
+<*> to= root, ctladdr= root <*> delay= <*> <*> <*> xdelay= <*> <*> <*> mailer= relay, pri= <*> relay= <*> <*> dsn= <*> stat= Deferred: Connection refused by <*>  10
+DHCPDISCOVER from <*> <*> <*> e3: ba: c3 via eth1  5
+<*> <*> DELL PE BKC <*> MSFT <*> @ <*>  7
+<*> v <*> <*> <*> <*> <*> ak Exp $  1
+eth0: <*> NIC Link is Up <*> Mbps Full Duplex  1
+Warning: we failed to resolve trusted host name dadmin3 dadmin4  1
+xinetd Version <*> started with libwrap loadavg options compiled in.  1
+DHCPDISCOVER from <*> <*> <*> e3: ba: c3 via eth1: network A_net: no free leases  15
+PCI Interrupt Link <*> (IRQs <*> <*> <*> <*> <*> <*> <*> <*> *0, disabled.  5
+DHCPREQUEST for <*> <*> from <*> <*> <*> e3: ba: c3 via eth1: unknown lease <*>  9
+RRD_update <*> <*> illegal attempt to update using time <*> when last update time is <*> (minimum one second step)  10
+My unqualified host name <*> unknown; sleeping for retry  5
+INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl)  1
+INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> high level)  1
+scanning scsi channel <*> [Phy 0] for non-raid devices  1
+Reading included configuration file: <*> [file= <*> [line= <*>  17
+Interpreter enabled  1
+<*> <*>  1
+autorun <*>  2
+removing <*>  16
+PCI Interrupt Link [LNKA] (IRQs <*> <*> <*> <*> <*> <*> <*> <*> <*>  1
+PCI Interrupt Link [LNKC] (IRQs <*> <*> <*> <*> <*> <*> <*> <*> <*>  1
+Subsystem revision <*>  1
+colour VGA+ <*>  1
+Disabled at runtime.  1
+Disk quotas <*>  1
+RNG not detected  1
+Version <*> Starting  1
+L2 cache: <*>  5
+Registering netfilter hooks  1
+<*> autorun DONE.  2
+Autodetecting RAID arrays.  2
+Unregistering netfilter hooks  1
+rpc.statd startup succeeded  1
+portmap startup succeeded  1
+gmetad startup succeeded  1
+Starting ts_fixup: succeeded  1
+syslog-ng startup succeeded  1
+xinetd startup succeeded  1
+connection from <*>  2
+<*> Hot Plug <*> Core version: <*>  1
+<*> Model: <*> SCSI BP Rev: <*>  1
+<*> cmd fd(5) <*> <*> on <*>  1
+<*> listening on <*> <*> port <*>  1
+Using software bounce buffering for IO (SWIOTLB)  1
+PS/2 mouse device common for all mice  1
+Hash tables configured (established <*> bind <*>  1
+md driver <*> MAX_MD_DEVS= <*> MD_SB_DISKS= <*>  1
+not allocating divert_blk for non-ethernet device lo  1
+not allocating divert_blk for non-ethernet device sit0  1
+Wait for ready failed before probe !  6
+probe of vesafb0 failed with error -6  1
+Initializing.  1
+initialized  1
+passed.  1
+succeeded  2
+<*> (Release Date: Fri Dec <*> <*> <*> <*> EST <*>  1
+<*> (Release Date: Mon Sep <*> <*> <*> <*> EDT <*>  1
+Warning: we failed to resolve data source name dadmin2 dadmin3 dadmin4  1
+Cannot open file <*> for writing (No such file or directory)  1
+Warning: we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>  33
+RRD_update <*> illegal attempt to update using time <*> when last update time is <*> (minimum one second step)  1

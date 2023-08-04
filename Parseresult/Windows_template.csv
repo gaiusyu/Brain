@@ -1,0 +1,50 @@
+Loaded Servicing Stack <*> with Core: C: <*>  2
+<*> <*> <*> <*> CSI perf trace:   3
+NonStart: Success, startup processing not required as expected.  2
+<*> <*> <*> <*> WcpInitialize (wcp.dll version <*> called (stack <*>  6
+Failed to get next element [ HRESULT = <*> CBS_E_MANIFEST_INVALID_ITEM]   224
+Failed to internally open package. [ HRESULT = <*> CBS_E_INVALID_PACKAGE]   18
+<*> Performing <*> operations; <*> are not lock/unlock and follow:   1
+Ending TrustedInstaller initialization.  2
+Starting TrustedInstaller finalization.  1
+Ending TrustedInstaller finalization.  1
+Starting TrustedInstaller initialization.  1
+<*> the TrustedInstaller main loop.  3
+<*> processing thread terminated normally  3
+<*> CSI Store <*> <*>  3
+Unloading offline registry hive: <*>  8
+TrustedInstaller service starts successfully.  2
+Warning: Unrecognized packageExtended attribute.  280
+Scavenge: Begin CSI Store  1
+Scavenge: Completed, disposition: <*>  1
+Reboot mark refs: <*>  1
+Offline image is: read-only  1
+SQM: Initializing online with Windows opt-in: False  2
+SQM: Requesting upload of all unsent reports.  2
+<*> <*> <*> <*> CSI Transaction <*>  1
+<*> <*> <*> <*> PopulateComponentFamiliesKey - Begin  1
+<*> <*> <*> <*> PopulateComponentFamiliesKey - End  1
+SQM: Cleaning up report files older than <*> days.  2
+NonStart: Checking to ensure startup processing was not required.  2
+<*> Created NT transaction (seq 1) result <*> <*>  2
+Expecting attribute name [ HRESULT = <*> CBS_E_MANIFEST_INVALID_ITEM]   224
+<*> Created NT transaction (seq 2) result <*> <*>  1
+Disabling manifest caching, because the image is not writeable.  1
+SQM: Failed to start upload with file pattern: C: \Windows\servicing\sqm\*_std.sqm, flags: <*> HRESULT = <*> E_FAIL]   2
+SQM: Failed to start standard sample upload. [ HRESULT = <*> E_FAIL]   2
+<*> ICSITransaction: <*> Commit calling IStorePendingTransaction: <*> Apply - coldpatching= FALSE applyflags= <*>  1
+SQM: Queued <*> file(s) for upload with pattern: C: \Windows\servicing\sqm\*_all.sqm, flags: <*>  2
+Read out cached package applicability for package: <*> ApplicableState: <*> CurrentState: <*>  558
+Failed to create backup log cab. [ HRESULT = <*> ERROR_INVALID_FUNCTION]   2
+Loading offline registry hive: <*> into registry key <*> from path <*>  8
+SQM: Warning: Failed to upload all unsent reports. [ HRESULT = <*> E_FAIL]   2
+No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.  2
+<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call 1) (flags = <*> progress = NULL, phase = <*> pdwDisposition = <*>  2
+<*> Creating NT transaction (seq 1), objectname [ 6] "(null)"  2
+<*> Creating NT transaction (seq 2), objectname [ 6] "(null)"  1
+<*> Store coherency cookie matches last scavenge cookie, skipping scavenge.  1
+Session: <*> initialized by client WindowsUpdateAgent.  608
+Session: <*> initialized by client SPP.  1
+Reboot mark refs incremented to: <*>  1
+Scavenge: Starts  1
+<*> <*> <*> <*> CSI Transaction <*> for deployment engine <*> with flags <*> and client id [ <*> <*> 0/"  1

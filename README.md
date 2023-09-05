@@ -2,21 +2,7 @@
 ## Brain: Log Parsing with Bidirectional Parallel Tree
 IEEE Transaction on Severice Computing
 
-# A new version of our article is now avaliable on IEEExplore https://ieeexplore.ieee.org/document/10109145/authors#authors
-
-#### Reproduce
-
-1.run  Code/evaluate.py
-
-Parsing result wiil be saved in Parseresult/
-
-#### Docker images:
-1. docker pull docker.io/gaiusyu/brain:v2
-2. docker run -it --name brain gaiusyu/brain:v2
-
-Experimental data is saved in ExperimentalData.docx
-
-·ABSTRACT
+###·ABSTRACT
 
 Automated log analysis can facilitate failure diagnosis for developers and operators using a large volume of logs. Log
 parsing is a prerequisite step for automated log analysis, which parses semi-structured logs into structured logs. However, existing
@@ -28,3 +14,30 @@ distinguish the identical constants and variables generated from different loggi
 final tree contain the classification of each word. Experimental results on 16 benchmark datasets show that our approach outperforms
 the state-of-the-art parsers on two widely-used parsing accuracy metrics, and it only takes around 46 seconds to process one million
 lines of logs.
+
+
+### Requirments
+
+```
+1.python  pip install -r requirements.txt
+```
+
+#### Reproduce
+```
+1.python  evaluate.py
+```
+Parsing result wiil be saved in Parseresult/
+
+#### Results
+
+![img.png](img.png)
+
+#### Docker images:
+
+```
+1. docker pull docker.io/gaiusyu/brain:v2
+2. docker run -it --name brain gaiusyu/brain:v2
+```
+Experimental data is saved in ExperimentalData.docx
+
+

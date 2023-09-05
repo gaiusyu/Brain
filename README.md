@@ -19,7 +19,7 @@ lines of logs.
 ### Requirments
 
 ```
-1.python  pip install -r requirements.txt
+1.pip install -r requirements.txt
 ```
 
 ### Reproduce

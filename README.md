@@ -40,4 +40,16 @@ Parsing result wiil be saved in Parseresult/
 ```
 Experimental data is saved in ExperimentalData.docx
 
+#### citation
+
+```
+@article{yu2023brain,
+  title={Brain: Log Parsing with Bidirectional Parallel Tree},
+  author={Yu, Siyu and He, Pinjia and Chen, Ningjiang and Wu, Yifan},
+  journal={IEEE Transactions on Services Computing},
+  year={2023},
+  publisher={IEEE}
+}
+```
+
 

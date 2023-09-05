@@ -1,19 +1,19 @@
-printFreezingDisplayLogsopening app wtoken = <*> token= <*> <*> u0 <*> <*> allDrawn= false, startingDisplayed = false, startingMoved = false, isRelaunching = false  1
+printFreezingDisplayLogsopening app wtoken = <*> token= <*> <*> <*> <*> <*> allDrawn= false, startingDisplayed = false, startingMoved = false, isRelaunching = false  1
 acquire lock= <*> flags= <*> tag= "View Lock", name= <*> ws= null, uid= <*> pid= <*>  1
 release: lock= <*> flg= <*> tag= "View Lock", name= <*> ws= null, uid= <*> pid= <*>  1
-overlapAmount: <*> previousNotificationEnd: <*> newYTranslation: <*> location: <*> i: <*> getTopPadding: <*> getLocationOnScreen( ) <*> <*>  13
+overlapAmount: <*> previousNotificationEnd: <*> newYTranslation: <*> location: <*> i: <*> getTopPadding: <*> getLocationOnScreen( ) : <*>  13
 Skipping, withExcluded: false, tr.intent: Intent { act= <*> flg= <*> cmp= <*> ( has extras) }  14
-START u0 {flg= <*> cmp= <*> ( has extras) } from uid <*> on display <*>  1
+START <*> {flg= <*> cmp= <*> ( has extras) } from uid <*> on display <*>  1
 ready= true, policy= <*> wakefulness= <*> wksummary= <*> uasummary= <*> bootcompleted= true, boostinprogress= false, waitmodeenable= false, mode= false, manual= <*> auto= <*> adj= <*> <*>  199
 Taking screenshot from Surface with crop: [Rect( <*> <*> - <*> <*> ], width: <*> height: <*> minLayer: <*> maxLayer: <*> inRotation: [false], rot: <*>  4
 enqueueNotificationInternal: pkg= <*> id= <*> notification= Notification( pri= <*> contentView= null vibrate= <*> sound= null tick defaults= <*> flags= <*> color= <*> vis= PRIVATE)   1
-Skipping <*> token= <*> <*> u0 <*> <*> -- going to hide  4
+Skipping <*> token= <*> <*> <*> <*> <*> -- going to hide  4
 new Process app= <*> <*> <*> <*> name: <*> qzone, euid: <*>  1
 visible is <*>  3
 mVisiblity.getValue is false  5
 updateDimmedActivatedHideSensitive overlap: false  52
 updateDimmedActivatedHideSensitive overlap: true  13
-shouldBlockLocation running <*>  37
+shouldBlockLocation running ...  37
 shouldBlockLocation ret: false  33
 shouldBlockLocation ret: true  4
 logNotificationVisibilityChanges runInThread start  6
@@ -55,21 +55,21 @@ setDataSource( <*> <*> <*>   1
 ACTION_BATTERY_CHANGED AMP: <*> Volt: <*>  1
 updateClipping isOverlap: false, getTopPadding= <*> Translation= <*>  52
 updateClipping isOverlap: true, getTopPadding= <*> Translation= <*>  13
-interceptKeyBeforeQueueing: key <*> <*> result <*> <*>  14
+interceptKeyBeforeQueueing: key <*> , result : <*>  14
 <*> <*> cannot be cast to <*>  1
 [HSM] stayAwake false uid: <*> pid: <*>  1
 ChargingSpeed Wattage: <*> ST: <*> --> <*>  1
-onTouchEvent: <*> <*> x= <*> y= <*>  2
+onTouchEvent: : <*> x= <*> y= <*>  2
 getRecentTasks: num= <*> flags= <*> totalTasks= <*>  14
 getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output  81
 getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output  37
 userActivityNoUpdateLocked: eventTime= <*> event= <*> flags= <*> uid= <*>  69
-Screen frozen for <*> due to <*> u0 <*>  1
-rotationForOrientationLw( orient= <*> last= <*> <*> user= <*> USER_ROTATION_LOCKED  3
+Screen frozen for <*> due to <*> <*> <*>  1
+rotationForOrientationLw( orient= <*> last= <*> ; user= <*> USER_ROTATION_LOCKED  3
 animateCollapsePanels: flags= <*> force= true, delayed= true, mExpandedVisible= true  2
 animateCollapsePanels: flags= <*> force= false, delayed= false, mExpandedVisible= true  1
 animateCollapsePanels: flags= <*> force= false, delayed= false, mExpandedVisible= false  5
-Start dump, calling from <*> pid= <*> uid= <*>  1
+Start dump, calling from : pid= <*> uid= <*>  1
 release: lock= <*> flg= <*> tag= <*> name= <*> ws= <*> uid= <*> pid= <*>  9
 release: lock= <*> flg= <*> tag= <*> name= <*> ws= null, uid= <*> pid= <*>  16
 acquire lock= <*> flags= <*> tag= <*> name= <*> ws= null, uid= <*> pid= <*>  17
@@ -77,7 +77,7 @@ acquire lock= <*> flags= <*> tag= <*> name= <*> ws= <*> uid= <*> pid= <*>  8
 Skipping, withExcluded: false, tr.intent: Intent { flg= <*> cmp= <*> bnds= <*> <*> <*> }  14
 cancelNotificationWithTag pid <*> uid = <*> tag = null, pkg = <*> id = <*>  20
 Unable to start service Intent { act= <*> cmp= <*> } U= <*> not found  1
-setSystemUiVisibility vis= <*> mask= <*> oldVal= <*> newVal= <*> diff= <*> fullscreenStackVis= <*> dockedStackVis= <*> fullscreenStackBounds= Rect( <*> <*> - <*> <*> <*> dockedStackBounds= Rect( <*> <*> - <*> <*>   200
+setSystemUiVisibility vis= <*> mask= <*> oldVal= <*> newVal= <*> diff= <*> fullscreenStackVis= <*> dockedStackVis= <*> fullscreenStackBounds= Rect( <*> <*> - <*> <*> , dockedStackBounds= Rect( <*> <*> - <*> <*>   200
 cancelAutohide  15
 suspendAutohide  23
 resumeSuspendedAutohide  10
@@ -156,17 +156,17 @@ disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationba
 disable: < expand icons* alerts system_info* back home recent clock navigationbar search quick_settings >  3
 Skipping, withExcluded: false, tr.intent: Intent { flg= <*> cmp= <*> ( has extras) }  21
 Sending non-protected broadcast <*> from system <*> <*> pkg <*>  2
-Killing <*> <*> ( adj <*> <*> empty for <*>  1
-getAllCellInfo is blocked by permission manager <*> callingPackage = <*>  3
+Killing <*> <*> ( adj <*> : empty for <*>  1
+getAllCellInfo is blocked by permission manager . callingPackage = <*>  3
 getCellLocation is blocked by permission manager uid: <*> pid: <*>  1
 onInterceptTouchEvent MotionEvent { action= ACTION_DOWN, actionButton= <*> <*> <*> <*> <*> <*> <*> <*> TOOL_TYPE_FINGER, buttonState= <*> metaState= <*> flags= <*> edgeFlags= <*> pointerCount= <*> historySize= <*> eventTime= <*> downTime= <*> deviceId= <*> source= <*> }, mBlockTouches= false  2
 onInterceptTouchEvent MotionEvent { action= ACTION_UP, actionButton= <*> <*> <*> <*> <*> <*> <*> <*> TOOL_TYPE_FINGER, buttonState= <*> metaState= <*> flags= <*> edgeFlags= <*> pointerCount= <*> historySize= <*> eventTime= <*> downTime= <*> deviceId= <*> source= <*> }, mBlockTouches= false  2
-START u0 {act= <*> flg= <*> cmp= <*> ( has extras) } from uid <*> on display <*>  1
+START <*> {act= <*> flg= <*> cmp= <*> ( has extras) } from uid <*> on display <*>  1
 startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg= <*> cmp= <*> ( has extras) }  1
 Skipping, withExcluded: false, tr.intent: Intent { act= <*> dat= tel: xxxxxxxxxxx flg= <*> cmp= <*> ( has extras) }  7
 Skipping, withExcluded: false, tr.intent: Intent { act= <*> dat= file: <*> typ= <*> flg= <*> cmp= <*> ( has extras) }  7
 sending alarm <*> type <*> when <*> <*> <*> android broadcastIntent}}}, repeatInterval = <*> listenerTag = time_tick  3
 sending alarm <*> type <*> when <*> <*> <*> <*> broadcastIntent}}}, repeatInterval = <*> listenerTag = null  2
 Destroying surface Surface( name= PopupWindow: <*> called by <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>  14
-START u0 {act= <*> cat= <*> flg= <*> cmp= <*> bnds= <*> <*> <*> from uid <*> on display <*>  2
+START <*> {act= <*> cat= <*> flg= <*> cmp= <*> bnds= <*> <*> <*> from uid <*> on display <*>  2
 enqueueNotificationInternal: pkg= <*> id= <*> notification= Notification( pri= <*> contentView= null vibrate= [] sound= null tick defaults= <*> flags= <*> color= <*> category= msg vis= PRIVATE)   1

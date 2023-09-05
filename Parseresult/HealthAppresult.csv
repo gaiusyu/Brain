@@ -9,7 +9,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 8,20171223-22:15:29:636,Step_LSC,30002312,onStandStepChanged 3579,E0,onStandStepChanged <*>
 9,20171223-22:15:29:645,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=126775,E19,calculateCaloriesWithCache totalCalories= <*>
 10,20171223-22:15:29:648,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-11,20171223-22:15:29:649,Step_StandReportReceiver,30002312,REPORT : 7007 5002 150089 240,E41,REPORT <*> <*> <*> <*> <*>
+11,20171223-22:15:29:649,Step_StandReportReceiver,30002312,REPORT : 7007 5002 150089 240,E41,REPORT : <*> <*> <*> <*>
 12,20171223-22:15:29:737,Step_LSC,30002312,onExtend:1514038530000 0 0 4,E8,onExtend: <*> <*> <*> <*>
 13,20171223-22:15:29:738,Step_LSC,30002312,onStandStepChanged 3579,E0,onStandStepChanged <*>
 14,20171223-22:15:29:792,Step_LSC,30002312,onStandStepChanged 3580,E0,onStandStepChanged <*>
@@ -18,49 +18,49 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 17,20171223-22:15:29:950,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7008##548365##8661##12456##27174269,E1,setTodayTotalDetailSteps= <*>
 18,20171223-22:15:29:959,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=126797,E19,calculateCaloriesWithCache totalCalories= <*>
 19,20171223-22:15:29:962,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-20,20171223-22:15:29:962,Step_StandReportReceiver,30002312,REPORT : 7008 5003 150111 240,E41,REPORT <*> <*> <*> <*> <*>
+20,20171223-22:15:29:962,Step_StandReportReceiver,30002312,REPORT : 7008 5003 150111 240,E41,REPORT : <*> <*> <*> <*>
 21,20171223-22:15:30:331,Step_LSC,30002312,onStandStepChanged 3581,E0,onStandStepChanged <*>
 22,20171223-22:15:30:335,Step_LSC,30002312,onExtend:1514038531000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 23,20171223-22:15:30:632,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7008##548365##8661##12456##27174269,E33, getTodayTotalDetailSteps = <*>
 24,20171223-22:15:30:632,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7009##548365##8661##12551##27174951,E1,setTodayTotalDetailSteps= <*>
 25,20171223-22:15:30:639,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=126818,E19,calculateCaloriesWithCache totalCalories= <*>
 26,20171223-22:15:30:641,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-27,20171223-22:15:30:642,Step_StandReportReceiver,30002312,REPORT : 7009 5004 150132 240,E41,REPORT <*> <*> <*> <*> <*>
+27,20171223-22:15:30:642,Step_StandReportReceiver,30002312,REPORT : 7009 5004 150132 240,E41,REPORT : <*> <*> <*> <*>
 28,20171223-22:15:30:841,Step_LSC,30002312,onStandStepChanged 3583,E0,onStandStepChanged <*>
 29,20171223-22:15:30:858,Step_LSC,30002312,onExtend:1514038531000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 30,20171223-22:15:31:142,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7009##548365##8661##12551##27174951,E33, getTodayTotalDetailSteps = <*>
 31,20171223-22:15:31:143,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7011##548365##8661##12646##27175461,E1,setTodayTotalDetailSteps= <*>
 32,20171223-22:15:31:157,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=126861,E19,calculateCaloriesWithCache totalCalories= <*>
 33,20171223-22:15:31:160,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-34,20171223-22:15:31:160,Step_StandReportReceiver,30002312,REPORT : 7011 5005 150175 240,E41,REPORT <*> <*> <*> <*> <*>
+34,20171223-22:15:31:160,Step_StandReportReceiver,30002312,REPORT : 7011 5005 150175 240,E41,REPORT : <*> <*> <*> <*>
 35,20171223-22:15:31:841,Step_LSC,30002312,onStandStepChanged 3584,E0,onStandStepChanged <*>
 36,20171223-22:15:31:862,Step_LSC,30002312,onExtend:1514038532000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 37,20171223-22:15:32:145,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7011##548365##8661##12646##27175461,E33, getTodayTotalDetailSteps = <*>
 38,20171223-22:15:32:147,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7012##548365##8661##12741##27176464,E1,setTodayTotalDetailSteps= <*>
 39,20171223-22:15:32:156,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=126882,E19,calculateCaloriesWithCache totalCalories= <*>
 40,20171223-22:15:32:162,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-41,20171223-22:15:32:163,Step_StandReportReceiver,30002312,REPORT : 7012 5006 150197 240,E41,REPORT <*> <*> <*> <*> <*>
+41,20171223-22:15:32:163,Step_StandReportReceiver,30002312,REPORT : 7012 5006 150197 240,E41,REPORT : <*> <*> <*> <*>
 42,20171223-22:15:32:340,Step_LSC,30002312,onStandStepChanged 3585,E0,onStandStepChanged <*>
 43,20171223-22:15:32:354,Step_LSC,30002312,onExtend:1514038533000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 44,20171223-22:15:32:647,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7012##548365##8661##12741##27176464,E33, getTodayTotalDetailSteps = <*>
 45,20171223-22:15:32:648,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7013##548365##8661##12836##27176966,E1,setTodayTotalDetailSteps= <*>
 46,20171223-22:15:32:656,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=126904,E19,calculateCaloriesWithCache totalCalories= <*>
 47,20171223-22:15:32:658,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-48,20171223-22:15:32:659,Step_StandReportReceiver,30002312,REPORT : 7013 5007 150218 240,E41,REPORT <*> <*> <*> <*> <*>
+48,20171223-22:15:32:659,Step_StandReportReceiver,30002312,REPORT : 7013 5007 150218 240,E41,REPORT : <*> <*> <*> <*>
 49,20171223-22:15:32:840,Step_LSC,30002312,onStandStepChanged 3586,E0,onStandStepChanged <*>
 50,20171223-22:15:32:846,Step_LSC,30002312,onExtend:1514038533000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 51,20171223-22:15:33:144,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7013##548365##8661##12836##27176966,E33, getTodayTotalDetailSteps = <*>
 52,20171223-22:15:33:144,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7014##548365##8661##12931##27177463,E1,setTodayTotalDetailSteps= <*>
 53,20171223-22:15:33:148,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=126925,E19,calculateCaloriesWithCache totalCalories= <*>
 54,20171223-22:15:33:149,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-55,20171223-22:15:33:149,Step_StandReportReceiver,30002312,REPORT : 7014 5007 150239 240,E41,REPORT <*> <*> <*> <*> <*>
+55,20171223-22:15:33:149,Step_StandReportReceiver,30002312,REPORT : 7014 5007 150239 240,E41,REPORT : <*> <*> <*> <*>
 56,20171223-22:15:33:341,Step_LSC,30002312,onStandStepChanged 3587,E0,onStandStepChanged <*>
 57,20171223-22:15:33:370,Step_LSC,30002312,onExtend:1514038534000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 58,20171223-22:15:33:643,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7014##548365##8661##12931##27177463,E33, getTodayTotalDetailSteps = <*>
 59,20171223-22:15:33:644,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7015##548365##8661##13026##27177962,E1,setTodayTotalDetailSteps= <*>
 60,20171223-22:15:33:658,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=126947,E19,calculateCaloriesWithCache totalCalories= <*>
 61,20171223-22:15:33:662,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-62,20171223-22:15:33:663,Step_StandReportReceiver,30002312,REPORT : 7015 5008 150261 240,E41,REPORT <*> <*> <*> <*> <*>
+62,20171223-22:15:33:663,Step_StandReportReceiver,30002312,REPORT : 7015 5008 150261 240,E41,REPORT : <*> <*> <*> <*>
 63,20171223-22:15:34:711,Step_LSC,30002312,onStandStepChanged 3588,E0,onStandStepChanged <*>
 64,20171223-22:15:34:723,Step_LSC,30002312,onExtend:1514038535000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 65,20171223-22:15:34:723,Step_StandReportReceiver,30002312,onReceive action: android.intent.action.SCREEN_OFF,E21,onReceive action: android.intent.action.SCREEN_OFF
@@ -72,7 +72,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 71,20171223-22:15:35:22,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
 72,20171223-22:15:35:23,Step_ScreenUtil,30002312,isScreenOn true,E2,isScreenOn true
 73,20171223-22:15:35:23,Step_StandReportReceiver,30002312,"screen status unknown,think screen on",E42,"screen status unknown, think screen on"
-74,20171223-22:15:35:23,Step_StandReportReceiver,30002312,REPORT : 7017 5010 150304 240,E41,REPORT <*> <*> <*> <*> <*>
+74,20171223-22:15:35:23,Step_StandReportReceiver,30002312,REPORT : 7017 5010 150304 240,E41,REPORT : <*> <*> <*> <*>
 75,20171223-22:15:35:96,Step_StandReportReceiver,30002312,onReceive action: android.intent.action.SCREEN_ON,E15,onReceive action: android.intent.action.SCREEN_ON
 76,20171223-22:15:35:97,Step_LSC,30002312,processHandleBroadcastAction action:android.intent.action.SCREEN_ON,E16,processHandleBroadcastAction action: android.intent.action.SCREEN_ON
 77,20171223-22:15:35:97,Step_StandStepCounter,30002312,flush sensor data,E18,flush sensor data
@@ -81,7 +81,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 80,20171223-22:15:35:98,Step_LSC,30002312,onStandStepChanged 3589,E0,onStandStepChanged <*>
 81,20171223-22:15:35:104,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=126989,E19,calculateCaloriesWithCache totalCalories= <*>
 82,20171223-22:15:35:112,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-83,20171223-22:15:35:112,Step_StandReportReceiver,30002312,REPORT : 7017 5010 150304 240,E41,REPORT <*> <*> <*> <*> <*>
+83,20171223-22:15:35:112,Step_StandReportReceiver,30002312,REPORT : 7017 5010 150304 240,E41,REPORT : <*> <*> <*> <*>
 84,20171223-22:15:35:198,Step_LSC,30002312,onStandStepChanged 3589,E0,onStandStepChanged <*>
 85,20171223-22:15:35:201,Step_LSC,30002312,onExtend:1514038536000 0 0 4,E8,onExtend: <*> <*> <*> <*>
 86,20171223-22:15:35:348,Step_LSC,30002312,onStandStepChanged 3590,E0,onStandStepChanged <*>
@@ -90,224 +90,224 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 89,20171223-22:15:35:413,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7018##548365##8661##13311##27179732,E1,setTodayTotalDetailSteps= <*>
 90,20171223-22:15:35:418,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127011,E19,calculateCaloriesWithCache totalCalories= <*>
 91,20171223-22:15:35:421,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-92,20171223-22:15:35:421,Step_StandReportReceiver,30002312,REPORT : 7018 5010 150325 240,E41,REPORT <*> <*> <*> <*> <*>
+92,20171223-22:15:35:421,Step_StandReportReceiver,30002312,REPORT : 7018 5010 150325 240,E41,REPORT : <*> <*> <*> <*>
 93,20171223-22:15:35:848,Step_LSC,30002312,onStandStepChanged 3591,E0,onStandStepChanged <*>
 94,20171223-22:15:35:852,Step_LSC,30002312,onExtend:1514038536000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 95,20171223-22:15:36:149,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7018##548365##8661##13311##27179732,E33, getTodayTotalDetailSteps = <*>
 96,20171223-22:15:36:149,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7019##548365##8661##13406##27180468,E1,setTodayTotalDetailSteps= <*>
 97,20171223-22:15:36:154,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127032,E19,calculateCaloriesWithCache totalCalories= <*>
 98,20171223-22:15:36:157,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-99,20171223-22:15:36:157,Step_StandReportReceiver,30002312,REPORT : 7019 5011 150346 240,E41,REPORT <*> <*> <*> <*> <*>
+99,20171223-22:15:36:157,Step_StandReportReceiver,30002312,REPORT : 7019 5011 150346 240,E41,REPORT : <*> <*> <*> <*>
 100,20171223-22:15:36:356,Step_LSC,30002312,onStandStepChanged 3592,E0,onStandStepChanged <*>
 101,20171223-22:15:36:365,Step_LSC,30002312,onExtend:1514038537000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 102,20171223-22:15:36:657,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7019##548365##8661##13406##27180468,E33, getTodayTotalDetailSteps = <*>
 103,20171223-22:15:36:657,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7020##548365##8661##13501##27180976,E1,setTodayTotalDetailSteps= <*>
 104,20171223-22:15:36:668,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127054,E19,calculateCaloriesWithCache totalCalories= <*>
 105,20171223-22:15:36:672,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-106,20171223-22:15:36:673,Step_StandReportReceiver,30002312,REPORT : 7020 5012 150368 240,E41,REPORT <*> <*> <*> <*> <*>
+106,20171223-22:15:36:673,Step_StandReportReceiver,30002312,REPORT : 7020 5012 150368 240,E41,REPORT : <*> <*> <*> <*>
 107,20171223-22:15:37:351,Step_LSC,30002312,onStandStepChanged 3593,E0,onStandStepChanged <*>
 108,20171223-22:15:37:361,Step_LSC,30002312,onExtend:1514038538000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 109,20171223-22:15:37:652,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7020##548365##8661##13501##27180976,E33, getTodayTotalDetailSteps = <*>
 110,20171223-22:15:37:653,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7021##548365##8661##13596##27181971,E1,setTodayTotalDetailSteps= <*>
 111,20171223-22:15:37:666,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127075,E19,calculateCaloriesWithCache totalCalories= <*>
 112,20171223-22:15:37:670,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-113,20171223-22:15:37:671,Step_StandReportReceiver,30002312,REPORT : 7021 5012 150389 240,E41,REPORT <*> <*> <*> <*> <*>
+113,20171223-22:15:37:671,Step_StandReportReceiver,30002312,REPORT : 7021 5012 150389 240,E41,REPORT : <*> <*> <*> <*>
 114,20171223-22:15:37:848,Step_LSC,30002312,onStandStepChanged 3594,E0,onStandStepChanged <*>
 115,20171223-22:15:37:858,Step_LSC,30002312,onExtend:1514038538000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 116,20171223-22:15:38:149,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7021##548365##8661##13596##27181971,E33, getTodayTotalDetailSteps = <*>
 117,20171223-22:15:38:149,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7022##548365##8661##13691##27182468,E1,setTodayTotalDetailSteps= <*>
 118,20171223-22:15:38:159,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127097,E19,calculateCaloriesWithCache totalCalories= <*>
 119,20171223-22:15:38:164,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-120,20171223-22:15:38:164,Step_StandReportReceiver,30002312,REPORT : 7022 5013 150411 240,E41,REPORT <*> <*> <*> <*> <*>
+120,20171223-22:15:38:164,Step_StandReportReceiver,30002312,REPORT : 7022 5013 150411 240,E41,REPORT : <*> <*> <*> <*>
 121,20171223-22:15:38:349,Step_LSC,30002312,onStandStepChanged 3595,E0,onStandStepChanged <*>
 122,20171223-22:15:38:361,Step_LSC,30002312,onExtend:1514038539000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 123,20171223-22:15:38:653,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7022##548365##8661##13691##27182468,E33, getTodayTotalDetailSteps = <*>
 124,20171223-22:15:38:654,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7023##548365##8661##13786##27182973,E1,setTodayTotalDetailSteps= <*>
 125,20171223-22:15:38:665,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127118,E19,calculateCaloriesWithCache totalCalories= <*>
 126,20171223-22:15:38:669,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-127,20171223-22:15:38:669,Step_StandReportReceiver,30002312,REPORT : 7023 5014 150432 240,E41,REPORT <*> <*> <*> <*> <*>
+127,20171223-22:15:38:669,Step_StandReportReceiver,30002312,REPORT : 7023 5014 150432 240,E41,REPORT : <*> <*> <*> <*>
 128,20171223-22:15:38:850,Step_LSC,30002312,onStandStepChanged 3596,E0,onStandStepChanged <*>
 129,20171223-22:15:38:868,Step_LSC,30002312,onExtend:1514038539000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 130,20171223-22:15:39:150,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7023##548365##8661##13786##27182973,E33, getTodayTotalDetailSteps = <*>
 131,20171223-22:15:39:151,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7024##548365##8661##13881##27183469,E1,setTodayTotalDetailSteps= <*>
 132,20171223-22:15:39:155,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127139,E19,calculateCaloriesWithCache totalCalories= <*>
 133,20171223-22:15:39:156,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-134,20171223-22:15:39:156,Step_StandReportReceiver,30002312,REPORT : 7024 5015 150454 240,E41,REPORT <*> <*> <*> <*> <*>
+134,20171223-22:15:39:156,Step_StandReportReceiver,30002312,REPORT : 7024 5015 150454 240,E41,REPORT : <*> <*> <*> <*>
 135,20171223-22:15:39:348,Step_LSC,30002312,onStandStepChanged 3597,E0,onStandStepChanged <*>
 136,20171223-22:15:39:354,Step_LSC,30002312,onExtend:1514038540000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 137,20171223-22:15:39:655,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7024##548365##8661##13881##27183469,E33, getTodayTotalDetailSteps = <*>
 138,20171223-22:15:39:656,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7025##548365##8661##13976##27183974,E1,setTodayTotalDetailSteps= <*>
 139,20171223-22:15:39:665,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127161,E19,calculateCaloriesWithCache totalCalories= <*>
 140,20171223-22:15:39:669,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-141,20171223-22:15:39:669,Step_StandReportReceiver,30002312,REPORT : 7025 5015 150475 240,E41,REPORT <*> <*> <*> <*> <*>
+141,20171223-22:15:39:669,Step_StandReportReceiver,30002312,REPORT : 7025 5015 150475 240,E41,REPORT : <*> <*> <*> <*>
 142,20171223-22:15:40:349,Step_LSC,30002312,onStandStepChanged 3598,E0,onStandStepChanged <*>
 143,20171223-22:15:40:365,Step_LSC,30002312,onExtend:1514038541000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 144,20171223-22:15:40:652,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7025##548365##8661##13976##27183974,E33, getTodayTotalDetailSteps = <*>
 145,20171223-22:15:40:653,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7026##548365##8661##14071##27184972,E1,setTodayTotalDetailSteps= <*>
 146,20171223-22:15:40:668,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127182,E19,calculateCaloriesWithCache totalCalories= <*>
 147,20171223-22:15:40:675,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-148,20171223-22:15:40:676,Step_StandReportReceiver,30002312,REPORT : 7026 5016 150496 240,E41,REPORT <*> <*> <*> <*> <*>
+148,20171223-22:15:40:676,Step_StandReportReceiver,30002312,REPORT : 7026 5016 150496 240,E41,REPORT : <*> <*> <*> <*>
 149,20171223-22:15:40:848,Step_LSC,30002312,onStandStepChanged 3599,E0,onStandStepChanged <*>
 150,20171223-22:15:40:852,Step_LSC,30002312,onExtend:1514038541000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 151,20171223-22:15:41:149,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7026##548365##8661##14071##27184972,E33, getTodayTotalDetailSteps = <*>
 152,20171223-22:15:41:149,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7027##548365##8661##14166##27185467,E1,setTodayTotalDetailSteps= <*>
 153,20171223-22:15:41:152,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127204,E19,calculateCaloriesWithCache totalCalories= <*>
 154,20171223-22:15:41:153,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-155,20171223-22:15:41:153,Step_StandReportReceiver,30002312,REPORT : 7027 5017 150518 240,E41,REPORT <*> <*> <*> <*> <*>
+155,20171223-22:15:41:153,Step_StandReportReceiver,30002312,REPORT : 7027 5017 150518 240,E41,REPORT : <*> <*> <*> <*>
 156,20171223-22:15:41:353,Step_LSC,30002312,onStandStepChanged 3600,E0,onStandStepChanged <*>
 157,20171223-22:15:41:358,Step_LSC,30002312,onExtend:1514038542000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 158,20171223-22:15:41:658,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7027##548365##8661##14166##27185467,E33, getTodayTotalDetailSteps = <*>
 159,20171223-22:15:41:658,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7028##548365##8661##14261##27185977,E1,setTodayTotalDetailSteps= <*>
 160,20171223-22:15:41:667,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127225,E19,calculateCaloriesWithCache totalCalories= <*>
 161,20171223-22:15:41:670,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-162,20171223-22:15:41:672,Step_StandReportReceiver,30002312,REPORT : 7028 5017 150539 240,E41,REPORT <*> <*> <*> <*> <*>
+162,20171223-22:15:41:672,Step_StandReportReceiver,30002312,REPORT : 7028 5017 150539 240,E41,REPORT : <*> <*> <*> <*>
 163,20171223-22:15:41:848,Step_LSC,30002312,onStandStepChanged 3601,E0,onStandStepChanged <*>
 164,20171223-22:15:41:856,Step_LSC,30002312,onExtend:1514038542000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 165,20171223-22:15:42:150,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7028##548365##8661##14261##27185977,E33, getTodayTotalDetailSteps = <*>
 166,20171223-22:15:42:151,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7029##548365##8661##14356##27186469,E1,setTodayTotalDetailSteps= <*>
 167,20171223-22:15:42:160,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127246,E19,calculateCaloriesWithCache totalCalories= <*>
 168,20171223-22:15:42:164,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-169,20171223-22:15:42:165,Step_StandReportReceiver,30002312,REPORT : 7029 5018 150561 240,E41,REPORT <*> <*> <*> <*> <*>
+169,20171223-22:15:42:165,Step_StandReportReceiver,30002312,REPORT : 7029 5018 150561 240,E41,REPORT : <*> <*> <*> <*>
 170,20171223-22:15:42:848,Step_LSC,30002312,onStandStepChanged 3602,E0,onStandStepChanged <*>
 171,20171223-22:15:42:852,Step_LSC,30002312,onExtend:1514038543000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 172,20171223-22:15:43:149,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7029##548365##8661##14356##27186469,E33, getTodayTotalDetailSteps = <*>
 173,20171223-22:15:43:149,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7030##548365##8661##14451##27187468,E1,setTodayTotalDetailSteps= <*>
 174,20171223-22:15:43:160,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127268,E19,calculateCaloriesWithCache totalCalories= <*>
 175,20171223-22:15:43:163,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-176,20171223-22:15:43:164,Step_StandReportReceiver,30002312,REPORT : 7030 5019 150582 240,E41,REPORT <*> <*> <*> <*> <*>
+176,20171223-22:15:43:164,Step_StandReportReceiver,30002312,REPORT : 7030 5019 150582 240,E41,REPORT : <*> <*> <*> <*>
 177,20171223-22:15:43:348,Step_LSC,30002312,onStandStepChanged 3603,E0,onStandStepChanged <*>
 178,20171223-22:15:43:354,Step_LSC,30002312,onExtend:1514038544000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 179,20171223-22:15:43:649,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7030##548365##8661##14451##27187468,E33, getTodayTotalDetailSteps = <*>
 180,20171223-22:15:43:650,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7031##548365##8661##14546##27187968,E1,setTodayTotalDetailSteps= <*>
 181,20171223-22:15:43:677,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127289,E19,calculateCaloriesWithCache totalCalories= <*>
 182,20171223-22:15:43:679,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-183,20171223-22:15:43:679,Step_StandReportReceiver,30002312,REPORT : 7031 5020 150604 240,E41,REPORT <*> <*> <*> <*> <*>
+183,20171223-22:15:43:679,Step_StandReportReceiver,30002312,REPORT : 7031 5020 150604 240,E41,REPORT : <*> <*> <*> <*>
 184,20171223-22:15:43:850,Step_LSC,30002312,onStandStepChanged 3604,E0,onStandStepChanged <*>
 185,20171223-22:15:43:861,Step_LSC,30002312,onExtend:1514038544000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 186,20171223-22:15:44:152,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7031##548365##8661##14546##27187968,E33, getTodayTotalDetailSteps = <*>
 187,20171223-22:15:44:152,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7032##548365##8661##14641##27188471,E1,setTodayTotalDetailSteps= <*>
 188,20171223-22:15:44:163,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127311,E19,calculateCaloriesWithCache totalCalories= <*>
 189,20171223-22:15:44:166,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-190,20171223-22:15:44:170,Step_StandReportReceiver,30002312,REPORT : 7032 5020 150625 240,E41,REPORT <*> <*> <*> <*> <*>
+190,20171223-22:15:44:170,Step_StandReportReceiver,30002312,REPORT : 7032 5020 150625 240,E41,REPORT : <*> <*> <*> <*>
 191,20171223-22:15:44:849,Step_LSC,30002312,onStandStepChanged 3605,E0,onStandStepChanged <*>
 192,20171223-22:15:44:863,Step_LSC,30002312,onExtend:1514038545000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 193,20171223-22:15:45:149,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7032##548365##8661##14641##27188471,E33, getTodayTotalDetailSteps = <*>
 194,20171223-22:15:45:150,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7033##548365##8661##14736##27189469,E1,setTodayTotalDetailSteps= <*>
 195,20171223-22:15:45:158,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127332,E19,calculateCaloriesWithCache totalCalories= <*>
 196,20171223-22:15:45:161,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-197,20171223-22:15:45:164,Step_StandReportReceiver,30002312,REPORT : 7033 5021 150646 240,E41,REPORT <*> <*> <*> <*> <*>
+197,20171223-22:15:45:164,Step_StandReportReceiver,30002312,REPORT : 7033 5021 150646 240,E41,REPORT : <*> <*> <*> <*>
 198,20171223-22:15:45:348,Step_LSC,30002312,onStandStepChanged 3606,E0,onStandStepChanged <*>
 199,20171223-22:15:45:361,Step_LSC,30002312,onExtend:1514038546000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 200,20171223-22:15:45:649,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7033##548365##8661##14736##27189469,E33, getTodayTotalDetailSteps = <*>
 201,20171223-22:15:45:650,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7034##548365##8661##14831##27189969,E1,setTodayTotalDetailSteps= <*>
 202,20171223-22:15:45:656,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127354,E19,calculateCaloriesWithCache totalCalories= <*>
 203,20171223-22:15:45:658,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-204,20171223-22:15:45:659,Step_StandReportReceiver,30002312,REPORT : 7034 5022 150668 240,E41,REPORT <*> <*> <*> <*> <*>
+204,20171223-22:15:45:659,Step_StandReportReceiver,30002312,REPORT : 7034 5022 150668 240,E41,REPORT : <*> <*> <*> <*>
 205,20171223-22:15:45:848,Step_LSC,30002312,onStandStepChanged 3607,E0,onStandStepChanged <*>
 206,20171223-22:15:45:851,Step_LSC,30002312,onExtend:1514038546000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 207,20171223-22:15:46:149,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7034##548365##8661##14831##27189969,E33, getTodayTotalDetailSteps = <*>
 208,20171223-22:15:46:150,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7035##548365##8661##14926##27190469,E1,setTodayTotalDetailSteps= <*>
 209,20171223-22:15:46:157,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127375,E19,calculateCaloriesWithCache totalCalories= <*>
 210,20171223-22:15:46:160,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-211,20171223-22:15:46:164,Step_StandReportReceiver,30002312,REPORT : 7035 5022 150689 240,E41,REPORT <*> <*> <*> <*> <*>
+211,20171223-22:15:46:164,Step_StandReportReceiver,30002312,REPORT : 7035 5022 150689 240,E41,REPORT : <*> <*> <*> <*>
 212,20171223-22:15:46:349,Step_LSC,30002312,onStandStepChanged 3608,E0,onStandStepChanged <*>
 213,20171223-22:15:46:355,Step_LSC,30002312,onExtend:1514038547000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 214,20171223-22:15:46:650,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7035##548365##8661##14926##27190469,E33, getTodayTotalDetailSteps = <*>
 215,20171223-22:15:46:651,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7036##548365##8661##15021##27190970,E1,setTodayTotalDetailSteps= <*>
 216,20171223-22:15:46:674,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127396,E19,calculateCaloriesWithCache totalCalories= <*>
 217,20171223-22:15:46:679,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-218,20171223-22:15:46:684,Step_StandReportReceiver,30002312,REPORT : 7036 5023 150711 240,E41,REPORT <*> <*> <*> <*> <*>
+218,20171223-22:15:46:684,Step_StandReportReceiver,30002312,REPORT : 7036 5023 150711 240,E41,REPORT : <*> <*> <*> <*>
 219,20171223-22:15:47:349,Step_LSC,30002312,onStandStepChanged 3609,E0,onStandStepChanged <*>
 220,20171223-22:15:47:370,Step_LSC,30002312,onExtend:1514038548000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 221,20171223-22:15:47:650,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7036##548365##8661##15021##27190970,E33, getTodayTotalDetailSteps = <*>
 222,20171223-22:15:47:650,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7037##548365##8661##15116##27191969,E1,setTodayTotalDetailSteps= <*>
 223,20171223-22:15:47:658,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127418,E19,calculateCaloriesWithCache totalCalories= <*>
 224,20171223-22:15:47:661,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-225,20171223-22:15:47:661,Step_StandReportReceiver,30002312,REPORT : 7037 5024 150732 240,E41,REPORT <*> <*> <*> <*> <*>
+225,20171223-22:15:47:661,Step_StandReportReceiver,30002312,REPORT : 7037 5024 150732 240,E41,REPORT : <*> <*> <*> <*>
 226,20171223-22:15:47:857,Step_LSC,30002312,onStandStepChanged 3610,E0,onStandStepChanged <*>
 227,20171223-22:15:47:860,Step_LSC,30002312,onExtend:1514038548000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 228,20171223-22:15:48:158,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7037##548365##8661##15116##27191969,E33, getTodayTotalDetailSteps = <*>
 229,20171223-22:15:48:159,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7038##548365##8661##15211##27192478,E1,setTodayTotalDetailSteps= <*>
 230,20171223-22:15:48:167,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127439,E19,calculateCaloriesWithCache totalCalories= <*>
 231,20171223-22:15:48:169,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-232,20171223-22:15:48:174,Step_StandReportReceiver,30002312,REPORT : 7038 5025 150753 240,E41,REPORT <*> <*> <*> <*> <*>
+232,20171223-22:15:48:174,Step_StandReportReceiver,30002312,REPORT : 7038 5025 150753 240,E41,REPORT : <*> <*> <*> <*>
 233,20171223-22:15:48:350,Step_LSC,30002312,onStandStepChanged 3611,E0,onStandStepChanged <*>
 234,20171223-22:15:48:368,Step_LSC,30002312,onExtend:1514038549000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 235,20171223-22:15:48:652,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7038##548365##8661##15211##27192478,E33, getTodayTotalDetailSteps = <*>
 236,20171223-22:15:48:653,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7039##548365##8661##15306##27192971,E1,setTodayTotalDetailSteps= <*>
 237,20171223-22:15:48:668,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127461,E19,calculateCaloriesWithCache totalCalories= <*>
 238,20171223-22:15:48:676,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-239,20171223-22:15:48:679,Step_StandReportReceiver,30002312,REPORT : 7039 5025 150775 240,E41,REPORT <*> <*> <*> <*> <*>
+239,20171223-22:15:48:679,Step_StandReportReceiver,30002312,REPORT : 7039 5025 150775 240,E41,REPORT : <*> <*> <*> <*>
 240,20171223-22:15:49:350,Step_LSC,30002312,onStandStepChanged 3612,E0,onStandStepChanged <*>
 241,20171223-22:15:49:366,Step_LSC,30002312,onExtend:1514038550000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 242,20171223-22:15:49:652,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7039##548365##8661##15306##27192971,E33, getTodayTotalDetailSteps = <*>
 243,20171223-22:15:49:653,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7040##548365##8661##15401##27193971,E1,setTodayTotalDetailSteps= <*>
 244,20171223-22:15:49:668,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127482,E19,calculateCaloriesWithCache totalCalories= <*>
 245,20171223-22:15:49:675,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-246,20171223-22:15:49:676,Step_StandReportReceiver,30002312,REPORT : 7040 5026 150796 240,E41,REPORT <*> <*> <*> <*> <*>
+246,20171223-22:15:49:676,Step_StandReportReceiver,30002312,REPORT : 7040 5026 150796 240,E41,REPORT : <*> <*> <*> <*>
 247,20171223-22:15:49:858,Step_LSC,30002312,onStandStepChanged 3613,E0,onStandStepChanged <*>
 248,20171223-22:15:49:864,Step_LSC,30002312,onExtend:1514038550000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 249,20171223-22:15:50:160,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7040##548365##8661##15401##27193971,E33, getTodayTotalDetailSteps = <*>
 250,20171223-22:15:50:161,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7041##548365##8661##15496##27194480,E1,setTodayTotalDetailSteps= <*>
 251,20171223-22:15:50:176,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127504,E19,calculateCaloriesWithCache totalCalories= <*>
 252,20171223-22:15:50:181,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-253,20171223-22:15:50:182,Step_StandReportReceiver,30002312,REPORT : 7041 5027 150818 240,E41,REPORT <*> <*> <*> <*> <*>
+253,20171223-22:15:50:182,Step_StandReportReceiver,30002312,REPORT : 7041 5027 150818 240,E41,REPORT : <*> <*> <*> <*>
 254,20171223-22:15:50:850,Step_LSC,30002312,onStandStepChanged 3614,E0,onStandStepChanged <*>
 255,20171223-22:15:50:864,Step_LSC,30002312,onExtend:1514038551000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 256,20171223-22:15:51:151,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7041##548365##8661##15496##27194480,E33, getTodayTotalDetailSteps = <*>
 257,20171223-22:15:51:152,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7042##548365##8661##15591##27195470,E1,setTodayTotalDetailSteps= <*>
 258,20171223-22:15:51:169,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127525,E19,calculateCaloriesWithCache totalCalories= <*>
 259,20171223-22:15:51:180,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-260,20171223-22:15:51:181,Step_StandReportReceiver,30002312,REPORT : 7042 5027 150839 240,E41,REPORT <*> <*> <*> <*> <*>
+260,20171223-22:15:51:181,Step_StandReportReceiver,30002312,REPORT : 7042 5027 150839 240,E41,REPORT : <*> <*> <*> <*>
 261,20171223-22:15:51:859,Step_LSC,30002312,onStandStepChanged 3616,E0,onStandStepChanged <*>
 262,20171223-22:15:51:868,Step_LSC,30002312,onExtend:1514038552000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 263,20171223-22:15:52:160,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7042##548365##8661##15591##27195470,E33, getTodayTotalDetailSteps = <*>
 264,20171223-22:15:52:161,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7044##548365##8661##15686##27196480,E1,setTodayTotalDetailSteps= <*>
 265,20171223-22:15:52:175,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127568,E19,calculateCaloriesWithCache totalCalories= <*>
 266,20171223-22:15:52:183,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-267,20171223-22:15:52:183,Step_StandReportReceiver,30002312,REPORT : 7044 5029 150882 240,E41,REPORT <*> <*> <*> <*> <*>
+267,20171223-22:15:52:183,Step_StandReportReceiver,30002312,REPORT : 7044 5029 150882 240,E41,REPORT : <*> <*> <*> <*>
 268,20171223-22:15:52:349,Step_LSC,30002312,onStandStepChanged 3617,E0,onStandStepChanged <*>
 269,20171223-22:15:52:363,Step_LSC,30002312,onExtend:1514038553000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 270,20171223-22:15:52:651,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7044##548365##8661##15686##27196480,E33, getTodayTotalDetailSteps = <*>
 271,20171223-22:15:52:652,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7045##548365##8661##15781##27196970,E1,setTodayTotalDetailSteps= <*>
 272,20171223-22:15:52:666,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127589,E19,calculateCaloriesWithCache totalCalories= <*>
 273,20171223-22:15:52:674,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-274,20171223-22:15:52:674,Step_StandReportReceiver,30002312,REPORT : 7045 5030 150903 240,E41,REPORT <*> <*> <*> <*> <*>
+274,20171223-22:15:52:674,Step_StandReportReceiver,30002312,REPORT : 7045 5030 150903 240,E41,REPORT : <*> <*> <*> <*>
 275,20171223-22:15:53:349,Step_LSC,30002312,onStandStepChanged 3619,E0,onStandStepChanged <*>
 276,20171223-22:15:53:358,Step_LSC,30002312,onExtend:1514038554000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 277,20171223-22:15:53:653,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7045##548365##8661##15781##27196970,E33, getTodayTotalDetailSteps = <*>
 278,20171223-22:15:53:653,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7047##548365##8661##15876##27197972,E1,setTodayTotalDetailSteps= <*>
 279,20171223-22:15:53:665,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127632,E19,calculateCaloriesWithCache totalCalories= <*>
 280,20171223-22:15:53:673,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-281,20171223-22:15:53:675,Step_StandReportReceiver,30002312,REPORT : 7047 5031 150946 240,E41,REPORT <*> <*> <*> <*> <*>
+281,20171223-22:15:53:675,Step_StandReportReceiver,30002312,REPORT : 7047 5031 150946 240,E41,REPORT : <*> <*> <*> <*>
 282,20171223-22:15:54:350,Step_LSC,30002312,onStandStepChanged 3620,E0,onStandStepChanged <*>
 283,20171223-22:15:54:359,Step_LSC,30002312,onExtend:1514038555000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 284,20171223-22:15:54:651,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7047##548365##8661##15876##27197972,E33, getTodayTotalDetailSteps = <*>
 285,20171223-22:15:54:651,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7048##548365##8661##15971##27198970,E1,setTodayTotalDetailSteps= <*>
 286,20171223-22:15:54:657,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127653,E19,calculateCaloriesWithCache totalCalories= <*>
 287,20171223-22:15:54:660,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-288,20171223-22:15:54:661,Step_StandReportReceiver,30002312,REPORT : 7048 5032 150968 240,E41,REPORT <*> <*> <*> <*> <*>
+288,20171223-22:15:54:661,Step_StandReportReceiver,30002312,REPORT : 7048 5032 150968 240,E41,REPORT : <*> <*> <*> <*>
 289,20171223-22:15:55:349,Step_LSC,30002312,onStandStepChanged 3622,E0,onStandStepChanged <*>
 290,20171223-22:15:55:359,Step_LSC,30002312,onExtend:1514038556000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 291,20171223-22:15:55:650,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7048##548365##8661##15971##27198970,E33, getTodayTotalDetailSteps = <*>
 292,20171223-22:15:55:650,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7050##548365##8661##16066##27199969,E1,setTodayTotalDetailSteps= <*>
 293,20171223-22:15:55:657,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127696,E19,calculateCaloriesWithCache totalCalories= <*>
 294,20171223-22:15:55:659,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-295,20171223-22:15:55:660,Step_StandReportReceiver,30002312,REPORT : 7050 5033 151011 240,E41,REPORT <*> <*> <*> <*> <*>
+295,20171223-22:15:55:660,Step_StandReportReceiver,30002312,REPORT : 7050 5033 151011 240,E41,REPORT : <*> <*> <*> <*>
 296,20171223-22:15:55:848,Step_LSC,30002312,onStandStepChanged 3624,E0,onStandStepChanged <*>
 297,20171223-22:15:55:855,Step_LSC,30002312,onExtend:1514038556000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 298,20171223-22:15:56:150,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7050##548365##8661##16066##27199969,E33, getTodayTotalDetailSteps = <*>
 299,20171223-22:15:56:151,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7052##548365##8661##16161##27200470,E1,setTodayTotalDetailSteps= <*>
 300,20171223-22:15:56:163,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127739,E19,calculateCaloriesWithCache totalCalories= <*>
 301,20171223-22:15:56:169,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-302,20171223-22:15:56:170,Step_StandReportReceiver,30002312,REPORT : 7052 5035 151053 240,E41,REPORT <*> <*> <*> <*> <*>
+302,20171223-22:15:56:170,Step_StandReportReceiver,30002312,REPORT : 7052 5035 151053 240,E41,REPORT : <*> <*> <*> <*>
 303,20171223-22:15:57:851,Step_LSC,30002312,onStandStepChanged 3625,E0,onStandStepChanged <*>
 304,20171223-22:15:57:863,Step_LSC,30002312,onExtend:1514038558000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 305,20171223-22:15:58:155,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038440000##7052##548365##8661##16161##27200470,E33, getTodayTotalDetailSteps = <*>
 306,20171223-22:15:58:156,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038440000##7053##548365##8661##16256##27202475,E1,setTodayTotalDetailSteps= <*>
 307,20171223-22:15:58:170,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127761,E19,calculateCaloriesWithCache totalCalories= <*>
 308,20171223-22:15:58:174,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-309,20171223-22:15:58:175,Step_StandReportReceiver,30002312,REPORT : 7053 5035 151075 240,E41,REPORT <*> <*> <*> <*> <*>
+309,20171223-22:15:58:175,Step_StandReportReceiver,30002312,REPORT : 7053 5035 151075 240,E41,REPORT : <*> <*> <*> <*>
 310,20171223-22:15:59:849,Step_LSC,30002312,onStandStepChanged 3626,E0,onStandStepChanged <*>
 311,20171223-22:15:59:865,Step_LSC,30002312,onExtend:1514038560000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 312,20171223-22:16:0:119,Step_LSC,30002312,processHandleBroadcastAction action:android.intent.action.TIME_TICK,E17,processHandleBroadcastAction action: android.intent.action.TIME_TICK
@@ -315,7 +315,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 314,20171223-22:16:0:150,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038500000##7054##548458##8661##16256##27204469,E1,setTodayTotalDetailSteps= <*>
 315,20171223-22:16:0:159,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127782,E19,calculateCaloriesWithCache totalCalories= <*>
 316,20171223-22:16:0:161,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-317,20171223-22:16:0:162,Step_StandReportReceiver,30002312,REPORT : 7054 5036 151096 240,E41,REPORT <*> <*> <*> <*> <*>
+317,20171223-22:16:0:162,Step_StandReportReceiver,30002312,REPORT : 7054 5036 151096 240,E41,REPORT : <*> <*> <*> <*>
 318,20171223-22:16:0:849,Step_LSC,30002312,onStandStepChanged 3626,E0,onStandStepChanged <*>
 319,20171223-22:16:0:859,Step_LSC,30002312,onExtend:1514038561000 0 0 0,E8,onExtend: <*> <*> <*> <*>
 320,20171223-22:16:1:150,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038500000##7054##548458##8661##16256##27204469,E33, getTodayTotalDetailSteps = <*>
@@ -335,70 +335,70 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 334,20171223-22:17:20:652,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7056##548553##8661##16256##27284971,E1,setTodayTotalDetailSteps= <*>
 335,20171223-22:17:20:662,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127824,E19,calculateCaloriesWithCache totalCalories= <*>
 336,20171223-22:17:20:669,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-337,20171223-22:17:20:675,Step_StandReportReceiver,30002312,REPORT : 7056 5037 151139 240,E41,REPORT <*> <*> <*> <*> <*>
+337,20171223-22:17:20:675,Step_StandReportReceiver,30002312,REPORT : 7056 5037 151139 240,E41,REPORT : <*> <*> <*> <*>
 338,20171223-22:17:20:853,Step_LSC,30002312,onStandStepChanged 3630,E0,onStandStepChanged <*>
 339,20171223-22:17:20:859,Step_LSC,30002312,onExtend:1514038641000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 340,20171223-22:17:21:156,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7056##548553##8661##16256##27284971,E33, getTodayTotalDetailSteps = <*>
 341,20171223-22:17:21:156,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7058##548554##8661##16256##27285475,E1,setTodayTotalDetailSteps= <*>
 342,20171223-22:17:21:162,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127867,E19,calculateCaloriesWithCache totalCalories= <*>
 343,20171223-22:17:21:164,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-344,20171223-22:17:21:165,Step_StandReportReceiver,30002312,REPORT : 7058 5039 151182 240,E41,REPORT <*> <*> <*> <*> <*>
+344,20171223-22:17:21:165,Step_StandReportReceiver,30002312,REPORT : 7058 5039 151182 240,E41,REPORT : <*> <*> <*> <*>
 345,20171223-22:17:21:348,Step_LSC,30002312,onStandStepChanged 3632,E0,onStandStepChanged <*>
 346,20171223-22:17:21:353,Step_LSC,30002312,onExtend:1514038642000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 347,20171223-22:17:21:649,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7058##548554##8661##16256##27285475,E33, getTodayTotalDetailSteps = <*>
 348,20171223-22:17:21:649,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7060##548555##8661##16256##27285968,E1,setTodayTotalDetailSteps= <*>
 349,20171223-22:17:21:659,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127910,E19,calculateCaloriesWithCache totalCalories= <*>
 350,20171223-22:17:21:663,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-351,20171223-22:17:21:668,Step_StandReportReceiver,30002312,REPORT : 7060 5040 151225 240,E41,REPORT <*> <*> <*> <*> <*>
+351,20171223-22:17:21:668,Step_StandReportReceiver,30002312,REPORT : 7060 5040 151225 240,E41,REPORT : <*> <*> <*> <*>
 352,20171223-22:17:21:850,Step_LSC,30002312,onStandStepChanged 3634,E0,onStandStepChanged <*>
 353,20171223-22:17:21:859,Step_LSC,30002312,onExtend:1514038642000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 354,20171223-22:17:22:151,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7060##548555##8661##16256##27285968,E33, getTodayTotalDetailSteps = <*>
 355,20171223-22:17:22:152,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7062##548556##8661##16256##27286470,E1,setTodayTotalDetailSteps= <*>
 356,20171223-22:17:22:162,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127953,E19,calculateCaloriesWithCache totalCalories= <*>
 357,20171223-22:17:22:166,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-358,20171223-22:17:22:170,Step_StandReportReceiver,30002312,REPORT : 7062 5042 151268 240,E41,REPORT <*> <*> <*> <*> <*>
+358,20171223-22:17:22:170,Step_StandReportReceiver,30002312,REPORT : 7062 5042 151268 240,E41,REPORT : <*> <*> <*> <*>
 359,20171223-22:17:22:348,Step_LSC,30002312,onStandStepChanged 3636,E0,onStandStepChanged <*>
 360,20171223-22:17:22:363,Step_LSC,30002312,onExtend:1514038643000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 361,20171223-22:17:22:650,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7062##548556##8661##16256##27286470,E33, getTodayTotalDetailSteps = <*>
 362,20171223-22:17:22:651,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7064##548557##8661##16256##27286970,E1,setTodayTotalDetailSteps= <*>
 363,20171223-22:17:22:661,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=127996,E19,calculateCaloriesWithCache totalCalories= <*>
 364,20171223-22:17:22:665,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-365,20171223-22:17:22:665,Step_StandReportReceiver,30002312,REPORT : 7064 5043 151310 240,E41,REPORT <*> <*> <*> <*> <*>
+365,20171223-22:17:22:665,Step_StandReportReceiver,30002312,REPORT : 7064 5043 151310 240,E41,REPORT : <*> <*> <*> <*>
 366,20171223-22:17:22:849,Step_LSC,30002312,onStandStepChanged 3638,E0,onStandStepChanged <*>
 367,20171223-22:17:22:859,Step_LSC,30002312,onExtend:1514038643000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 368,20171223-22:17:23:150,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7064##548557##8661##16256##27286970,E33, getTodayTotalDetailSteps = <*>
 369,20171223-22:17:23:150,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7066##548558##8661##16256##27287469,E1,setTodayTotalDetailSteps= <*>
 370,20171223-22:17:23:160,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128039,E19,calculateCaloriesWithCache totalCalories= <*>
 371,20171223-22:17:23:165,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-372,20171223-22:17:23:165,Step_StandReportReceiver,30002312,REPORT : 7066 5045 151353 240,E41,REPORT <*> <*> <*> <*> <*>
+372,20171223-22:17:23:165,Step_StandReportReceiver,30002312,REPORT : 7066 5045 151353 240,E41,REPORT : <*> <*> <*> <*>
 373,20171223-22:17:23:348,Step_LSC,30002312,onStandStepChanged 3640,E0,onStandStepChanged <*>
 374,20171223-22:17:23:358,Step_LSC,30002312,onExtend:1514038644000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 375,20171223-22:17:23:653,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7066##548558##8661##16256##27287469,E33, getTodayTotalDetailSteps = <*>
 376,20171223-22:17:23:653,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7068##548559##8661##16256##27287972,E1,setTodayTotalDetailSteps= <*>
 377,20171223-22:17:23:662,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128081,E19,calculateCaloriesWithCache totalCalories= <*>
 378,20171223-22:17:23:667,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-379,20171223-22:17:23:668,Step_StandReportReceiver,30002312,REPORT : 7068 5046 151396 240,E41,REPORT <*> <*> <*> <*> <*>
+379,20171223-22:17:23:668,Step_StandReportReceiver,30002312,REPORT : 7068 5046 151396 240,E41,REPORT : <*> <*> <*> <*>
 380,20171223-22:17:23:851,Step_LSC,30002312,onStandStepChanged 3642,E0,onStandStepChanged <*>
 381,20171223-22:17:23:861,Step_LSC,30002312,onExtend:1514038644000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 382,20171223-22:17:24:151,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7068##548559##8661##16256##27287972,E33, getTodayTotalDetailSteps = <*>
 383,20171223-22:17:24:152,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7070##548560##8661##16256##27288471,E1,setTodayTotalDetailSteps= <*>
 384,20171223-22:17:24:162,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128124,E19,calculateCaloriesWithCache totalCalories= <*>
 385,20171223-22:17:24:166,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-386,20171223-22:17:24:167,Step_StandReportReceiver,30002312,REPORT : 7070 5047 151439 240,E41,REPORT <*> <*> <*> <*> <*>
+386,20171223-22:17:24:167,Step_StandReportReceiver,30002312,REPORT : 7070 5047 151439 240,E41,REPORT : <*> <*> <*> <*>
 387,20171223-22:17:24:348,Step_LSC,30002312,onStandStepChanged 3643,E0,onStandStepChanged <*>
 388,20171223-22:17:24:359,Step_LSC,30002312,onExtend:1514038645000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 389,20171223-22:17:24:654,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7070##548560##8661##16256##27288471,E33, getTodayTotalDetailSteps = <*>
 390,20171223-22:17:24:654,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7071##548561##8661##16256##27288973,E1,setTodayTotalDetailSteps= <*>
 391,20171223-22:17:24:664,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128146,E19,calculateCaloriesWithCache totalCalories= <*>
 392,20171223-22:17:24:668,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-393,20171223-22:17:24:668,Step_StandReportReceiver,30002312,REPORT : 7071 5048 151460 240,E41,REPORT <*> <*> <*> <*> <*>
+393,20171223-22:17:24:668,Step_StandReportReceiver,30002312,REPORT : 7071 5048 151460 240,E41,REPORT : <*> <*> <*> <*>
 394,20171223-22:17:24:848,Step_LSC,30002312,onStandStepChanged 3646,E0,onStandStepChanged <*>
 395,20171223-22:17:24:860,Step_LSC,30002312,onExtend:1514038645000 3 0 4,E8,onExtend: <*> <*> <*> <*>
 396,20171223-22:17:25:150,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7071##548561##8661##16256##27288973,E33, getTodayTotalDetailSteps = <*>
 397,20171223-22:17:25:151,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7074##548562##8661##16256##27289470,E1,setTodayTotalDetailSteps= <*>
 398,20171223-22:17:25:159,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128210,E19,calculateCaloriesWithCache totalCalories= <*>
 399,20171223-22:17:25:162,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-400,20171223-22:17:25:163,Step_StandReportReceiver,30002312,REPORT : 7074 5050 151525 240,E41,REPORT <*> <*> <*> <*> <*>
+400,20171223-22:17:25:163,Step_StandReportReceiver,30002312,REPORT : 7074 5050 151525 240,E41,REPORT : <*> <*> <*> <*>
 401,20171223-22:17:27:855,Step_LSC,30002312,onStandStepChanged 3646,E0,onStandStepChanged <*>
 402,20171223-22:17:27:859,Step_LSC,30002312,onExtend:1514038648000 0 0 0,E8,onExtend: <*> <*> <*> <*>
 403,20171223-22:17:28:156,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7074##548562##8661##16256##27289470,E33, getTodayTotalDetailSteps = <*>
@@ -411,154 +411,154 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 410,20171223-22:17:45:151,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7075##548564##8661##16256##27309470,E1,setTodayTotalDetailSteps= <*>
 411,20171223-22:17:45:162,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128231,E19,calculateCaloriesWithCache totalCalories= <*>
 412,20171223-22:17:45:166,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-413,20171223-22:17:45:169,Step_StandReportReceiver,30002312,REPORT : 7075 5051 151546 240,E41,REPORT <*> <*> <*> <*> <*>
+413,20171223-22:17:45:169,Step_StandReportReceiver,30002312,REPORT : 7075 5051 151546 240,E41,REPORT : <*> <*> <*> <*>
 414,20171223-22:17:45:348,Step_LSC,30002312,onStandStepChanged 3649,E0,onStandStepChanged <*>
 415,20171223-22:17:45:366,Step_LSC,30002312,onExtend:1514038666000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 416,20171223-22:17:45:649,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7075##548564##8661##16256##27309470,E33, getTodayTotalDetailSteps = <*>
 417,20171223-22:17:45:650,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7077##548565##8661##16256##27309969,E1,setTodayTotalDetailSteps= <*>
 418,20171223-22:17:45:663,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128274,E19,calculateCaloriesWithCache totalCalories= <*>
 419,20171223-22:17:45:668,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-420,20171223-22:17:45:674,Step_StandReportReceiver,30002312,REPORT : 7077 5052 151589 240,E41,REPORT <*> <*> <*> <*> <*>
+420,20171223-22:17:45:674,Step_StandReportReceiver,30002312,REPORT : 7077 5052 151589 240,E41,REPORT : <*> <*> <*> <*>
 421,20171223-22:17:45:851,Step_LSC,30002312,onStandStepChanged 3651,E0,onStandStepChanged <*>
 422,20171223-22:17:45:856,Step_LSC,30002312,onExtend:1514038666000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 423,20171223-22:17:46:154,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7077##548565##8661##16256##27309969,E33, getTodayTotalDetailSteps = <*>
 424,20171223-22:17:46:154,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7079##548566##8661##16256##27310473,E1,setTodayTotalDetailSteps= <*>
 425,20171223-22:17:46:163,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128317,E19,calculateCaloriesWithCache totalCalories= <*>
 426,20171223-22:17:46:167,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-427,20171223-22:17:46:170,Step_StandReportReceiver,30002312,REPORT : 7079 5054 151632 240,E41,REPORT <*> <*> <*> <*> <*>
+427,20171223-22:17:46:170,Step_StandReportReceiver,30002312,REPORT : 7079 5054 151632 240,E41,REPORT : <*> <*> <*> <*>
 428,20171223-22:17:46:349,Step_LSC,30002312,onStandStepChanged 3653,E0,onStandStepChanged <*>
 429,20171223-22:17:46:364,Step_LSC,30002312,onExtend:1514038667000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 430,20171223-22:17:46:650,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7079##548566##8661##16256##27310473,E33, getTodayTotalDetailSteps = <*>
 431,20171223-22:17:46:651,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7081##548567##8661##16256##27310970,E1,setTodayTotalDetailSteps= <*>
 432,20171223-22:17:46:659,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128360,E19,calculateCaloriesWithCache totalCalories= <*>
 433,20171223-22:17:46:661,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-434,20171223-22:17:46:662,Step_StandReportReceiver,30002312,REPORT : 7081 5055 151675 240,E41,REPORT <*> <*> <*> <*> <*>
+434,20171223-22:17:46:662,Step_StandReportReceiver,30002312,REPORT : 7081 5055 151675 240,E41,REPORT : <*> <*> <*> <*>
 435,20171223-22:17:46:848,Step_LSC,30002312,onStandStepChanged 3655,E0,onStandStepChanged <*>
 436,20171223-22:17:46:858,Step_LSC,30002312,onExtend:1514038667000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 437,20171223-22:17:47:153,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7081##548567##8661##16256##27310970,E33, getTodayTotalDetailSteps = <*>
 438,20171223-22:17:47:154,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7083##548568##8661##16256##27311472,E1,setTodayTotalDetailSteps= <*>
 439,20171223-22:17:47:163,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128403,E19,calculateCaloriesWithCache totalCalories= <*>
 440,20171223-22:17:47:165,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-441,20171223-22:17:47:166,Step_StandReportReceiver,30002312,REPORT : 7083 5057 151717 240,E41,REPORT <*> <*> <*> <*> <*>
+441,20171223-22:17:47:166,Step_StandReportReceiver,30002312,REPORT : 7083 5057 151717 240,E41,REPORT : <*> <*> <*> <*>
 442,20171223-22:17:47:349,Step_LSC,30002312,onStandStepChanged 3656,E0,onStandStepChanged <*>
 443,20171223-22:17:47:366,Step_LSC,30002312,onExtend:1514038668000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 444,20171223-22:17:47:651,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7083##548568##8661##16256##27311472,E33, getTodayTotalDetailSteps = <*>
 445,20171223-22:17:47:652,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7084##548569##8661##16256##27311970,E1,setTodayTotalDetailSteps= <*>
 446,20171223-22:17:47:659,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128424,E19,calculateCaloriesWithCache totalCalories= <*>
 447,20171223-22:17:47:662,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-448,20171223-22:17:47:662,Step_StandReportReceiver,30002312,REPORT : 7084 5057 151739 240,E41,REPORT <*> <*> <*> <*> <*>
+448,20171223-22:17:47:662,Step_StandReportReceiver,30002312,REPORT : 7084 5057 151739 240,E41,REPORT : <*> <*> <*> <*>
 449,20171223-22:17:47:848,Step_LSC,30002312,onStandStepChanged 3658,E0,onStandStepChanged <*>
 450,20171223-22:17:47:854,Step_LSC,30002312,onExtend:1514038668000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 451,20171223-22:17:48:148,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7084##548569##8661##16256##27311970,E33, getTodayTotalDetailSteps = <*>
 452,20171223-22:17:48:149,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7086##548570##8661##16256##27312467,E1,setTodayTotalDetailSteps= <*>
 453,20171223-22:17:48:157,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128467,E19,calculateCaloriesWithCache totalCalories= <*>
 454,20171223-22:17:48:162,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-455,20171223-22:17:48:164,Step_StandReportReceiver,30002312,REPORT : 7086 5059 151782 240,E41,REPORT <*> <*> <*> <*> <*>
+455,20171223-22:17:48:164,Step_StandReportReceiver,30002312,REPORT : 7086 5059 151782 240,E41,REPORT : <*> <*> <*> <*>
 456,20171223-22:17:48:348,Step_LSC,30002312,onStandStepChanged 3660,E0,onStandStepChanged <*>
 457,20171223-22:17:48:357,Step_LSC,30002312,onExtend:1514038669000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 458,20171223-22:17:48:648,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7086##548570##8661##16256##27312467,E33, getTodayTotalDetailSteps = <*>
 459,20171223-22:17:48:649,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7088##548571##8661##16256##27312967,E1,setTodayTotalDetailSteps= <*>
 460,20171223-22:17:48:656,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128510,E19,calculateCaloriesWithCache totalCalories= <*>
 461,20171223-22:17:48:661,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-462,20171223-22:17:48:661,Step_StandReportReceiver,30002312,REPORT : 7088 5060 151824 240,E41,REPORT <*> <*> <*> <*> <*>
+462,20171223-22:17:48:661,Step_StandReportReceiver,30002312,REPORT : 7088 5060 151824 240,E41,REPORT : <*> <*> <*> <*>
 463,20171223-22:17:48:848,Step_LSC,30002312,onStandStepChanged 3662,E0,onStandStepChanged <*>
 464,20171223-22:17:48:853,Step_LSC,30002312,onExtend:1514038669000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 465,20171223-22:17:49:149,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7088##548571##8661##16256##27312967,E33, getTodayTotalDetailSteps = <*>
 466,20171223-22:17:49:149,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7090##548572##8661##16256##27313468,E1,setTodayTotalDetailSteps= <*>
 467,20171223-22:17:49:162,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128553,E19,calculateCaloriesWithCache totalCalories= <*>
 468,20171223-22:17:49:166,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-469,20171223-22:17:49:166,Step_StandReportReceiver,30002312,REPORT : 7090 5062 151867 240,E41,REPORT <*> <*> <*> <*> <*>
+469,20171223-22:17:49:166,Step_StandReportReceiver,30002312,REPORT : 7090 5062 151867 240,E41,REPORT : <*> <*> <*> <*>
 470,20171223-22:17:49:353,Step_LSC,30002312,onStandStepChanged 3664,E0,onStandStepChanged <*>
 471,20171223-22:17:49:358,Step_LSC,30002312,onExtend:1514038670000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 472,20171223-22:17:49:655,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7090##548572##8661##16256##27313468,E33, getTodayTotalDetailSteps = <*>
 473,20171223-22:17:49:655,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7092##548573##8661##16256##27313974,E1,setTodayTotalDetailSteps= <*>
 474,20171223-22:17:49:661,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128595,E19,calculateCaloriesWithCache totalCalories= <*>
 475,20171223-22:17:49:664,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-476,20171223-22:17:49:664,Step_StandReportReceiver,30002312,REPORT : 7092 5063 151910 240,E41,REPORT <*> <*> <*> <*> <*>
+476,20171223-22:17:49:664,Step_StandReportReceiver,30002312,REPORT : 7092 5063 151910 240,E41,REPORT : <*> <*> <*> <*>
 477,20171223-22:17:49:848,Step_LSC,30002312,onStandStepChanged 3666,E0,onStandStepChanged <*>
 478,20171223-22:17:49:854,Step_LSC,30002312,onExtend:1514038670000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 479,20171223-22:17:50:149,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7092##548573##8661##16256##27313974,E33, getTodayTotalDetailSteps = <*>
 480,20171223-22:17:50:149,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7094##548574##8661##16256##27314468,E1,setTodayTotalDetailSteps= <*>
 481,20171223-22:17:50:156,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128638,E19,calculateCaloriesWithCache totalCalories= <*>
 482,20171223-22:17:50:158,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-483,20171223-22:17:50:160,Step_StandReportReceiver,30002312,REPORT : 7094 5065 151953 240,E41,REPORT <*> <*> <*> <*> <*>
+483,20171223-22:17:50:160,Step_StandReportReceiver,30002312,REPORT : 7094 5065 151953 240,E41,REPORT : <*> <*> <*> <*>
 484,20171223-22:17:50:348,Step_LSC,30002312,onStandStepChanged 3667,E0,onStandStepChanged <*>
 485,20171223-22:17:50:354,Step_LSC,30002312,onExtend:1514038671000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 486,20171223-22:17:50:649,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7094##548574##8661##16256##27314468,E33, getTodayTotalDetailSteps = <*>
 487,20171223-22:17:50:649,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7095##548575##8661##16256##27314968,E1,setTodayTotalDetailSteps= <*>
 488,20171223-22:17:50:658,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128660,E19,calculateCaloriesWithCache totalCalories= <*>
 489,20171223-22:17:50:661,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-490,20171223-22:17:50:661,Step_StandReportReceiver,30002312,REPORT : 7095 5065 151974 240,E41,REPORT <*> <*> <*> <*> <*>
+490,20171223-22:17:50:661,Step_StandReportReceiver,30002312,REPORT : 7095 5065 151974 240,E41,REPORT : <*> <*> <*> <*>
 491,20171223-22:17:50:849,Step_LSC,30002312,onStandStepChanged 3669,E0,onStandStepChanged <*>
 492,20171223-22:17:50:856,Step_LSC,30002312,onExtend:1514038671000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 493,20171223-22:17:51:149,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7095##548575##8661##16256##27314968,E33, getTodayTotalDetailSteps = <*>
 494,20171223-22:17:51:150,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7097##548576##8661##16256##27315469,E1,setTodayTotalDetailSteps= <*>
 495,20171223-22:17:51:158,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128703,E19,calculateCaloriesWithCache totalCalories= <*>
 496,20171223-22:17:51:161,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-497,20171223-22:17:51:165,Step_StandReportReceiver,30002312,REPORT : 7097 5067 152017 240,E41,REPORT <*> <*> <*> <*> <*>
+497,20171223-22:17:51:165,Step_StandReportReceiver,30002312,REPORT : 7097 5067 152017 240,E41,REPORT : <*> <*> <*> <*>
 498,20171223-22:17:51:362,Step_LSC,30002312,onStandStepChanged 3671,E0,onStandStepChanged <*>
 499,20171223-22:17:51:370,Step_LSC,30002312,onExtend:1514038672000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 500,20171223-22:17:51:664,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7097##548576##8661##16256##27315469,E33, getTodayTotalDetailSteps = <*>
 501,20171223-22:17:51:664,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7099##548577##8661##16256##27315983,E1,setTodayTotalDetailSteps= <*>
 502,20171223-22:17:51:673,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128745,E19,calculateCaloriesWithCache totalCalories= <*>
 503,20171223-22:17:51:677,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-504,20171223-22:17:51:681,Step_StandReportReceiver,30002312,REPORT : 7099 5068 152060 240,E41,REPORT <*> <*> <*> <*> <*>
+504,20171223-22:17:51:681,Step_StandReportReceiver,30002312,REPORT : 7099 5068 152060 240,E41,REPORT : <*> <*> <*> <*>
 505,20171223-22:17:51:848,Step_LSC,30002312,onStandStepChanged 3673,E0,onStandStepChanged <*>
 506,20171223-22:17:51:854,Step_LSC,30002312,onExtend:1514038672000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 507,20171223-22:17:52:151,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7099##548577##8661##16256##27315983,E33, getTodayTotalDetailSteps = <*>
 508,20171223-22:17:52:152,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7101##548578##8661##16256##27316470,E1,setTodayTotalDetailSteps= <*>
 509,20171223-22:17:52:162,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128788,E19,calculateCaloriesWithCache totalCalories= <*>
 510,20171223-22:17:52:169,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-511,20171223-22:17:52:169,Step_StandReportReceiver,30002312,REPORT : 7101 5070 152103 240,E41,REPORT <*> <*> <*> <*> <*>
+511,20171223-22:17:52:169,Step_StandReportReceiver,30002312,REPORT : 7101 5070 152103 240,E41,REPORT : <*> <*> <*> <*>
 512,20171223-22:17:52:848,Step_LSC,30002312,onStandStepChanged 3674,E0,onStandStepChanged <*>
 513,20171223-22:17:52:855,Step_LSC,30002312,onExtend:1514038673000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 514,20171223-22:17:53:149,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7101##548578##8661##16256##27316470,E33, getTodayTotalDetailSteps = <*>
 515,20171223-22:17:53:149,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7102##548579##8661##16256##27317468,E1,setTodayTotalDetailSteps= <*>
 516,20171223-22:17:53:163,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128810,E19,calculateCaloriesWithCache totalCalories= <*>
 517,20171223-22:17:53:168,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-518,20171223-22:17:53:169,Step_StandReportReceiver,30002312,REPORT : 7102 5070 152124 240,E41,REPORT <*> <*> <*> <*> <*>
+518,20171223-22:17:53:169,Step_StandReportReceiver,30002312,REPORT : 7102 5070 152124 240,E41,REPORT : <*> <*> <*> <*>
 519,20171223-22:17:53:849,Step_LSC,30002312,onStandStepChanged 3675,E0,onStandStepChanged <*>
 520,20171223-22:17:53:859,Step_LSC,30002312,onExtend:1514038674000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 521,20171223-22:17:54:152,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7102##548579##8661##16256##27317468,E33, getTodayTotalDetailSteps = <*>
 522,20171223-22:17:54:153,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7103##548580##8661##16256##27318472,E1,setTodayTotalDetailSteps= <*>
 523,20171223-22:17:54:167,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128831,E19,calculateCaloriesWithCache totalCalories= <*>
 524,20171223-22:17:54:175,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-525,20171223-22:17:54:176,Step_StandReportReceiver,30002312,REPORT : 7103 5071 152146 240,E41,REPORT <*> <*> <*> <*> <*>
+525,20171223-22:17:54:176,Step_StandReportReceiver,30002312,REPORT : 7103 5071 152146 240,E41,REPORT : <*> <*> <*> <*>
 526,20171223-22:17:54:849,Step_LSC,30002312,onStandStepChanged 3676,E0,onStandStepChanged <*>
 527,20171223-22:17:54:864,Step_LSC,30002312,onExtend:1514038675000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 528,20171223-22:17:55:153,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7103##548580##8661##16256##27318472,E33, getTodayTotalDetailSteps = <*>
 529,20171223-22:17:55:154,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7104##548581##8661##16256##27319473,E1,setTodayTotalDetailSteps= <*>
 530,20171223-22:17:55:162,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128853,E19,calculateCaloriesWithCache totalCalories= <*>
 531,20171223-22:17:55:166,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-532,20171223-22:17:55:169,Step_StandReportReceiver,30002312,REPORT : 7104 5072 152167 240,E41,REPORT <*> <*> <*> <*> <*>
+532,20171223-22:17:55:169,Step_StandReportReceiver,30002312,REPORT : 7104 5072 152167 240,E41,REPORT : <*> <*> <*> <*>
 533,20171223-22:17:55:348,Step_LSC,30002312,onStandStepChanged 3677,E0,onStandStepChanged <*>
 534,20171223-22:17:55:381,Step_LSC,30002312,onExtend:1514038676000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 535,20171223-22:17:55:649,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7104##548581##8661##16256##27319473,E33, getTodayTotalDetailSteps = <*>
 536,20171223-22:17:55:649,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7105##548582##8661##16256##27319968,E1,setTodayTotalDetailSteps= <*>
 537,20171223-22:17:55:658,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128874,E19,calculateCaloriesWithCache totalCalories= <*>
 538,20171223-22:17:55:660,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-539,20171223-22:17:55:664,Step_StandReportReceiver,30002312,REPORT : 7105 5072 152189 240,E41,REPORT <*> <*> <*> <*> <*>
+539,20171223-22:17:55:664,Step_StandReportReceiver,30002312,REPORT : 7105 5072 152189 240,E41,REPORT : <*> <*> <*> <*>
 540,20171223-22:17:56:349,Step_LSC,30002312,onStandStepChanged 3678,E0,onStandStepChanged <*>
 541,20171223-22:17:56:361,Step_LSC,30002312,onExtend:1514038677000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 542,20171223-22:17:56:650,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7105##548582##8661##16256##27319968,E33, getTodayTotalDetailSteps = <*>
 543,20171223-22:17:56:651,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7106##548583##8661##16256##27320969,E1,setTodayTotalDetailSteps= <*>
 544,20171223-22:17:56:666,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128895,E19,calculateCaloriesWithCache totalCalories= <*>
 545,20171223-22:17:56:671,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-546,20171223-22:17:56:678,Step_StandReportReceiver,30002312,REPORT : 7106 5073 152210 240,E41,REPORT <*> <*> <*> <*> <*>
+546,20171223-22:17:56:678,Step_StandReportReceiver,30002312,REPORT : 7106 5073 152210 240,E41,REPORT : <*> <*> <*> <*>
 547,20171223-22:17:57:349,Step_LSC,30002312,onStandStepChanged 3679,E0,onStandStepChanged <*>
 548,20171223-22:17:57:372,Step_LSC,30002312,onExtend:1514038678000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 549,20171223-22:17:57:650,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7106##548583##8661##16256##27320969,E33, getTodayTotalDetailSteps = <*>
 550,20171223-22:17:57:650,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7107##548584##8661##16256##27321969,E1,setTodayTotalDetailSteps= <*>
 551,20171223-22:17:57:659,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128917,E19,calculateCaloriesWithCache totalCalories= <*>
 552,20171223-22:17:57:662,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-553,20171223-22:17:57:662,Step_StandReportReceiver,30002312,REPORT : 7107 5074 152231 240,E41,REPORT <*> <*> <*> <*> <*>
+553,20171223-22:17:57:662,Step_StandReportReceiver,30002312,REPORT : 7107 5074 152231 240,E41,REPORT : <*> <*> <*> <*>
 554,20171223-22:17:57:849,Step_LSC,30002312,onStandStepChanged 3681,E0,onStandStepChanged <*>
 555,20171223-22:17:57:862,Step_LSC,30002312,onExtend:1514038678000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 556,20171223-22:17:58:150,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038560000##7107##548584##8661##16256##27321969,E33, getTodayTotalDetailSteps = <*>
 557,20171223-22:17:58:151,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038560000##7109##548585##8661##16256##27322469,E1,setTodayTotalDetailSteps= <*>
 558,20171223-22:17:58:159,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=128960,E19,calculateCaloriesWithCache totalCalories= <*>
 559,20171223-22:17:58:162,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-560,20171223-22:17:58:167,Step_StandReportReceiver,30002312,REPORT : 7109 5075 152274 240,E41,REPORT <*> <*> <*> <*> <*>
+560,20171223-22:17:58:167,Step_StandReportReceiver,30002312,REPORT : 7109 5075 152274 240,E41,REPORT : <*> <*> <*> <*>
 561,20171223-22:17:59:858,Step_LSC,30002312,onStandStepChanged 3683,E0,onStandStepChanged <*>
 562,20171223-22:17:59:872,Step_LSC,30002312,onExtend:1514038680000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 563,20171223-22:18:0:134,Step_LSC,30002312,processHandleBroadcastAction action:android.intent.action.TIME_TICK,E17,processHandleBroadcastAction action: android.intent.action.TIME_TICK
@@ -566,28 +566,28 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 565,20171223-22:18:0:159,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038620000##7111##548640##8661##16256##27324478,E1,setTodayTotalDetailSteps= <*>
 566,20171223-22:18:0:168,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=129002,E19,calculateCaloriesWithCache totalCalories= <*>
 567,20171223-22:18:0:171,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-568,20171223-22:18:0:172,Step_StandReportReceiver,30002312,REPORT : 7111 5077 152317 240,E41,REPORT <*> <*> <*> <*> <*>
+568,20171223-22:18:0:172,Step_StandReportReceiver,30002312,REPORT : 7111 5077 152317 240,E41,REPORT : <*> <*> <*> <*>
 569,20171223-22:18:1:349,Step_LSC,30002312,onStandStepChanged 3684,E0,onStandStepChanged <*>
 570,20171223-22:18:1:361,Step_LSC,30002312,onExtend:1514038682000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 571,20171223-22:18:1:649,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038620000##7111##548640##8661##16256##27324478,E33, getTodayTotalDetailSteps = <*>
 572,20171223-22:18:1:650,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038620000##7112##548695##8661##16256##27325968,E1,setTodayTotalDetailSteps= <*>
 573,20171223-22:18:1:659,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=129024,E19,calculateCaloriesWithCache totalCalories= <*>
 574,20171223-22:18:1:663,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-575,20171223-22:18:1:664,Step_StandReportReceiver,30002312,REPORT : 7112 5077 152339 240,E41,REPORT <*> <*> <*> <*> <*>
+575,20171223-22:18:1:664,Step_StandReportReceiver,30002312,REPORT : 7112 5077 152339 240,E41,REPORT : <*> <*> <*> <*>
 576,20171223-22:18:2:349,Step_LSC,30002312,onStandStepChanged 3685,E0,onStandStepChanged <*>
 577,20171223-22:18:2:363,Step_LSC,30002312,onExtend:1514038683000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 578,20171223-22:18:2:649,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038620000##7112##548695##8661##16256##27325968,E33, getTodayTotalDetailSteps = <*>
 579,20171223-22:18:2:650,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038620000##7113##548750##8661##16256##27326969,E1,setTodayTotalDetailSteps= <*>
 580,20171223-22:18:2:659,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=129045,E19,calculateCaloriesWithCache totalCalories= <*>
 581,20171223-22:18:2:661,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-582,20171223-22:18:2:662,Step_StandReportReceiver,30002312,REPORT : 7113 5078 152360 240,E41,REPORT <*> <*> <*> <*> <*>
+582,20171223-22:18:2:662,Step_StandReportReceiver,30002312,REPORT : 7113 5078 152360 240,E41,REPORT : <*> <*> <*> <*>
 583,20171223-22:18:5:351,Step_LSC,30002312,onStandStepChanged 3686,E0,onStandStepChanged <*>
 584,20171223-22:18:5:358,Step_LSC,30002312,onExtend:1514038686000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 585,20171223-22:18:5:653,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038620000##7113##548750##8661##16256##27326969,E33, getTodayTotalDetailSteps = <*>
 586,20171223-22:18:5:653,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038620000##7114##548805##8661##16256##27329972,E1,setTodayTotalDetailSteps= <*>
 587,20171223-22:18:5:673,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=129067,E19,calculateCaloriesWithCache totalCalories= <*>
 588,20171223-22:18:5:684,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-589,20171223-22:18:5:684,Step_StandReportReceiver,30002312,REPORT : 7114 5079 152381 240,E41,REPORT <*> <*> <*> <*> <*>
+589,20171223-22:18:5:684,Step_StandReportReceiver,30002312,REPORT : 7114 5079 152381 240,E41,REPORT : <*> <*> <*> <*>
 590,20171223-22:18:5:849,Step_LSC,30002312,onStandStepChanged 3686,E0,onStandStepChanged <*>
 591,20171223-22:18:5:854,Step_LSC,30002312,onExtend:1514038686000 0 0 0,E8,onExtend: <*> <*> <*> <*>
 592,20171223-22:18:6:150,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038620000##7114##548805##8661##16256##27329972,E33, getTodayTotalDetailSteps = <*>
@@ -601,77 +601,77 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 600,20171223-22:19:8:156,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038680000##7117##548865##8661##16256##27392475,E1,setTodayTotalDetailSteps= <*>
 601,20171223-22:19:8:163,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=129131,E19,calculateCaloriesWithCache totalCalories= <*>
 602,20171223-22:19:8:165,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-603,20171223-22:19:8:167,Step_StandReportReceiver,30002312,REPORT : 7117 5081 152446 240,E41,REPORT <*> <*> <*> <*> <*>
+603,20171223-22:19:8:167,Step_StandReportReceiver,30002312,REPORT : 7117 5081 152446 240,E41,REPORT : <*> <*> <*> <*>
 604,20171223-22:19:8:357,Step_LSC,30002312,onStandStepChanged 3694,E0,onStandStepChanged <*>
 605,20171223-22:19:8:365,Step_LSC,30002312,onExtend:1514038749000 5 0 4,E8,onExtend: <*> <*> <*> <*>
 606,20171223-22:19:8:658,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038680000##7117##548865##8661##16256##27392475,E33, getTodayTotalDetailSteps = <*>
 607,20171223-22:19:8:660,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038680000##7122##548870##8661##16256##27392978,E1,setTodayTotalDetailSteps= <*>
 608,20171223-22:19:8:675,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=129238,E19,calculateCaloriesWithCache totalCalories= <*>
 609,20171223-22:19:8:686,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-610,20171223-22:19:8:686,Step_StandReportReceiver,30002312,REPORT : 7122 5085 152553 240,E41,REPORT <*> <*> <*> <*> <*>
+610,20171223-22:19:8:686,Step_StandReportReceiver,30002312,REPORT : 7122 5085 152553 240,E41,REPORT : <*> <*> <*> <*>
 611,20171223-22:19:8:849,Step_LSC,30002312,onStandStepChanged 3696,E0,onStandStepChanged <*>
 612,20171223-22:19:8:862,Step_LSC,30002312,onExtend:1514038749000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 613,20171223-22:19:9:150,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038680000##7122##548870##8661##16256##27392978,E33, getTodayTotalDetailSteps = <*>
 614,20171223-22:19:9:151,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038680000##7124##548875##8661##16256##27393470,E1,setTodayTotalDetailSteps= <*>
 615,20171223-22:19:9:158,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=129281,E19,calculateCaloriesWithCache totalCalories= <*>
 616,20171223-22:19:9:163,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-617,20171223-22:19:9:169,Step_StandReportReceiver,30002312,REPORT : 7124 5086 152596 240,E41,REPORT <*> <*> <*> <*> <*>
+617,20171223-22:19:9:169,Step_StandReportReceiver,30002312,REPORT : 7124 5086 152596 240,E41,REPORT : <*> <*> <*> <*>
 618,20171223-22:19:9:348,Step_LSC,30002312,onStandStepChanged 3698,E0,onStandStepChanged <*>
 619,20171223-22:19:9:359,Step_LSC,30002312,onExtend:1514038750000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 620,20171223-22:19:9:652,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038680000##7124##548875##8661##16256##27393470,E33, getTodayTotalDetailSteps = <*>
 621,20171223-22:19:9:652,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038680000##7126##548880##8661##16256##27393971,E1,setTodayTotalDetailSteps= <*>
 622,20171223-22:19:9:662,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=129324,E19,calculateCaloriesWithCache totalCalories= <*>
 623,20171223-22:19:9:668,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-624,20171223-22:19:9:671,Step_StandReportReceiver,30002312,REPORT : 7126 5087 152638 240,E41,REPORT <*> <*> <*> <*> <*>
+624,20171223-22:19:9:671,Step_StandReportReceiver,30002312,REPORT : 7126 5087 152638 240,E41,REPORT : <*> <*> <*> <*>
 625,20171223-22:19:9:849,Step_LSC,30002312,onStandStepChanged 3700,E0,onStandStepChanged <*>
 626,20171223-22:19:9:859,Step_LSC,30002312,onExtend:1514038750000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 627,20171223-22:19:10:149,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038680000##7126##548880##8661##16256##27393971,E33, getTodayTotalDetailSteps = <*>
 628,20171223-22:19:10:150,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038680000##7128##548885##8661##16256##27394469,E1,setTodayTotalDetailSteps= <*>
 629,20171223-22:19:10:160,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=129366,E19,calculateCaloriesWithCache totalCalories= <*>
 630,20171223-22:19:10:164,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-631,20171223-22:19:10:165,Step_StandReportReceiver,30002312,REPORT : 7128 5089 152681 240,E41,REPORT <*> <*> <*> <*> <*>
+631,20171223-22:19:10:165,Step_StandReportReceiver,30002312,REPORT : 7128 5089 152681 240,E41,REPORT : <*> <*> <*> <*>
 632,20171223-22:19:10:348,Step_LSC,30002312,onStandStepChanged 3702,E0,onStandStepChanged <*>
 633,20171223-22:19:10:362,Step_LSC,30002312,onExtend:1514038751000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 634,20171223-22:19:10:650,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038680000##7128##548885##8661##16256##27394469,E33, getTodayTotalDetailSteps = <*>
 635,20171223-22:19:10:650,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038680000##7130##548890##8661##16256##27394969,E1,setTodayTotalDetailSteps= <*>
 636,20171223-22:19:10:658,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=129409,E19,calculateCaloriesWithCache totalCalories= <*>
 637,20171223-22:19:10:661,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-638,20171223-22:19:10:664,Step_StandReportReceiver,30002312,REPORT : 7130 5090 152724 240,E41,REPORT <*> <*> <*> <*> <*>
+638,20171223-22:19:10:664,Step_StandReportReceiver,30002312,REPORT : 7130 5090 152724 240,E41,REPORT : <*> <*> <*> <*>
 639,20171223-22:19:10:848,Step_LSC,30002312,onStandStepChanged 3704,E0,onStandStepChanged <*>
 640,20171223-22:19:10:858,Step_LSC,30002312,onExtend:1514038751000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 641,20171223-22:19:11:149,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038680000##7130##548890##8661##16256##27394969,E33, getTodayTotalDetailSteps = <*>
 642,20171223-22:19:11:150,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038680000##7132##548895##8661##16256##27395468,E1,setTodayTotalDetailSteps= <*>
 643,20171223-22:19:11:160,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=129452,E19,calculateCaloriesWithCache totalCalories= <*>
 644,20171223-22:19:11:164,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-645,20171223-22:19:11:164,Step_StandReportReceiver,30002312,REPORT : 7132 5092 152767 240,E41,REPORT <*> <*> <*> <*> <*>
+645,20171223-22:19:11:164,Step_StandReportReceiver,30002312,REPORT : 7132 5092 152767 240,E41,REPORT : <*> <*> <*> <*>
 646,20171223-22:19:11:349,Step_LSC,30002312,onStandStepChanged 3707,E0,onStandStepChanged <*>
 647,20171223-22:19:11:358,Step_LSC,30002312,onExtend:1514038752000 3 0 4,E8,onExtend: <*> <*> <*> <*>
 648,20171223-22:19:11:650,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038680000##7132##548895##8661##16256##27395468,E33, getTodayTotalDetailSteps = <*>
 649,20171223-22:19:11:651,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038680000##7135##548900##8661##16256##27395969,E1,setTodayTotalDetailSteps= <*>
 650,20171223-22:19:11:658,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=129516,E19,calculateCaloriesWithCache totalCalories= <*>
 651,20171223-22:19:11:661,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-652,20171223-22:19:11:661,Step_StandReportReceiver,30002312,REPORT : 7135 5094 152831 240,E41,REPORT <*> <*> <*> <*> <*>
+652,20171223-22:19:11:661,Step_StandReportReceiver,30002312,REPORT : 7135 5094 152831 240,E41,REPORT : <*> <*> <*> <*>
 653,20171223-22:19:11:848,Step_LSC,30002312,onStandStepChanged 3711,E0,onStandStepChanged <*>
 654,20171223-22:19:11:857,Step_LSC,30002312,onExtend:1514038752000 4 0 4,E8,onExtend: <*> <*> <*> <*>
 655,20171223-22:19:12:153,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038680000##7135##548900##8661##16256##27395969,E33, getTodayTotalDetailSteps = <*>
 656,20171223-22:19:12:154,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038680000##7139##548905##8661##16256##27396473,E1,setTodayTotalDetailSteps= <*>
 657,20171223-22:19:12:162,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=129602,E19,calculateCaloriesWithCache totalCalories= <*>
 658,20171223-22:19:12:165,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-659,20171223-22:19:12:167,Step_StandReportReceiver,30002312,REPORT : 7139 5097 152917 240,E41,REPORT <*> <*> <*> <*> <*>
+659,20171223-22:19:12:167,Step_StandReportReceiver,30002312,REPORT : 7139 5097 152917 240,E41,REPORT : <*> <*> <*> <*>
 660,20171223-22:19:12:349,Step_LSC,30002312,onStandStepChanged 3712,E0,onStandStepChanged <*>
 661,20171223-22:19:12:364,Step_LSC,30002312,onExtend:1514038753000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 662,20171223-22:19:12:650,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038680000##7139##548905##8661##16256##27396473,E33, getTodayTotalDetailSteps = <*>
 663,20171223-22:19:12:650,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038680000##7140##548910##8661##16256##27396969,E1,setTodayTotalDetailSteps= <*>
 664,20171223-22:19:12:658,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=129623,E19,calculateCaloriesWithCache totalCalories= <*>
 665,20171223-22:19:12:662,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-666,20171223-22:19:12:663,Step_StandReportReceiver,30002312,REPORT : 7140 5097 152938 240,E41,REPORT <*> <*> <*> <*> <*>
+666,20171223-22:19:12:663,Step_StandReportReceiver,30002312,REPORT : 7140 5097 152938 240,E41,REPORT : <*> <*> <*> <*>
 667,20171223-22:19:14:349,Step_LSC,30002312,onStandStepChanged 3726,E0,onStandStepChanged <*>
 668,20171223-22:19:14:363,Step_LSC,30002312,onExtend:1514038755000 14 0 4,E8,onExtend: <*> <*> <*> <*>
 669,20171223-22:19:14:655,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038680000##7140##548910##8661##16256##27396969,E33, getTodayTotalDetailSteps = <*>
 670,20171223-22:19:14:656,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038680000##7154##548915##8661##16256##27398975,E1,setTodayTotalDetailSteps= <*>
 671,20171223-22:19:14:677,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=129923,E19,calculateCaloriesWithCache totalCalories= <*>
 672,20171223-22:19:14:686,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-673,20171223-22:19:14:688,Step_StandReportReceiver,30002312,REPORT : 7154 5107 153238 240,E41,REPORT <*> <*> <*> <*> <*>
+673,20171223-22:19:14:688,Step_StandReportReceiver,30002312,REPORT : 7154 5107 153238 240,E41,REPORT : <*> <*> <*> <*>
 674,20171223-22:19:15:855,Step_LSC,30002312,onStandStepChanged 3726,E0,onStandStepChanged <*>
 675,20171223-22:19:15:858,Step_LSC,30002312,onExtend:1514038756000 0 0 0,E8,onExtend: <*> <*> <*> <*>
 676,20171223-22:19:16:156,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038680000##7154##548915##8661##16256##27398975,E33, getTodayTotalDetailSteps = <*>
@@ -691,7 +691,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 690,20171223-22:19:57:780,Step_LSC,30002312,onStandStepChanged 3732,E0,onStandStepChanged <*>
 691,20171223-22:19:57:789,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130052,E19,calculateCaloriesWithCache totalCalories= <*>
 692,20171223-22:19:57:796,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-693,20171223-22:19:57:796,Step_StandReportReceiver,30002312,REPORT : 7160 5112 153367 240,E41,REPORT <*> <*> <*> <*> <*>
+693,20171223-22:19:57:796,Step_StandReportReceiver,30002312,REPORT : 7160 5112 153367 240,E41,REPORT : <*> <*> <*> <*>
 694,20171223-22:19:57:878,Step_LSC,30002312,onStandStepChanged 3732,E0,onStandStepChanged <*>
 695,20171223-22:19:57:879,Step_LSC,30002312,onExtend:1514038798000 0 0 4,E8,onExtend: <*> <*> <*> <*>
 696,20171223-22:19:58:97,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038680000##7160##548925##8661##16256##27442097,E33, getTodayTotalDetailSteps = <*>
@@ -700,7 +700,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 699,20171223-22:19:58:112,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
 700,20171223-22:19:58:363,Step_LSC,30002312,onStandStepChanged 3735,E0,onStandStepChanged <*>
 701,20171223-22:19:58:363,Step_LSC,30002312,flushTempCacheToDB by stand,E22,flushTempCacheToDB by stand
-702,20171223-22:19:58:366,Step_LSC,30002312,Alarm uploadStaticsToDB totalSteps=7163Calories:153367Floor:240Distance:5112,E47,Alarm uploadStaticsToDB totalSteps= <*> <*> <*> <*>
+702,20171223-22:19:58:366,Step_LSC,30002312,Alarm uploadStaticsToDB totalSteps=7163Calories:153367Floor:240Distance:5112,E47,Alarm uploadStaticsToDB totalSteps= <*> <*> 240Distance: <*>
 703,20171223-22:19:58:366,Step_FlushableStepDataCache,30002312,writeDataToDB size 327,E26,writeDataToDB size <*>
 704,20171223-22:19:58:366,Step_FlushableStepDataCache,30002312,"upLoadOneMinuteDataToEngine time=25233975,0,93,0,20002",E48,upLoadOneMinuteDataToEngine time= <*> <*> <*> <*> <*>
 705,20171223-22:19:58:366,Step_FlushableStepDataCache,30002312,"upLoadOneMinuteDataToEngine time=25233976,0,1,0,20002",E48,upLoadOneMinuteDataToEngine time= <*> <*> <*> <*> <*>
@@ -727,7 +727,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 726,20171223-22:19:58:381,HiH_HiHealthDataInsertStore,30002312,"saveStatData() type =40004,time = 1513958400000,statClient = 2,who is 1",E59,saveStatData() type = <*> time = <*> statClient = <*> who is <*>
 727,20171223-22:19:58:382,HiH_DataStatManager,30002312,"new date =20171223, type=40004,5112.0,old=4985.0",E61,new date = <*> type= <*> <*> old= <*>
 728,20171223-22:19:58:406,HiH_HiHealthDataInsertStore,30002312,"bulkSaveDetailHiHealthData() size = 4,totalTime = 30",E49,bulkSaveDetailHiHealthData() size = <*> totalTime = <*>
-729,20171223-22:19:58:407,HiH_ListenerManager,30002312,startListenerChange subscribeList = [1],E35,startListenerChange subscribeList = [1]
+729,20171223-22:19:58:407,HiH_ListenerManager,30002312,startListenerChange subscribeList = [1],E35,startListenerChange subscribeList = <*>
 730,20171223-22:19:58:411,HiH_HiHealthBinder,30002312,"insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = 4,errorMessage = ERR_DATA_INSERT",E63,insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = <*> errorMessage = ERR_DATA_INSERT
 731,20171223-22:19:58:411,HiH_HiHealthBinder,30002312,insertHiHealthData() end totalTime = 45,E9,insertHiHealthData() end totalTime = <*>
 732,20171223-22:19:58:411,Step_LSC,30002312,uploadStaticsToDB() onResult  type = 4 obj=true,E50,uploadStaticsToDB() onResult type = <*> obj= true
@@ -740,10 +740,10 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 739,20171223-22:19:58:416,HiH_HiSyncControl,30002312,"stepSyncOrNot appSynTimes is 0, statsyncTimes is 0",E53,stepSyncOrNot appSynTimes is <*> statsyncTimes is <*>
 740,20171223-22:19:58:416,HiH_HiSyncControl,30002312,"startInsertSportSync start auto sync,app is 1",E54,"startInsertSportSync start auto sync, app is <*>"
 741,20171223-22:19:58:417,HiH_HiAppUtil,30002312,getBinderPackageName packageName = com.huawei.health,E34,getBinderPackageName packageName = com.huawei.health
-742,20171223-22:19:58:417,HiH_HiSyncUtil,30002312,"checkFirstSyncByType no such data in db ,type is 1 deviceCode is 0",E60,checkFirstSyncByType no such data in db <*> type is <*> deviceCode is <*>
+742,20171223-22:19:58:417,HiH_HiSyncUtil,30002312,"checkFirstSyncByType no such data in db ,type is 1 deviceCode is 0",E60,"checkFirstSyncByType no such data in db , type is <*> deviceCode is <*>"
 743,20171223-22:19:58:417,HiH_HiSyncControl,30002312,"startInsertSportSync first 500 steps sync,do all sync",E57,"startInsertSportSync first <*> steps sync, do all sync"
 744,20171223-22:19:58:419,HiH_HiAppUtil,30002312,getBinderPackageName packageName = com.huawei.health,E34,getBinderPackageName packageName = com.huawei.health
-745,20171223-22:19:58:419,HiH_HiSyncControl,30002312,"startSync hiSyncOption = HiSyncOption{syncAction=2, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1",E64,"startSync hiSyncOption = HiSyncOption{syncAction= <*> syncMethod= <*> syncScope= <*> syncDataType= <*> syncModel= <*> pushAction= 0}, app = <*> who = <*>"
+745,20171223-22:19:58:419,HiH_HiSyncControl,30002312,"startSync hiSyncOption = HiSyncOption{syncAction=2, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1",E64,startSync hiSyncOption = HiSyncOption{syncAction= <*> syncMethod= <*> syncScope= <*> syncDataType= <*> syncModel= <*> pushAction= <*> app = <*> who = <*>
 746,20171223-22:19:58:419,HiH_HiHealthBinder,30002312,insertHiHealthData() checkAppType  0 appID = 1,E43,insertHiHealthData() checkAppType <*> appID = <*>
 747,20171223-22:19:58:419,HiH_HiHealthBinder,30002312,"insertHiHealthData() size = 20,app = 1,One Data Type = 2,packageName = com.huawei.health,writeStatType = 0",E58,"insertHiHealthData() size = <*> app = <*> One Data Type = <*> packageName = com.huawei.health, writeStatType = <*>"
 748,20171223-22:19:58:423,HiH_HiSyncControl,30002312,needAutoSync autoSyncSwitch is open,E37,needAutoSync autoSyncSwitch is open
@@ -769,7 +769,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 768,20171223-22:19:58:501,HiH_DataStatManager,30002312,"new date =20171223, type=40044,420.0,old=420.0",E61,new date = <*> type= <*> <*> old= <*>
 769,20171223-22:19:58:501,HiH_DataStatManager,30002312,"new date =20171223, type=40006,7140.0,old=6900.0",E61,new date = <*> type= <*> <*> old= <*>
 770,20171223-22:19:58:502,HiH_HiHealthDataInsertStore,30002312,"saveRealTimeHealthDatasStat() size = 1,totalTime = 48",E51,saveRealTimeHealthDatasStat() size = <*> totalTime = <*>
-771,20171223-22:19:58:505,HiH_ListenerManager,30002312,startListenerChange subscribeList = [1],E35,startListenerChange subscribeList = [1]
+771,20171223-22:19:58:505,HiH_ListenerManager,30002312,startListenerChange subscribeList = [1],E35,startListenerChange subscribeList = <*>
 772,20171223-22:19:58:505,HiH_HiHealthBinder,30002312,insertHiHealthData() end totalTime = 94,E9,insertHiHealthData() end totalTime = <*>
 773,20171223-22:19:58:505,Step_FlushableStepDataCache,30002312,InsertCallBack() onSuccess  type = 0 data=true,E52,InsertCallBack() onSuccess type = <*> data= true
 774,20171223-22:19:58:505,Step_FlushableStepDataCache,30002312,InsertEvent success begin:25233975 end:25233979,E46,InsertEvent success begin: <*> end: <*>
@@ -783,9 +783,9 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 782,20171223-22:19:58:514,HiH_HiSyncControl,30002312,checkInsertStatus stepStatSum or calorieStatSum is enough,E45,checkInsertStatus stepStatSum or calorieStatSum is enough
 783,20171223-22:19:58:514,HiH_HiSyncControl,30002312,"stepSyncOrNot appSynTimes is 0, statsyncTimes is 0",E53,stepSyncOrNot appSynTimes is <*> statsyncTimes is <*>
 784,20171223-22:19:58:514,HiH_HiSyncControl,30002312,"startInsertSportSync start auto sync,app is 1",E54,"startInsertSportSync start auto sync, app is <*>"
-785,20171223-22:19:58:515,HiH_HiSyncUtil,30002312,"checkFirstSyncByType no such data in db ,type is 1 deviceCode is 0",E60,checkFirstSyncByType no such data in db <*> type is <*> deviceCode is <*>
+785,20171223-22:19:58:515,HiH_HiSyncUtil,30002312,"checkFirstSyncByType no such data in db ,type is 1 deviceCode is 0",E60,"checkFirstSyncByType no such data in db , type is <*> deviceCode is <*>"
 786,20171223-22:19:58:515,HiH_HiSyncControl,30002312,"startInsertSportSync first 500 steps sync,do all sync",E57,"startInsertSportSync first <*> steps sync, do all sync"
-787,20171223-22:19:58:516,HiH_HiSyncControl,30002312,"startSync hiSyncOption = HiSyncOption{syncAction=2, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1",E64,"startSync hiSyncOption = HiSyncOption{syncAction= <*> syncMethod= <*> syncScope= <*> syncDataType= <*> syncModel= <*> pushAction= 0}, app = <*> who = <*>"
+787,20171223-22:19:58:516,HiH_HiSyncControl,30002312,"startSync hiSyncOption = HiSyncOption{syncAction=2, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1",E64,startSync hiSyncOption = HiSyncOption{syncAction= <*> syncMethod= <*> syncScope= <*> syncDataType= <*> syncModel= <*> pushAction= <*> app = <*> who = <*>
 788,20171223-22:19:58:517,HiH_HiSyncControl,30002312,needAutoSync autoSyncSwitch is open,E37,needAutoSync autoSyncSwitch is open
 789,20171223-22:19:58:517,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
 790,20171223-22:19:58:518,HiH_HiSyncControl,30002312,"initDataPrivacy the dataPrivacy switch is open, start push health data!",E65,"initDataPrivacy the dataPrivacy switch is open, start push health data!"
@@ -794,21 +794,21 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 793,20171223-22:19:58:518,HiH_,30002312,initUserPrivacy the userPrivacy is true,E11,initUserPrivacy the userPrivacy is true
 794,20171223-22:19:58:518,HiH_HiSyncControl,30002312,ifCanSync not! no cloud version,E12,ifCanSync not! no cloud version
 795,20171223-22:19:58:518,HiH_HiBroadcastUtil,30002312,sendSyncFailedBroadcast,E67,sendSyncFailedBroadcast
-796,20171223-22:19:58:519,Step_StandReportReceiver,30002312,REPORT : 7163 5114 153431 240,E41,REPORT <*> <*> <*> <*> <*>
+796,20171223-22:19:58:519,Step_StandReportReceiver,30002312,REPORT : 7163 5114 153431 240,E41,REPORT : <*> <*> <*> <*>
 797,20171223-22:19:58:863,Step_LSC,30002312,onStandStepChanged 3737,E0,onStandStepChanged <*>
 798,20171223-22:19:58:872,Step_LSC,30002312,onExtend:1514038799000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 799,20171223-22:19:59:164,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038680000##7163##548935##8661##16256##27442827,E33, getTodayTotalDetailSteps = <*>
 800,20171223-22:19:59:166,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038680000##7165##548940##8661##16256##27443484,E1,setTodayTotalDetailSteps= <*>
 801,20171223-22:19:59:175,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130159,E19,calculateCaloriesWithCache totalCalories= <*>
 802,20171223-22:19:59:178,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-803,20171223-22:19:59:182,Step_StandReportReceiver,30002312,REPORT : 7165 5115 153474 240,E41,REPORT <*> <*> <*> <*> <*>
+803,20171223-22:19:59:182,Step_StandReportReceiver,30002312,REPORT : 7165 5115 153474 240,E41,REPORT : <*> <*> <*> <*>
 804,20171223-22:19:59:365,Step_LSC,30002312,onStandStepChanged 3739,E0,onStandStepChanged <*>
 805,20171223-22:19:59:373,Step_LSC,30002312,onExtend:1514038800000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 806,20171223-22:19:59:667,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038680000##7165##548940##8661##16256##27443484,E33, getTodayTotalDetailSteps = <*>
 807,20171223-22:19:59:667,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038680000##7167##548945##8661##16256##27443986,E1,setTodayTotalDetailSteps= <*>
 808,20171223-22:19:59:677,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130201,E19,calculateCaloriesWithCache totalCalories= <*>
 809,20171223-22:19:59:681,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-810,20171223-22:19:59:682,Step_StandReportReceiver,30002312,REPORT : 7167 5117 153517 240,E41,REPORT <*> <*> <*> <*> <*>
+810,20171223-22:19:59:682,Step_StandReportReceiver,30002312,REPORT : 7167 5117 153517 240,E41,REPORT : <*> <*> <*> <*>
 811,20171223-22:19:59:862,Step_LSC,30002312,onStandStepChanged 3742,E0,onStandStepChanged <*>
 812,20171223-22:19:59:871,Step_LSC,30002312,onExtend:1514038800000 3 0 4,E8,onExtend: <*> <*> <*> <*>
 813,20171223-22:20:0:130,Step_LSC,30002312,processHandleBroadcastAction action:android.intent.action.TIME_TICK,E17,processHandleBroadcastAction action: android.intent.action.TIME_TICK
@@ -816,84 +816,84 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 815,20171223-22:20:0:165,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038740000##7170##548996##8661##16256##27444484,E1,setTodayTotalDetailSteps= <*>
 816,20171223-22:20:0:174,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130266,E19,calculateCaloriesWithCache totalCalories= <*>
 817,20171223-22:20:0:177,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-818,20171223-22:20:0:179,Step_StandReportReceiver,30002312,REPORT : 7170 5119 153581 240,E41,REPORT <*> <*> <*> <*> <*>
+818,20171223-22:20:0:179,Step_StandReportReceiver,30002312,REPORT : 7170 5119 153581 240,E41,REPORT : <*> <*> <*> <*>
 819,20171223-22:20:0:363,Step_LSC,30002312,onStandStepChanged 3745,E0,onStandStepChanged <*>
 820,20171223-22:20:0:374,Step_LSC,30002312,onExtend:1514038801000 3 0 4,E8,onExtend: <*> <*> <*> <*>
 821,20171223-22:20:0:666,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038740000##7170##548996##8661##16256##27444484,E33, getTodayTotalDetailSteps = <*>
 822,20171223-22:20:0:666,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038740000##7173##549047##8661##16256##27444985,E1,setTodayTotalDetailSteps= <*>
 823,20171223-22:20:0:679,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130330,E19,calculateCaloriesWithCache totalCalories= <*>
 824,20171223-22:20:0:688,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-825,20171223-22:20:0:693,Step_StandReportReceiver,30002312,REPORT : 7173 5121 153645 240,E41,REPORT <*> <*> <*> <*> <*>
+825,20171223-22:20:0:693,Step_StandReportReceiver,30002312,REPORT : 7173 5121 153645 240,E41,REPORT : <*> <*> <*> <*>
 826,20171223-22:20:0:863,Step_LSC,30002312,onStandStepChanged 3746,E0,onStandStepChanged <*>
 827,20171223-22:20:0:872,Step_LSC,30002312,onExtend:1514038801000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 828,20171223-22:20:1:166,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038740000##7173##549047##8661##16256##27444985,E33, getTodayTotalDetailSteps = <*>
 829,20171223-22:20:1:166,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038740000##7174##549098##8661##16256##27445485,E1,setTodayTotalDetailSteps= <*>
 830,20171223-22:20:1:181,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130351,E19,calculateCaloriesWithCache totalCalories= <*>
 831,20171223-22:20:1:186,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-832,20171223-22:20:1:186,Step_StandReportReceiver,30002312,REPORT : 7174 5122 153667 240,E41,REPORT <*> <*> <*> <*> <*>
+832,20171223-22:20:1:186,Step_StandReportReceiver,30002312,REPORT : 7174 5122 153667 240,E41,REPORT : <*> <*> <*> <*>
 833,20171223-22:20:1:363,Step_LSC,30002312,onStandStepChanged 3748,E0,onStandStepChanged <*>
 834,20171223-22:20:1:378,Step_LSC,30002312,onExtend:1514038802000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 835,20171223-22:20:1:664,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038740000##7174##549098##8661##16256##27445485,E33, getTodayTotalDetailSteps = <*>
 836,20171223-22:20:1:665,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038740000##7176##549149##8661##16256##27445983,E1,setTodayTotalDetailSteps= <*>
 837,20171223-22:20:1:679,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130394,E19,calculateCaloriesWithCache totalCalories= <*>
 838,20171223-22:20:1:687,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-839,20171223-22:20:1:692,Step_StandReportReceiver,30002312,REPORT : 7176 5123 153709 240,E41,REPORT <*> <*> <*> <*> <*>
+839,20171223-22:20:1:692,Step_StandReportReceiver,30002312,REPORT : 7176 5123 153709 240,E41,REPORT : <*> <*> <*> <*>
 840,20171223-22:20:1:863,Step_LSC,30002312,onStandStepChanged 3751,E0,onStandStepChanged <*>
 841,20171223-22:20:1:873,Step_LSC,30002312,onExtend:1514038802000 3 0 4,E8,onExtend: <*> <*> <*> <*>
 842,20171223-22:20:2:164,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038740000##7176##549149##8661##16256##27445983,E33, getTodayTotalDetailSteps = <*>
 843,20171223-22:20:2:165,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038740000##7179##549200##8661##16256##27446483,E1,setTodayTotalDetailSteps= <*>
 844,20171223-22:20:2:174,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130458,E19,calculateCaloriesWithCache totalCalories= <*>
 845,20171223-22:20:2:178,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-846,20171223-22:20:2:179,Step_StandReportReceiver,30002312,REPORT : 7179 5125 153774 240,E41,REPORT <*> <*> <*> <*> <*>
+846,20171223-22:20:2:179,Step_StandReportReceiver,30002312,REPORT : 7179 5125 153774 240,E41,REPORT : <*> <*> <*> <*>
 847,20171223-22:20:2:365,Step_LSC,30002312,onStandStepChanged 3753,E0,onStandStepChanged <*>
 848,20171223-22:20:2:375,Step_LSC,30002312,onExtend:1514038803000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 849,20171223-22:20:2:670,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038740000##7179##549200##8661##16256##27446483,E33, getTodayTotalDetailSteps = <*>
 850,20171223-22:20:2:671,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038740000##7181##549251##8661##16256##27446989,E1,setTodayTotalDetailSteps= <*>
 851,20171223-22:20:2:678,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130501,E19,calculateCaloriesWithCache totalCalories= <*>
 852,20171223-22:20:2:693,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-853,20171223-22:20:2:695,Step_StandReportReceiver,30002312,REPORT : 7181 5127 153817 240,E41,REPORT <*> <*> <*> <*> <*>
+853,20171223-22:20:2:695,Step_StandReportReceiver,30002312,REPORT : 7181 5127 153817 240,E41,REPORT : <*> <*> <*> <*>
 854,20171223-22:20:2:863,Step_LSC,30002312,onStandStepChanged 3755,E0,onStandStepChanged <*>
 855,20171223-22:20:2:874,Step_LSC,30002312,onExtend:1514038803000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 856,20171223-22:20:3:164,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038740000##7181##549251##8661##16256##27446989,E33, getTodayTotalDetailSteps = <*>
 857,20171223-22:20:3:165,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038740000##7183##549302##8661##16256##27447483,E1,setTodayTotalDetailSteps= <*>
 858,20171223-22:20:3:175,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130544,E19,calculateCaloriesWithCache totalCalories= <*>
 859,20171223-22:20:3:179,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-860,20171223-22:20:3:180,Step_StandReportReceiver,30002312,REPORT : 7183 5128 153859 240,E41,REPORT <*> <*> <*> <*> <*>
+860,20171223-22:20:3:180,Step_StandReportReceiver,30002312,REPORT : 7183 5128 153859 240,E41,REPORT : <*> <*> <*> <*>
 861,20171223-22:20:3:862,Step_LSC,30002312,onStandStepChanged 3757,E0,onStandStepChanged <*>
 862,20171223-22:20:3:873,Step_LSC,30002312,onExtend:1514038804000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 863,20171223-22:20:4:166,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038740000##7183##549302##8661##16256##27447483,E33, getTodayTotalDetailSteps = <*>
 864,20171223-22:20:4:167,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038740000##7185##549353##8661##16256##27448486,E1,setTodayTotalDetailSteps= <*>
 865,20171223-22:20:4:187,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130587,E19,calculateCaloriesWithCache totalCalories= <*>
 866,20171223-22:20:4:193,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-867,20171223-22:20:4:193,Step_StandReportReceiver,30002312,REPORT : 7185 5130 153902 240,E41,REPORT <*> <*> <*> <*> <*>
+867,20171223-22:20:4:193,Step_StandReportReceiver,30002312,REPORT : 7185 5130 153902 240,E41,REPORT : <*> <*> <*> <*>
 868,20171223-22:20:4:362,Step_LSC,30002312,onStandStepChanged 3758,E0,onStandStepChanged <*>
 869,20171223-22:20:4:373,Step_LSC,30002312,onExtend:1514038805000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 870,20171223-22:20:4:664,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038740000##7185##549353##8661##16256##27448486,E33, getTodayTotalDetailSteps = <*>
 871,20171223-22:20:4:665,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038740000##7186##549404##8661##16256##27448983,E1,setTodayTotalDetailSteps= <*>
 872,20171223-22:20:4:673,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130608,E19,calculateCaloriesWithCache totalCalories= <*>
 873,20171223-22:20:4:676,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-874,20171223-22:20:4:680,Step_StandReportReceiver,30002312,REPORT : 7186 5130 153924 240,E41,REPORT <*> <*> <*> <*> <*>
+874,20171223-22:20:4:680,Step_StandReportReceiver,30002312,REPORT : 7186 5130 153924 240,E41,REPORT : <*> <*> <*> <*>
 875,20171223-22:20:5:362,Step_LSC,30002312,onStandStepChanged 3759,E0,onStandStepChanged <*>
 876,20171223-22:20:5:377,Step_LSC,30002312,onExtend:1514038806000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 877,20171223-22:20:5:662,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038740000##7186##549404##8661##16256##27448983,E33, getTodayTotalDetailSteps = <*>
 878,20171223-22:20:5:664,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038740000##7187##549455##8661##16256##27449982,E1,setTodayTotalDetailSteps= <*>
 879,20171223-22:20:5:672,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130630,E19,calculateCaloriesWithCache totalCalories= <*>
 880,20171223-22:20:5:675,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-881,20171223-22:20:5:675,Step_StandReportReceiver,30002312,REPORT : 7187 5131 153945 240,E41,REPORT <*> <*> <*> <*> <*>
+881,20171223-22:20:5:675,Step_StandReportReceiver,30002312,REPORT : 7187 5131 153945 240,E41,REPORT : <*> <*> <*> <*>
 882,20171223-22:20:7:364,Step_LSC,30002312,onStandStepChanged 3760,E0,onStandStepChanged <*>
 883,20171223-22:20:7:378,Step_LSC,30002312,onExtend:1514038808000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 884,20171223-22:20:7:665,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038740000##7187##549455##8661##16256##27449982,E33, getTodayTotalDetailSteps = <*>
 885,20171223-22:20:7:666,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038740000##7188##549506##8661##16256##27451985,E1,setTodayTotalDetailSteps= <*>
 886,20171223-22:20:7:681,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130651,E19,calculateCaloriesWithCache totalCalories= <*>
 887,20171223-22:20:7:686,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-888,20171223-22:20:7:690,Step_StandReportReceiver,30002312,REPORT : 7188 5132 153966 240,E41,REPORT <*> <*> <*> <*> <*>
+888,20171223-22:20:7:690,Step_StandReportReceiver,30002312,REPORT : 7188 5132 153966 240,E41,REPORT : <*> <*> <*> <*>
 889,20171223-22:20:7:864,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 890,20171223-22:20:7:875,Step_LSC,30002312,onExtend:1514038808000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 891,20171223-22:20:8:172,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038740000##7188##549506##8661##16256##27451985,E33, getTodayTotalDetailSteps = <*>
 892,20171223-22:20:8:173,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514038740000##7189##549557##8661##16256##27452491,E1,setTodayTotalDetailSteps= <*>
 893,20171223-22:20:8:180,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130673,E19,calculateCaloriesWithCache totalCalories= <*>
 894,20171223-22:20:8:182,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-895,20171223-22:20:8:185,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT <*> <*> <*> <*> <*>
+895,20171223-22:20:8:185,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT : <*> <*> <*> <*>
 896,20171223-22:20:12:863,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 897,20171223-22:20:12:874,Step_LSC,30002312,onExtend:1514038813000 0 0 0,E8,onExtend: <*> <*> <*> <*>
 898,20171223-22:20:13:164,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514038740000##7189##549557##8661##16256##27452491,E33, getTodayTotalDetailSteps = <*>
@@ -923,7 +923,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 922,20171223-22:24:22:208,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 923,20171223-22:24:22:214,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130673,E19,calculateCaloriesWithCache totalCalories= <*>
 924,20171223-22:24:22:215,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-925,20171223-22:24:22:215,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT <*> <*> <*> <*> <*>
+925,20171223-22:24:22:215,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT : <*> <*> <*> <*>
 926,20171223-22:24:22:309,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 927,20171223-22:24:22:310,Step_LSC,30002312,onExtend:1514039062000 0 0 0,E8,onExtend: <*> <*> <*> <*>
 928,20171223-22:24:22:344,Step_LSC,30002312,processHandleBroadcastAction action:android.intent.action.TIME_TICK,E17,processHandleBroadcastAction action: android.intent.action.TIME_TICK
@@ -969,7 +969,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 968,20171223-22:30:24:28,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 969,20171223-22:30:24:40,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130673,E19,calculateCaloriesWithCache totalCalories= <*>
 970,20171223-22:30:24:45,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-971,20171223-22:30:24:46,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT <*> <*> <*> <*> <*>
+971,20171223-22:30:24:46,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT : <*> <*> <*> <*>
 972,20171223-22:30:24:129,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 973,20171223-22:30:24:132,Step_LSC,30002312,onExtend:1514039424000 0 0 0,E8,onExtend: <*> <*> <*> <*>
 974,20171223-22:30:24:347,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514039340000##7189##549659##8661##16256##28068346,E33, getTodayTotalDetailSteps = <*>
@@ -995,7 +995,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 994,20171223-22:31:59:621,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 995,20171223-22:31:59:652,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130673,E19,calculateCaloriesWithCache totalCalories= <*>
 996,20171223-22:31:59:655,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-997,20171223-22:31:59:656,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT <*> <*> <*> <*> <*>
+997,20171223-22:31:59:656,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT : <*> <*> <*> <*>
 998,20171223-22:31:59:723,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 999,20171223-22:31:59:725,Step_LSC,30002312,onExtend:1514039520000 0 0 0,E8,onExtend: <*> <*> <*> <*>
 1000,20171223-22:31:59:725,Step_LSC,30002312,"timeStamp back,extendReportTimeStamp=1514039575000",E38,"timeStamp back, extendReportTimeStamp= <*>"
@@ -1005,7 +1005,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1004,20171223-22:31:59:968,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
 1005,20171223-22:32:0:95,Step_LSC,30002312,processHandleBroadcastAction action:android.intent.action.TIME_TICK,E17,processHandleBroadcastAction action: android.intent.action.TIME_TICK
 1006,20171223-22:32:28:791,HiH_HiSyncControl,30002312,startTimer start autoSync,E28,startTimer start autoSync
-1007,20171223-22:32:28:796,HiH_HiSyncControl,30002312,"startSync hiSyncOption = HiSyncOption{syncAction=1, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1",E64,"startSync hiSyncOption = HiSyncOption{syncAction= <*> syncMethod= <*> syncScope= <*> syncDataType= <*> syncModel= <*> pushAction= 0}, app = <*> who = <*>"
+1007,20171223-22:32:28:796,HiH_HiSyncControl,30002312,"startSync hiSyncOption = HiSyncOption{syncAction=1, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1",E64,startSync hiSyncOption = HiSyncOption{syncAction= <*> syncMethod= <*> syncScope= <*> syncDataType= <*> syncModel= <*> pushAction= <*> app = <*> who = <*>
 1008,20171223-22:32:28:796,HiH_HiSyncControl,30002312,stepSyncOrNot appSynTimes is 0,E39,stepSyncOrNot appSynTimes is <*>
 1009,20171223-22:32:28:798,HiH_HiSyncControl,30002312,needAutoSync autoSyncSwitch is open,E37,needAutoSync autoSyncSwitch is open
 1010,20171223-22:32:28:800,HiH_HiSyncControl,30002312,"initDataPrivacy the dataPrivacy switch is open, start push health data!",E65,"initDataPrivacy the dataPrivacy switch is open, start push health data!"
@@ -1032,7 +1032,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1031,20171223-22:33:46:305,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1032,20171223-22:33:46:311,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130673,E19,calculateCaloriesWithCache totalCalories= <*>
 1033,20171223-22:33:46:314,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1034,20171223-22:33:46:315,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT <*> <*> <*> <*> <*>
+1034,20171223-22:33:46:315,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT : <*> <*> <*> <*>
 1035,20171223-22:33:46:405,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1036,20171223-22:33:46:406,Step_LSC,30002312,onExtend:1514039626000 0 0 0,E8,onExtend: <*> <*> <*> <*>
 1037,20171223-22:33:46:616,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514039520000##7189##549659##8661##16256##28270623,E33, getTodayTotalDetailSteps = <*>
@@ -1063,7 +1063,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1062,20171223-22:39:25:306,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1063,20171223-22:39:25:310,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130673,E19,calculateCaloriesWithCache totalCalories= <*>
 1064,20171223-22:39:25:313,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1065,20171223-22:39:25:314,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT <*> <*> <*> <*> <*>
+1065,20171223-22:39:25:314,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT : <*> <*> <*> <*>
 1066,20171223-22:39:25:402,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1067,20171223-22:39:25:406,Step_LSC,30002312,onExtend:1514039965000 0 0 0,E8,onExtend: <*> <*> <*> <*>
 1068,20171223-22:39:25:406,Step_LSC,30002312,"timeStamp back,extendReportTimeStamp=1514039977000",E38,"timeStamp back, extendReportTimeStamp= <*>"
@@ -1113,7 +1113,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1112,20171223-22:51:37:295,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1113,20171223-22:51:37:302,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130673,E19,calculateCaloriesWithCache totalCalories= <*>
 1114,20171223-22:51:37:306,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1115,20171223-22:51:37:307,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT <*> <*> <*> <*> <*>
+1115,20171223-22:51:37:307,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT : <*> <*> <*> <*>
 1116,20171223-22:51:37:393,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1117,20171223-22:51:37:394,Step_LSC,30002312,onExtend:1514040697000 0 0 0,E8,onExtend: <*> <*> <*> <*>
 1118,20171223-22:51:37:608,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514040600000##7189##549659##8661##16256##29341612,E33, getTodayTotalDetailSteps = <*>
@@ -1144,7 +1144,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1143,20171223-22:52:45:487,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1144,20171223-22:52:45:494,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130673,E19,calculateCaloriesWithCache totalCalories= <*>
 1145,20171223-22:52:45:497,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1146,20171223-22:52:45:498,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT <*> <*> <*> <*> <*>
+1146,20171223-22:52:45:498,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT : <*> <*> <*> <*>
 1147,20171223-22:52:45:587,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1148,20171223-22:52:45:588,Step_LSC,30002312,onExtend:1514040766000 0 0 5,E8,onExtend: <*> <*> <*> <*>
 1149,20171223-22:52:45:800,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514040660000##7189##549659##8661##16256##29409806,E33, getTodayTotalDetailSteps = <*>
@@ -1175,7 +1175,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1174,20171223-22:53:1:218,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1175,20171223-22:53:1:219,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130673,E19,calculateCaloriesWithCache totalCalories= <*>
 1176,20171223-22:53:1:226,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1177,20171223-22:53:1:227,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT <*> <*> <*> <*> <*>
+1177,20171223-22:53:1:227,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT : <*> <*> <*> <*>
 1178,20171223-22:53:1:315,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1179,20171223-22:53:1:320,Step_LSC,30002312,onExtend:1514040781000 0 0 0,E8,onExtend: <*> <*> <*> <*>
 1180,20171223-22:53:1:320,Step_LSC,30002312,"timeStamp back,extendReportTimeStamp=1514040836000",E38,"timeStamp back, extendReportTimeStamp= <*>"
@@ -1201,7 +1201,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1200,20171223-22:53:12:720,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1201,20171223-22:53:12:731,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130673,E19,calculateCaloriesWithCache totalCalories= <*>
 1202,20171223-22:53:12:737,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1203,20171223-22:53:12:737,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT <*> <*> <*> <*> <*>
+1203,20171223-22:53:12:737,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT : <*> <*> <*> <*>
 1204,20171223-22:53:12:818,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1205,20171223-22:53:12:820,Step_LSC,30002312,onExtend:1514040793000 0 0 5,E8,onExtend: <*> <*> <*> <*>
 1206,20171223-22:53:13:15,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
@@ -1229,7 +1229,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1228,20171223-22:55:55:735,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1229,20171223-22:55:55:746,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130673,E19,calculateCaloriesWithCache totalCalories= <*>
 1230,20171223-22:55:55:748,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1231,20171223-22:55:55:748,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT <*> <*> <*> <*> <*>
+1231,20171223-22:55:55:748,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT : <*> <*> <*> <*>
 1232,20171223-22:55:55:834,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1233,20171223-22:55:55:835,Step_LSC,30002312,onExtend:1514040956000 0 0 5,E8,onExtend: <*> <*> <*> <*>
 1234,20171223-22:55:56:24,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
@@ -1268,7 +1268,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1267,20171223-23:7:6:126,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514041560000##7189##549659##8661##16256##30270445,E1,setTodayTotalDetailSteps= <*>
 1268,20171223-23:7:6:137,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130673,E19,calculateCaloriesWithCache totalCalories= <*>
 1269,20171223-23:7:6:142,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1270,20171223-23:7:6:145,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT <*> <*> <*> <*> <*>
+1270,20171223-23:7:6:145,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT : <*> <*> <*> <*>
 1271,20171223-23:7:6:226,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1272,20171223-23:7:6:232,Step_LSC,30002312,onExtend:1514041627000 0 0 5,E8,onExtend: <*> <*> <*> <*>
 1273,20171223-23:7:6:309,Step_LSC,30002312,processHandleBroadcastAction action:android.intent.action.TIME_TICK,E17,processHandleBroadcastAction action: android.intent.action.TIME_TICK
@@ -1282,28 +1282,28 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1281,20171223-23:7:7:374,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514041560000##7189##549659##8661##16256##30271693,E1,setTodayTotalDetailSteps= <*>
 1282,20171223-23:7:7:391,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130673,E19,calculateCaloriesWithCache totalCalories= <*>
 1283,20171223-23:7:7:400,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1284,20171223-23:7:50:264,Step_LSC,30002312,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501,E29,getTodaySportData mStepsRecordManager= <*>
-1285,20171223-23:7:50:266,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT <*> <*> <*> <*> <*>
+1284,20171223-23:7:50:264,Step_LSC,30002312,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501,E29,getTodaySportData mStepsRecordManager= com.huawei.health.g.c@8a2a501
+1285,20171223-23:7:50:266,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT : <*> <*> <*> <*>
 1286,20171223-23:7:50:266,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514041560000##7189##549659##8661##16256##30271693,E33, getTodayTotalDetailSteps = <*>
 1287,20171223-23:7:50:267,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514041560000##7189##549659##8661##16256##30314585,E1,setTodayTotalDetailSteps= <*>
 1288,20171223-23:7:50:274,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130673,E19,calculateCaloriesWithCache totalCalories= <*>
 1289,20171223-23:7:50:279,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1290,20171223-23:7:50:304,Step_LSC,30002312,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501,E29,getTodaySportData mStepsRecordManager= <*>
-1291,20171223-23:7:51:222,Step_LSC,30002312,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501,E29,getTodaySportData mStepsRecordManager= <*>
-1292,20171223-23:7:51:224,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT <*> <*> <*> <*> <*>
+1290,20171223-23:7:50:304,Step_LSC,30002312,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501,E29,getTodaySportData mStepsRecordManager= com.huawei.health.g.c@8a2a501
+1291,20171223-23:7:51:222,Step_LSC,30002312,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501,E29,getTodaySportData mStepsRecordManager= com.huawei.health.g.c@8a2a501
+1292,20171223-23:7:51:224,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT : <*> <*> <*> <*>
 1293,20171223-23:7:51:225,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514041560000##7189##549659##8661##16256##30314585,E33, getTodayTotalDetailSteps = <*>
 1294,20171223-23:7:51:228,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514041560000##7189##549659##8661##16256##30315546,E1,setTodayTotalDetailSteps= <*>
 1295,20171223-23:7:51:235,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130673,E19,calculateCaloriesWithCache totalCalories= <*>
 1296,20171223-23:7:51:238,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1297,20171223-23:7:51:314,Step_LSC,30002312,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501,E29,getTodaySportData mStepsRecordManager= <*>
+1297,20171223-23:7:51:314,Step_LSC,30002312,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501,E29,getTodaySportData mStepsRecordManager= com.huawei.health.g.c@8a2a501
 1298,20171223-23:8:0:112,Step_LSC,30002312,processHandleBroadcastAction action:android.intent.action.TIME_TICK,E17,processHandleBroadcastAction action: android.intent.action.TIME_TICK
-1299,20171223-23:8:9:229,Step_LSC,30002312,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501,E29,getTodaySportData mStepsRecordManager= <*>
-1300,20171223-23:8:9:233,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT <*> <*> <*> <*> <*>
+1299,20171223-23:8:9:229,Step_LSC,30002312,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501,E29,getTodaySportData mStepsRecordManager= com.huawei.health.g.c@8a2a501
+1300,20171223-23:8:9:233,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT : <*> <*> <*> <*>
 1301,20171223-23:8:9:235,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514041560000##7189##549659##8661##16256##30315546,E33, getTodayTotalDetailSteps = <*>
 1302,20171223-23:8:9:235,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514041620000##7189##549659##8661##16256##30333554,E1,setTodayTotalDetailSteps= <*>
 1303,20171223-23:8:9:248,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130673,E19,calculateCaloriesWithCache totalCalories= <*>
 1304,20171223-23:8:9:253,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1305,20171223-23:8:9:293,Step_LSC,30002312,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501,E29,getTodaySportData mStepsRecordManager= <*>
+1305,20171223-23:8:9:293,Step_LSC,30002312,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501,E29,getTodaySportData mStepsRecordManager= com.huawei.health.g.c@8a2a501
 1306,20171223-23:8:19:101,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1307,20171223-23:8:19:116,Step_LSC,30002312,onExtend:1514041699000 0 0 5,E8,onExtend: <*> <*> <*> <*>
 1308,20171223-23:8:19:403,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514041620000##7189##549659##8661##16256##30333554,E33, getTodayTotalDetailSteps = <*>
@@ -1332,7 +1332,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1331,20171223-23:14:24:392,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1332,20171223-23:14:24:399,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130673,E19,calculateCaloriesWithCache totalCalories= <*>
 1333,20171223-23:14:24:401,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1334,20171223-23:14:24:409,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT <*> <*> <*> <*> <*>
+1334,20171223-23:14:24:409,Step_StandReportReceiver,30002312,REPORT : 7189 5132 153988 240,E41,REPORT : <*> <*> <*> <*>
 1335,20171223-23:14:24:494,Step_LSC,30002312,onStandStepChanged 3761,E0,onStandStepChanged <*>
 1336,20171223-23:14:24:499,Step_LSC,30002312,onExtend:1514042064000 0 0 5,E8,onExtend: <*> <*> <*> <*>
 1337,20171223-23:14:24:499,Step_LSC,30002312,"timeStamp back,extendReportTimeStamp=1514042082000",E38,"timeStamp back, extendReportTimeStamp= <*>"
@@ -1352,84 +1352,84 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1351,20171223-23:14:42:910,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514041980000##7191##549659##8661##16256##30727229,E1,setTodayTotalDetailSteps= <*>
 1352,20171223-23:14:42:925,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130715,E19,calculateCaloriesWithCache totalCalories= <*>
 1353,20171223-23:14:42:930,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1354,20171223-23:14:42:933,Step_StandReportReceiver,30002312,REPORT : 7191 5134 154031 240,E41,REPORT <*> <*> <*> <*> <*>
+1354,20171223-23:14:42:933,Step_StandReportReceiver,30002312,REPORT : 7191 5134 154031 240,E41,REPORT : <*> <*> <*> <*>
 1355,20171223-23:14:43:108,Step_LSC,30002312,onStandStepChanged 3764,E0,onStandStepChanged <*>
 1356,20171223-23:14:43:122,Step_LSC,30002312,onExtend:1514042082000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 1357,20171223-23:14:43:414,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514041980000##7191##549659##8661##16256##30727229,E33, getTodayTotalDetailSteps = <*>
 1358,20171223-23:14:43:414,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514041980000##7192##549659##8661##16256##30727733,E1,setTodayTotalDetailSteps= <*>
 1359,20171223-23:14:43:426,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130737,E19,calculateCaloriesWithCache totalCalories= <*>
 1360,20171223-23:14:43:432,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1361,20171223-23:14:43:434,Step_StandReportReceiver,30002312,REPORT : 7192 5135 154052 240,E41,REPORT <*> <*> <*> <*> <*>
+1361,20171223-23:14:43:434,Step_StandReportReceiver,30002312,REPORT : 7192 5135 154052 240,E41,REPORT : <*> <*> <*> <*>
 1362,20171223-23:14:43:611,Step_LSC,30002312,onStandStepChanged 3765,E0,onStandStepChanged <*>
 1363,20171223-23:14:43:622,Step_LSC,30002312,onExtend:1514042083000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 1364,20171223-23:14:43:913,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514041980000##7192##549659##8661##16256##30727733,E33, getTodayTotalDetailSteps = <*>
 1365,20171223-23:14:43:914,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514041980000##7193##549659##8661##16256##30728232,E1,setTodayTotalDetailSteps= <*>
 1366,20171223-23:14:43:929,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130758,E19,calculateCaloriesWithCache totalCalories= <*>
 1367,20171223-23:14:43:934,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1368,20171223-23:14:43:938,Step_StandReportReceiver,30002312,REPORT : 7193 5135 154074 240,E41,REPORT <*> <*> <*> <*> <*>
+1368,20171223-23:14:43:938,Step_StandReportReceiver,30002312,REPORT : 7193 5135 154074 240,E41,REPORT : <*> <*> <*> <*>
 1369,20171223-23:14:44:108,Step_LSC,30002312,onStandStepChanged 3768,E0,onStandStepChanged <*>
 1370,20171223-23:14:44:118,Step_LSC,30002312,onExtend:1514042083000 3 0 4,E8,onExtend: <*> <*> <*> <*>
 1371,20171223-23:14:44:409,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514041980000##7193##549659##8661##16256##30728232,E33, getTodayTotalDetailSteps = <*>
 1372,20171223-23:14:44:410,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514041980000##7196##549659##8661##16256##30728728,E1,setTodayTotalDetailSteps= <*>
 1373,20171223-23:14:44:425,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130822,E19,calculateCaloriesWithCache totalCalories= <*>
 1374,20171223-23:14:44:431,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1375,20171223-23:14:44:437,Step_StandReportReceiver,30002312,REPORT : 7196 5137 154138 240,E41,REPORT <*> <*> <*> <*> <*>
+1375,20171223-23:14:44:437,Step_StandReportReceiver,30002312,REPORT : 7196 5137 154138 240,E41,REPORT : <*> <*> <*> <*>
 1376,20171223-23:14:44:610,Step_LSC,30002312,onStandStepChanged 3770,E0,onStandStepChanged <*>
 1377,20171223-23:14:44:617,Step_LSC,30002312,onExtend:1514042084000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 1378,20171223-23:14:44:913,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514041980000##7196##549659##8661##16256##30728728,E33, getTodayTotalDetailSteps = <*>
 1379,20171223-23:14:44:914,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514041980000##7198##549659##8661##16256##30729233,E1,setTodayTotalDetailSteps= <*>
 1380,20171223-23:14:44:930,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130865,E19,calculateCaloriesWithCache totalCalories= <*>
 1381,20171223-23:14:44:946,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1382,20171223-23:14:44:954,Step_StandReportReceiver,30002312,REPORT : 7198 5139 154181 240,E41,REPORT <*> <*> <*> <*> <*>
+1382,20171223-23:14:44:954,Step_StandReportReceiver,30002312,REPORT : 7198 5139 154181 240,E41,REPORT : <*> <*> <*> <*>
 1383,20171223-23:14:45:108,Step_LSC,30002312,onStandStepChanged 3772,E0,onStandStepChanged <*>
 1384,20171223-23:14:45:118,Step_LSC,30002312,onExtend:1514042084000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 1385,20171223-23:14:45:413,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514041980000##7198##549659##8661##16256##30729233,E33, getTodayTotalDetailSteps = <*>
 1386,20171223-23:14:45:414,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514041980000##7200##549659##8661##16256##30729733,E1,setTodayTotalDetailSteps= <*>
 1387,20171223-23:14:45:429,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130908,E19,calculateCaloriesWithCache totalCalories= <*>
 1388,20171223-23:14:45:434,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1389,20171223-23:14:45:438,Step_StandReportReceiver,30002312,REPORT : 7200 5140 154223 240,E41,REPORT <*> <*> <*> <*> <*>
+1389,20171223-23:14:45:438,Step_StandReportReceiver,30002312,REPORT : 7200 5140 154223 240,E41,REPORT : <*> <*> <*> <*>
 1390,20171223-23:14:45:607,Step_LSC,30002312,onStandStepChanged 3774,E0,onStandStepChanged <*>
 1391,20171223-23:14:45:618,Step_LSC,30002312,onExtend:1514042085000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 1392,20171223-23:14:45:908,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514041980000##7200##549659##8661##16256##30729733,E33, getTodayTotalDetailSteps = <*>
 1393,20171223-23:14:45:909,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514041980000##7202##549659##8661##16256##30730227,E1,setTodayTotalDetailSteps= <*>
 1394,20171223-23:14:45:916,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=130951,E19,calculateCaloriesWithCache totalCalories= <*>
 1395,20171223-23:14:45:919,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1396,20171223-23:14:45:924,Step_StandReportReceiver,30002312,REPORT : 7202 5142 154266 240,E41,REPORT <*> <*> <*> <*> <*>
+1396,20171223-23:14:45:924,Step_StandReportReceiver,30002312,REPORT : 7202 5142 154266 240,E41,REPORT : <*> <*> <*> <*>
 1397,20171223-23:14:46:106,Step_LSC,30002312,onStandStepChanged 3777,E0,onStandStepChanged <*>
 1398,20171223-23:14:46:115,Step_LSC,30002312,onExtend:1514042085000 3 0 4,E8,onExtend: <*> <*> <*> <*>
 1399,20171223-23:14:46:409,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514041980000##7202##549659##8661##16256##30730227,E33, getTodayTotalDetailSteps = <*>
 1400,20171223-23:14:46:409,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514041980000##7205##549659##8661##16256##30730728,E1,setTodayTotalDetailSteps= <*>
 1401,20171223-23:14:46:425,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=131015,E19,calculateCaloriesWithCache totalCalories= <*>
 1402,20171223-23:14:46:431,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1403,20171223-23:14:46:445,Step_StandReportReceiver,30002312,REPORT : 7205 5144 154331 240,E41,REPORT <*> <*> <*> <*> <*>
+1403,20171223-23:14:46:445,Step_StandReportReceiver,30002312,REPORT : 7205 5144 154331 240,E41,REPORT : <*> <*> <*> <*>
 1404,20171223-23:14:46:608,Step_LSC,30002312,onStandStepChanged 3780,E0,onStandStepChanged <*>
 1405,20171223-23:14:46:618,Step_LSC,30002312,onExtend:1514042086000 3 0 4,E8,onExtend: <*> <*> <*> <*>
 1406,20171223-23:14:46:912,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514041980000##7205##549659##8661##16256##30730728,E33, getTodayTotalDetailSteps = <*>
 1407,20171223-23:14:46:914,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514041980000##7208##549659##8661##16256##30731232,E1,setTodayTotalDetailSteps= <*>
 1408,20171223-23:14:46:928,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=131079,E19,calculateCaloriesWithCache totalCalories= <*>
 1409,20171223-23:14:46:932,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1410,20171223-23:14:46:933,Step_StandReportReceiver,30002312,REPORT : 7208 5146 154395 240,E41,REPORT <*> <*> <*> <*> <*>
+1410,20171223-23:14:46:933,Step_StandReportReceiver,30002312,REPORT : 7208 5146 154395 240,E41,REPORT : <*> <*> <*> <*>
 1411,20171223-23:14:47:109,Step_LSC,30002312,onStandStepChanged 3783,E0,onStandStepChanged <*>
 1412,20171223-23:14:47:118,Step_LSC,30002312,onExtend:1514042086000 3 0 4,E8,onExtend: <*> <*> <*> <*>
 1413,20171223-23:14:47:411,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514041980000##7208##549659##8661##16256##30731232,E33, getTodayTotalDetailSteps = <*>
 1414,20171223-23:14:47:412,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514041980000##7211##549659##8661##16256##30731730,E1,setTodayTotalDetailSteps= <*>
 1415,20171223-23:14:47:421,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=131144,E19,calculateCaloriesWithCache totalCalories= <*>
 1416,20171223-23:14:47:432,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1417,20171223-23:14:47:441,Step_StandReportReceiver,30002312,REPORT : 7211 5148 154459 240,E41,REPORT <*> <*> <*> <*> <*>
+1417,20171223-23:14:47:441,Step_StandReportReceiver,30002312,REPORT : 7211 5148 154459 240,E41,REPORT : <*> <*> <*> <*>
 1418,20171223-23:14:48:107,Step_LSC,30002312,onStandStepChanged 3784,E0,onStandStepChanged <*>
 1419,20171223-23:14:48:117,Step_LSC,30002312,onExtend:1514042087000 1 0 4,E8,onExtend: <*> <*> <*> <*>
 1420,20171223-23:14:48:409,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514041980000##7211##549659##8661##16256##30731730,E33, getTodayTotalDetailSteps = <*>
 1421,20171223-23:14:48:410,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514041980000##7212##549659##8661##16256##30732729,E1,setTodayTotalDetailSteps= <*>
 1422,20171223-23:14:48:418,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=131165,E19,calculateCaloriesWithCache totalCalories= <*>
 1423,20171223-23:14:48:421,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1424,20171223-23:14:48:422,Step_StandReportReceiver,30002312,REPORT : 7212 5149 154481 240,E41,REPORT <*> <*> <*> <*> <*>
+1424,20171223-23:14:48:422,Step_StandReportReceiver,30002312,REPORT : 7212 5149 154481 240,E41,REPORT : <*> <*> <*> <*>
 1425,20171223-23:14:48:606,Step_LSC,30002312,onStandStepChanged 3786,E0,onStandStepChanged <*>
 1426,20171223-23:14:48:618,Step_LSC,30002312,onExtend:1514042088000 2 0 4,E8,onExtend: <*> <*> <*> <*>
 1427,20171223-23:14:48:906,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514041980000##7212##549659##8661##16256##30732729,E33, getTodayTotalDetailSteps = <*>
 1428,20171223-23:14:48:907,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514041980000##7214##549659##8661##16256##30733226,E1,setTodayTotalDetailSteps= <*>
 1429,20171223-23:14:48:922,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=131208,E19,calculateCaloriesWithCache totalCalories= <*>
 1430,20171223-23:14:48:932,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1431,20171223-23:14:48:937,Step_StandReportReceiver,30002312,REPORT : 7214 5150 154523 240,E41,REPORT <*> <*> <*> <*> <*>
+1431,20171223-23:14:48:937,Step_StandReportReceiver,30002312,REPORT : 7214 5150 154523 240,E41,REPORT : <*> <*> <*> <*>
 1432,20171223-23:14:52:109,Step_LSC,30002312,onStandStepChanged 3786,E0,onStandStepChanged <*>
 1433,20171223-23:14:52:125,Step_LSC,30002312,onExtend:1514042091000 0 0 0,E8,onExtend: <*> <*> <*> <*>
 1434,20171223-23:14:52:410,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514041980000##7214##549659##8661##16256##30733226,E33, getTodayTotalDetailSteps = <*>
@@ -1456,7 +1456,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1455,20171223-23:17:40:997,Step_LSC,30002312,onStandStepChanged 3786,E0,onStandStepChanged <*>
 1456,20171223-23:17:41:3,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=131208,E19,calculateCaloriesWithCache totalCalories= <*>
 1457,20171223-23:17:41:4,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1458,20171223-23:17:41:5,Step_StandReportReceiver,30002312,REPORT : 7214 5150 154523 240,E41,REPORT <*> <*> <*> <*> <*>
+1458,20171223-23:17:41:5,Step_StandReportReceiver,30002312,REPORT : 7214 5150 154523 240,E41,REPORT : <*> <*> <*> <*>
 1459,20171223-23:17:41:97,Step_LSC,30002312,onStandStepChanged 3786,E0,onStandStepChanged <*>
 1460,20171223-23:17:41:100,Step_LSC,30002312,onExtend:1514042261000 0 0 0,E8,onExtend: <*> <*> <*> <*>
 1461,20171223-23:17:41:100,Step_LSC,30002312,"timeStamp back,extendReportTimeStamp=1514042265000",E38,"timeStamp back, extendReportTimeStamp= <*>"
@@ -1476,7 +1476,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1475,20171223-23:17:41:991,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514042160000##7214##549659##8661##16256##30906310,E1,setTodayTotalDetailSteps= <*>
 1476,20171223-23:17:42:1,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=131208,E19,calculateCaloriesWithCache totalCalories= <*>
 1477,20171223-23:17:42:4,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=240,E20,calculateAltitudeWithCache totalAltitude= <*>
-1478,20171223-23:17:42:5,Step_StandReportReceiver,30002312,REPORT : 7214 5150 154523 240,E41,REPORT <*> <*> <*> <*> <*>
+1478,20171223-23:17:42:5,Step_StandReportReceiver,30002312,REPORT : 7214 5150 154523 240,E41,REPORT : <*> <*> <*> <*>
 1479,20171223-23:17:42:91,Step_LSC,30002312,onStandStepChanged 3786,E0,onStandStepChanged <*>
 1480,20171223-23:17:42:93,Step_LSC,30002312,onExtend:1514042262000 0 0 0,E8,onExtend: <*> <*> <*> <*>
 1481,20171223-23:17:42:391,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514042160000##7214##549659##8661##16256##30906310,E33, getTodayTotalDetailSteps = <*>
@@ -1535,7 +1535,7 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1534,20171223-23:31:0:123,Step_LSC,30002312,processHandleBroadcastAction action:android.intent.action.TIME_TICK,E17,processHandleBroadcastAction action: android.intent.action.TIME_TICK
 1535,20171223-23:32:0:140,Step_LSC,30002312,processHandleBroadcastAction action:android.intent.action.TIME_TICK,E17,processHandleBroadcastAction action: android.intent.action.TIME_TICK
 1536,20171223-23:32:28:792,HiH_HiSyncControl,30002312,startTimer start autoSync,E28,startTimer start autoSync
-1537,20171223-23:32:28:794,HiH_HiSyncControl,30002312,"startSync hiSyncOption = HiSyncOption{syncAction=1, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1",E64,"startSync hiSyncOption = HiSyncOption{syncAction= <*> syncMethod= <*> syncScope= <*> syncDataType= <*> syncModel= <*> pushAction= 0}, app = <*> who = <*>"
+1537,20171223-23:32:28:794,HiH_HiSyncControl,30002312,"startSync hiSyncOption = HiSyncOption{syncAction=1, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1",E64,startSync hiSyncOption = HiSyncOption{syncAction= <*> syncMethod= <*> syncScope= <*> syncDataType= <*> syncModel= <*> pushAction= <*> app = <*> who = <*>
 1538,20171223-23:32:28:794,HiH_HiSyncControl,30002312,stepSyncOrNot appSynTimes is 0,E39,stepSyncOrNot appSynTimes is <*>
 1539,20171223-23:32:28:795,HiH_HiSyncControl,30002312,needAutoSync autoSyncSwitch is open,E37,needAutoSync autoSyncSwitch is open
 1540,20171223-23:32:28:795,HiH_HiSyncControl,30002312,"initDataPrivacy the dataPrivacy switch is open, start push health data!",E65,"initDataPrivacy the dataPrivacy switch is open, start push health data!"
@@ -1792,14 +1792,14 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1791,20171224-0:0:0:233,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514044560000##7214##549659##8661##16256##33306763,E33, getTodayTotalDetailSteps = <*>
 1792,20171224-0:0:0:233,Step_SPUtils,30002312, getTodayBasicStandardSteps= 1514044800223##3786##0,E31, getTodayBasicStandardSteps= <*>
 1793,20171224-0:0:0:233,Step_SPUtils,30002312, getDiffTotalSteps= 1514044800231##0,E32, getDiffTotalSteps= <*>
-1794,20171224-0:0:0:234,Step_StandStepDataManager,30002312,tryToReloadTodayBasicSteps1514044800223|3786|0|0,E40,<*> <*> 0| <*>
-1795,20171224-0:0:0:234,Step_StandStepDataManager,30002312,reload : 3786 restar 0,E14,reload <*> <*> restar <*>
+1794,20171224-0:0:0:234,Step_StandStepDataManager,30002312,tryToReloadTodayBasicSteps1514044800223|3786|0|0,E40,<*> <*> <*> <*>
+1795,20171224-0:0:0:234,Step_StandStepDataManager,30002312,reload : 3786 restar 0,E14,reload : <*> restar <*>
 1796,20171224-0:0:0:234,Step_SPUtils,30002312, getTodayTotalDetailSteps = 1514044560000##7214##549659##8661##16256##33306763,E33, getTodayTotalDetailSteps = <*>
 1797,20171224-0:0:0:234,Step_SPUtils,30002312,setTodayTotalDetailSteps=1514044740000##0##549659##8661##16256##33444553,E1,setTodayTotalDetailSteps= <*>
 1798,20171224-0:0:0:235,Step_ExtSDM,30002312,calculateCaloriesWithCache totalCalories=0,E19,calculateCaloriesWithCache totalCalories= <*>
 1799,20171224-0:0:0:235,Step_ExtSDM,30002312,calculateAltitudeWithCache totalAltitude=0,E20,calculateAltitudeWithCache totalAltitude= <*>
-1800,20171224-0:0:0:236,Step_StandReportReceiver,30002312,REPORT : 0 0 0 0,E41,REPORT <*> <*> <*> <*> <*>
-1801,20171224-0:0:0:237,Step_HGNH,30002312,next day:steps0mLastReport7214,E24,next day: <*>
+1800,20171224-0:0:0:236,Step_StandReportReceiver,30002312,REPORT : 0 0 0 0,E41,REPORT : <*> <*> <*> <*>
+1801,20171224-0:0:0:237,Step_HGNH,30002312,next day:steps0mLastReport7214,E24,next day: steps0mLastReport7214
 1802,20171224-0:0:0:237,Step_SPUtils,30002312,setGoalNotifiShownRecord 1514044800237 false,E25,setGoalNotifiShownRecord <*> false
 1803,20171224-0:0:0:240,Step_HGNH,30002312,closeNotification...,E72,closeNotification...
 1804,20171224-0:0:0:240,Step_NotificationUtil,30002312,deleteHealthNotification(),E73,deleteHealthNotification()
@@ -1972,8 +1972,8 @@ LineId,Time,Component,Pid,Content,EventId,EventTemplate
 1971,20171224-0:28:48:963,Step_StandReportReceiver,30002312,onReceive action: android.intent.action.SCREEN_OFF,E21,onReceive action: android.intent.action.SCREEN_OFF
 1972,20171224-0:31:52:120,Step_LSC,30002312,processHandleBroadcastAction action:android.intent.action.TIME_TICK,E17,processHandleBroadcastAction action: android.intent.action.TIME_TICK
 1973,20171224-0:32:28:791,HiH_HiSyncControl,30002312,startTimer start autoSync,E28,startTimer start autoSync
-1974,20171224-0:32:28:797,HiH_HiSyncControl,30002312,"startSync hiSyncOption = HiSyncOption{syncAction=1, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1",E64,"startSync hiSyncOption = HiSyncOption{syncAction= <*> syncMethod= <*> syncScope= <*> syncDataType= <*> syncModel= <*> pushAction= 0}, app = <*> who = <*>"
-1975,20171224-0:32:28:799,HiH_HiSyncControl,30002312,"checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is 20171224 oldDay is 20171223",E74,"checkCurrentDay a new day comes <*> reset basicSyncCondition, currentDay is <*> oldDay is <*>"
+1974,20171224-0:32:28:797,HiH_HiSyncControl,30002312,"startSync hiSyncOption = HiSyncOption{syncAction=1, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1",E64,startSync hiSyncOption = HiSyncOption{syncAction= <*> syncMethod= <*> syncScope= <*> syncDataType= <*> syncModel= <*> pushAction= <*> app = <*> who = <*>
+1975,20171224-0:32:28:799,HiH_HiSyncControl,30002312,"checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is 20171224 oldDay is 20171223",E74,"checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is <*> oldDay is <*>"
 1976,20171224-0:32:28:800,HiH_HiSyncControl,30002312,stepSyncOrNot appSynTimes is 0,E39,stepSyncOrNot appSynTimes is <*>
 1977,20171224-0:32:28:803,HiH_HiSyncControl,30002312,needAutoSync autoSyncSwitch is open,E37,needAutoSync autoSyncSwitch is open
 1978,20171224-0:32:28:804,HiH_HiSyncControl,30002312,"initDataPrivacy the dataPrivacy switch is open, start push health data!",E65,"initDataPrivacy the dataPrivacy switch is open, start push health data!"

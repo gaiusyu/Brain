@@ -1,51 +1,22 @@
 Registered signal handlers for [TERM, HUP, INT]  1
-Successfully started service 'sparkExecutorActorSystem' on port 55904.  1
-Successfully started service <*> on port 40984.  1
+Successfully started service 'sparkExecutorActorSystem' on port <*>  1
+Successfully started service <*> on port <*>  1
 Starting executor ID <*> on host mesos-slave-07  1
 Reading broadcast variable <*> took <*> ms  37
 File Output Committer Algorithm version is <*>  30
 Changing view acls to: yarn, curi  2
 Changing modify acls to: yarn, curi  2
-MemoryStore started with capacity 17.7 <*>  1
+MemoryStore started with capacity <*> <*>  1
 Connecting to driver: spark: <*> <*>  1
 Partition <*> not found, computing it  75
-Input split: hdfs: <*> <*> <*>  45
+Input split: hdfs: <*> 9000/pjhe/logs/2kSOSP.log: <*>  45
 <*> is deprecated. Instead, use <*>  5
 SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)  2
 Slf4jLogger started  1
-attempt_201706092018_0024_m_000004_1026: Committed  1
-attempt_201706092018_0024_m_000002_998: Committed  1
-attempt_201706092018_0024_m_000003_1012: Committed  1
-attempt_201706092018_0024_m_000001_984: Committed  1
-attempt_201706092018_0024_m_000000_970: Committed  1
-attempt_201706092018_0024_m_000044_1129: Committed  1
-attempt_201706092018_0024_m_000043_1128: Committed  1
-attempt_201706092018_0024_m_000040_1125: Committed  1
-attempt_201706092018_0024_m_000042_1127: Committed  1
-attempt_201706092018_0024_m_000041_1126: Committed  1
-attempt_201706092018_0024_m_000083_1138: Committed  1
-attempt_201706092018_0024_m_000084_1141: Committed  1
-attempt_201706092018_0024_m_000080_1135: Committed  1
-attempt_201706092018_0024_m_000082_1137: Committed  1
-attempt_201706092018_0024_m_000081_1136: Committed  1
-attempt_201706092018_0024_m_000124_1151: Committed  1
-attempt_201706092018_0024_m_000120_1145: Committed  1
-attempt_201706092018_0024_m_000122_1147: Committed  1
-attempt_201706092018_0024_m_000121_1146: Committed  1
-attempt_201706092018_0024_m_000123_1150: Committed  1
-attempt_201706092018_0024_m_000160_1155: Committed  1
-attempt_201706092018_0024_m_000163_1158: Committed  1
-attempt_201706092018_0024_m_000164_1159: Committed  1
-attempt_201706092018_0024_m_000162_1157: Committed  1
-attempt_201706092018_0024_m_000161_1156: Committed  1
-attempt_201706092018_0025_m_000004_1199: Committed  1
-attempt_201706092018_0025_m_000003_1198: Committed  1
-attempt_201706092018_0025_m_000000_1166: Committed  1
-attempt_201706092018_0025_m_000002_1194: Committed  1
-attempt_201706092018_0025_m_000001_1180: Committed  1
+<*> Committed  30
 Starting remoting  1
 Registered BlockManager  1
-Remoting started; listening on addresses : [akka.tcp: <*> 55904]  1
+Remoting started; listening on addresses : [akka.tcp: //sparkExecutorActorSystem@mesos-slave-07: <*>  1
 Saved output of task <*> to hdfs: <*> <*>  30
 Created local directory at <*>  1
 Started reading broadcast variable <*>  37

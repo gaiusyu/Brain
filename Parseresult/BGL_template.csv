@@ -16,90 +16,94 @@ core configuration register: <*>  7
 Machine State Register: <*>  1
 iar <*> dear <*>  208
 CE sym <*> at <*> mask <*>  92
-program interrupt: illegal instruction.. <*> <*> <*>  8
-program interrupt: imprecise exception.. <*> <*> <*>  5
-instruction address space.. <*> <*> <*> <*>  1
-ciod: LOGIN chdir( <*> failed: Input/output error  1
+program interrupt: illegal instruction.. .. .. <*>  8
+program interrupt: imprecise exception.. .. .. <*>  5
+instruction address space.. .. .. .. <*>  1
+ciod: LOGIN chdir( /p/gb1/stella/RAPTOR/2183) failed: Input/output error  1
 ciod: failed to read message prefix on control stream ( CioStream socket to <*>  3
 New ido chip inserted into the database: <*> ip= <*> v= <*> t= <*>  3
 <*> ddr errors( s) detected and corrected on rank <*> symbol <*> bit <*>  18
-machine check: i-fetch.. <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>  5
-auxiliary processor.. <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>  5
+machine check: i-fetch.. .. .. .. .. .. .. .. .. .. .. <*>  5
+auxiliary processor.. .. .. .. .. .. .. .. .. .. .. .. <*>  5
 ciod: Error loading <*> invalid or missing program image, No such file or directory  21
 <*> torus receiver z+ input pipe error( s) ( dcr <*> detected and corrected  2
 <*> torus receiver x+ input pipe error( s) ( dcr <*> detected and corrected  1
 <*> torus receiver y+ input pipe error( s) ( dcr <*> detected and corrected  1
-critical input interrupt ( unit= <*> bit= <*> <*> warning for torus y+ wire  1
-critical input interrupt ( unit= <*> bit= <*> <*> warning for torus z- wire  1
+critical input interrupt ( unit= <*> bit= <*> : warning for torus y+ wire  1
+critical input interrupt ( unit= <*> bit= <*> : warning for torus z- wire  1
 ciod: Error reading message prefix on CioStream socket to <*> Connection reset by peer  4
 ciod: Error reading message prefix on CioStream socket to <*> Link has been severed  8
-fraction rounded.. <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>  1
-<*> L3 EDRAM error( s) ( dcr <*> detected and corrected over <*> seconds  1
+fraction rounded.. .. .. .. .. .. .. .. .. .. .. .. <*>  1
+<*> <*> EDRAM error( s) ( dcr <*> detected and corrected over <*> seconds  1
 generating <*>  721
 program interrupt  3
 shutdown complete  1
-force load/store alignment.. <*> <*> <*> <*> <*> <*> <*>  2
+force load/store alignment.. .. .. .. .. .. .. <*>  2
 ciod: cpu <*> at treeaddr <*> sent unrecognized message 0xffffffff  1
 ciod: LOGIN chdir( <*> failed: No such file or directory  18
-data store interrupt caused by dcbf.. <*> <*> <*> <*>  5
-data store interrupt caused by icbi.. <*> <*> <*> <*>  5
-machine check enable.. <*> <*> <*> <*> <*> <*> <*>  2
-ciod: Error creating node map from file <*> Permission denied  1
+data store interrupt caused by dcbf.. .. .. .. <*>  5
+data store interrupt caused by icbi.. .. .. .. <*>  5
+machine check enable.. .. .. .. .. .. .. <*>  2
+ciod: Error creating node map from file /home/pakin1/sweep3d-2.2b/results/random1-8x32x32x2.map: Permission denied  1
 ciod: Received signal <*> code= <*> errno= <*> address= <*>  16
 ciod: Message code <*> is not <*> or <*>  1
-floating pt ex mode <*> enable.. <*> <*> <*>  5
-debug interrupt enable.. <*> <*> <*> <*> <*> <*>  1
-guaranteed data cache block touch.. <*> <*> <*> <*>  1
+floating pt ex mode <*> enable.. .. .. <*>  5
+debug interrupt enable.. .. .. .. .. .. <*>  1
+guaranteed data cache block touch.. .. .. .. <*>  1
 total of <*> ddr error( s) detected and corrected  13
 data cache search parity error detected. attempting to correct  6
-Lustre mount FAILED <*> <*> <*> block_id <*> location  2
+Lustre mount FAILED : bglio78 : block_id : location  1
+Lustre mount FAILED : <*> : block_id : location  1
 data storage interrupt  30
 data address: <*>  8
 instruction address: <*>  21
 special purpose registers:  1
 rts internal error  1
-program interrupt: trap instruction.. <*> <*> <*> <*>  1
+program interrupt: trap instruction.. .. .. .. <*>  1
 Can not get assembly information for node card  6
 ciod: generated <*> core files for program <*>  30
-Lustre mount FAILED <*> <*> <*> point <*>  9
+Lustre mount FAILED : <*> : point /p/gb1  9
 <*> <*> <*> <*> <*> <*> <*> <*>  1
-store operation.. <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>  2
-ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file <*>  1
-ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>  1
+store operation.. .. .. .. .. .. .. .. .. .. .. .. .. .. <*>  2
+ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-sweep/sweep.map  1
+ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file /p/gb2/pakin1/contention-32768cpes-torus/xyzt-1x1x32768x1.map  1
 ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*> Link has been severed  9
 <*> torus sender z- retransmission error( s) ( dcr <*> detected and corrected over <*> seconds  2
 <*> tree receiver <*> in re-synch state event( s) ( dcr <*> detected over <*> seconds  2
-problem state ( 0= sup, 1= usr) <*> <*> <*> <*>  3
-data address space.. <*> <*> <*> <*> <*> <*> <*> <*>  5
-program interrupt: fp cr update.. <*> <*> <*> <*> <*> <*>  1
-icache prefetch threshold.. <*> <*> <*> <*> <*> <*> <*> <*>  2
-wait state enable.. <*> <*> <*> <*> <*> <*> <*> <*>  1
-debug wait enable.. <*> <*> <*> <*> <*> <*> <*> <*>  2
-ciod: Error creating node map from file <*> No child processes  1
+problem state ( <*> sup, <*> usr) .. .. .. <*>  3
+data address space.. .. .. .. .. .. .. .. <*>  5
+program interrupt: fp cr update.. .. .. .. .. .. <*>  1
+icache prefetch threshold.. .. .. .. .. .. .. .. <*>  2
+wait state enable.. .. .. .. .. .. .. .. <*>  1
+debug wait enable.. .. .. .. .. .. .. .. <*>  2
+ciod: Error creating node map from file /p/gb2/cabot/miranda/newmaps/8k_128x64x1_8x4x4.map: No child processes  1
 ciod: Error creating node map from file <*> Bad file descriptor  1
-ciod: Error creating node map from file <*> Block device required  1
+ciod: Error creating node map from file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-xyzt/xyzt.map: Block device required  1
 ciod: Error loading <*> invalid or missing program image, Permission denied  19
-<*> L3 EDRAM error( s) ( dcr <*> detected and corrected  1
-ciod: Error loading <*> program image too big, <*> > <*>  1
-floating point instr. enabled.. <*> <*>  4
+<*> <*> EDRAM error( s) ( dcr <*> detected and corrected  1
+ciod: Error loading /g/g24/buber/Yunsic/BlueGene/partad.develf/taddriver.32.exe: program image too big, <*> > <*>  1
+floating point instr. enabled.. .. <*>  4
 Node card is not fully functional  6
 rts: kernel terminated for reason <*>  6
 ciod: pollControlDescriptors: Detected the debugger died.  3
 suppressing further interrupts of same type  2
 dbcr0= <*> dbsr= <*> ccr0= <*>  1
-byte ordering exception.. <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>  2
-icache prefetch depth.. <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>  1
-ciod: Missing or invalid fields on line <*> of node map file <*>  2
+byte ordering exception.. .. .. .. .. .. .. .. .. .. <*>  2
+icache prefetch depth.. .. .. .. .. .. .. .. .. .. <*>  1
+ciod: Missing or invalid fields on line <*> of node map file /home/auselton/bgl/64mps.sequential.mapfile  1
+ciod: Missing or invalid fields on line <*> of node map file /home/auselton/bgl/mapfiles/bgl.128mps.f64.map  1
 <*> tree receiver <*> in re-synch state event( s) ( dcr <*> detected  3
 MACHINE CHECK DCR read timeout ( mc= <*> iar <*> lr <*>   7
 ciod: Error reading message prefix on CioStream socket to <*> Connection timed out  2
-size of scratchpad portion of L3.. <*> <*> <*> <*> ( 0M)   1
-program interrupt: fp cr field <*> <*> <*> <*> <*> <*> <*>  4
-disable store gathering.. <*> <*> <*> <*> <*> <*> <*> <*> <*>  3
-ciod: Error loading <*> invalid or missing program image, Exec format error  17
-NFS Mount failed on <*> slept <*> seconds, retrying ( 1)   2
+size of scratchpad portion of L3.. .. .. .. <*> ( <*>   1
+program interrupt: fp cr field .. .. .. .. .. .. <*>  4
+disable store gathering.. .. .. .. .. .. .. .. .. <*>  3
+ciod: Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_243_0810/allreduce.rts: invalid or missing program image, Exec format error  15
+ciod: Error loading /bgl/apps/followup/RAPTOR/new.raptor.trace: invalid or missing program image, Exec format error  2
+NFS Mount failed on <*> slept <*> seconds, retrying ( <*>   1
+NFS Mount failed on bglio91, slept <*> seconds, retrying ( <*>   1
 total of <*> ddr error( s) detected and corrected over <*> seconds  4
-minus normalized number.. <*> <*> <*> <*> <*> <*> <*> <*> <*>  1
+minus normalized number.. .. .. .. .. .. .. .. .. <*>  1
 Ido chip status changed: <*> ip= <*> v= <*> t= <*> status= M Fri Jul <*> <*> PDT <*>  1
 Ido chip status changed: <*> ip= <*> v= <*> t= <*> status= M Thu Aug <*> <*> PDT <*>  2
 Ido chip status changed: <*> ip= <*> v= <*> t= <*> status= M Tue Aug <*> <*> PDT <*>  1
@@ -109,15 +113,15 @@ Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid 
 idoproxydb hit ASSERT condition: ASSERT expression= <*> Source file= idotransportmgr.cpp Source line= <*> Function= int IdoTransportMgr::SendPacket( IdoUdpMgr*, BglCtlPavTrace*)   35
 Node card status: ALERT <*> ALERT <*> ALERT <*> ALERT <*> is ( are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The <*> volt rail is OK. The <*> volt rail is OK.  1
 Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <*> volt rail is OK. The <*> volt rail is OK.  5
-PrepareForService shutting down NodeCard( mLctn( <*> <*> mCardSernum( <*> <*> mLp( <*> <*> mIp( <*> <*> mType( 4) ) as part of Service Action <*>  1
+PrepareForService shutting down NodeCard( mLctn( <*> , mCardSernum( <*> , mLp( <*> , mIp( <*> , mType( <*> ) as part of Service Action <*>  1
 rts: bad message header: expecting type <*> instead of type <*> ( softheader= <*> <*> <*> <*> PSR0= <*> PSR1= <*> PRXF= <*> PIXF= <*>  1
 <*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.  51
 rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- Z+ Z- got: B C X- Y- Z+ Z-  1
-ciod: In packet from node <*> ( <*> <*> message code <*> is not <*> or <*> ( softheader= <*> <*> <*> <*>   1
+ciod: In packet from node <*> ( <*> , message code <*> is not <*> or <*> ( softheader= <*> <*> <*> <*>   1
 <*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.  71
 Error receiving packet on tree network, expecting type <*> instead of type <*> ( softheader= <*> <*> <*> <*> PSR0= <*> PSR1= <*> PRXF= <*> PIXF= <*>  5
-critical input interrupt ( unit= <*> bit= <*> <*> warning for torus z+ wire, suppressing further interrupts of same type  2
-critical input interrupt ( unit= <*> bit= <*> <*> warning for tree C1 wire, suppressing further interrupts of same type  1
+critical input interrupt ( unit= <*> bit= <*> : warning for torus z+ wire, suppressing further interrupts of same type  2
+critical input interrupt ( unit= <*> bit= <*> : warning for tree <*> wire, suppressing further interrupts of same type  1
 <*> ddr error( s) detected and corrected on rank <*> symbol <*> over <*> seconds  7
-PrepareForService shutting down Node card( mLctn( <*> <*> mCardSernum( <*> <*> mLp( <*> <*> mIp( <*> <*> mType( 4) ) as part of Service Action <*>  1
+PrepareForService shutting down Node card( mLctn( <*> , mCardSernum( <*> , mLp( <*> , mIp( <*> , mType( <*> ) as part of Service Action <*>  1
 Kernel detected <*> integer alignment exceptions ( <*> iar <*> dear <*> ( <*> iar <*> dear <*> ( <*> iar <*> dear <*> ( <*> iar <*> dear <*> ( <*> iar <*> dear <*> ( <*> iar <*> dear <*> ( <*> iar <*> dear <*> ( <*> iar <*> dear <*>  9

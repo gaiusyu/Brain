@@ -5,17 +5,18 @@ Server environment: <*> <*>  7
 ******* GOODBYE <*> ********  19
 autopurge.snapRetainCount <*> to <*>  1
 tickTime <*> to <*>  1
-Snapshotting: <*> to <*>  2
+Snapshotting: <*> to /var/lib/zookeeper/version-2/snapshot.300000dcd  1
+Snapshotting: <*> to /var/lib/zookeeper/version-2/snapshot.50000062e  1
 autopurge.purgeInterval set to <*>  3
 maxSessionTimeout set to <*>  1
 minSessionTimeout set to <*>  2
 Interrupted while waiting for message on queue  314
 Expiring session <*> timeout of <*> exceeded  40
 FOLLOWING - LEADER ELECTION TOOK - <*>  2
-Follower sid: <*> : info : <*>  1
+Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4  1
 Connection broken for id <*> my id = <*> error =   291
 Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running  3
-Server environment: java.class.path= <*> <*> <*> <*> <*> <*> <*> <*> <*>  1
+Server environment: java.class.path= /etc/zookeeper/conf: /usr/share/java/jline.jar: /usr/share/java/log4j-1.2.jar: /usr/share/java/xercesImpl.jar: /usr/share/java/xmlParserAPIs.jar: /usr/share/java/netty.jar: /usr/share/java/slf4j-api.jar: /usr/share/java/slf4j-log4j12.jar: /usr/share/java/zookeeper.jar  1
 Have quorum of supporters; starting up and setting last processed zxid: <*>  1
 Interrupting SendWorker  266
 Sending DIFF  1
@@ -36,7 +37,7 @@ Unexpected Exception:   1
 Starting quorum peer  1
 Revalidating client: <*>  3
 First is <*>  1
-Reading snapshot <*>  1
+Reading snapshot /var/lib/zookeeper/version-2/snapshot.b00000084  1
 Connection request from old client <*> will be dropped if server is in r-o mode  39
 Cannot open channel to <*> at election address <*>  86
 New election. My id = <*> proposed zxid= <*>  1
@@ -45,4 +46,4 @@ LOOKING  4
 FOLLOWING  2
 Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), <*> (my state)  12
 Closed socket connection for client <*> (no session established for client)  4
-Got user-level KeeperException when processing sessionid: <*> type: create cxid: <*> zxid: <*> txntype: <*> reqpath: <*> Error Path: <*> Error: KeeperErrorCode = NodeExists for <*>  1
+Got user-level KeeperException when processing sessionid: <*> type: create cxid: <*> zxid: <*> txntype: <*> reqpath: n/a Error Path: /home/curi/.zookeeper Error: KeeperErrorCode = NodeExists for /home/curi/.zookeeper  1

@@ -1,4 +1,4 @@
-Loaded Servicing Stack <*> with Core: C: <*>  2
+Loaded Servicing Stack <*> with Core: C: \Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.1.7601.23505_none_681aa442f6fed7f0\cbscore.dll  2
 <*> <*> <*> <*> CSI perf trace:   3
 NonStart: Success, startup processing not required as expected.  2
 <*> <*> <*> <*> WcpInitialize (wcp.dll version <*> called (stack <*>  6
@@ -26,25 +26,23 @@ SQM: Requesting upload of all unsent reports.  2
 <*> <*> <*> <*> PopulateComponentFamiliesKey - End  1
 SQM: Cleaning up report files older than <*> days.  2
 NonStart: Checking to ensure startup processing was not required.  2
-<*> Created NT transaction (seq 1) result <*> <*>  2
+<*> Created NT transaction (seq <*> result <*> <*>  3
 Expecting attribute name [ HRESULT = <*> CBS_E_MANIFEST_INVALID_ITEM]   224
-<*> Created NT transaction (seq 2) result <*> <*>  1
 Disabling manifest caching, because the image is not writeable.  1
 SQM: Failed to start upload with file pattern: C: \Windows\servicing\sqm\*_std.sqm, flags: <*> HRESULT = <*> E_FAIL]   2
 SQM: Failed to start standard sample upload. [ HRESULT = <*> E_FAIL]   2
-<*> ICSITransaction: <*> Commit calling IStorePendingTransaction: <*> Apply - coldpatching= FALSE applyflags= <*>  1
+<*> ICSITransaction: : Commit calling IStorePendingTransaction: : Apply - coldpatching= FALSE applyflags= <*>  1
 SQM: Queued <*> file(s) for upload with pattern: C: \Windows\servicing\sqm\*_all.sqm, flags: <*>  2
 Read out cached package applicability for package: <*> ApplicableState: <*> CurrentState: <*>  558
 Failed to create backup log cab. [ HRESULT = <*> ERROR_INVALID_FUNCTION]   2
 Loading offline registry hive: <*> into registry key <*> from path <*>  8
 SQM: Warning: Failed to upload all unsent reports. [ HRESULT = <*> E_FAIL]   2
 No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.  2
-<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call 1) (flags = <*> progress = NULL, phase = <*> pdwDisposition = <*>  2
-<*> Creating NT transaction (seq 1), objectname [ 6] "(null)"  2
-<*> Creating NT transaction (seq 2), objectname [ 6] "(null)"  1
+<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*> (flags = <*> progress = NULL, phase = <*> pdwDisposition = <*>  2
+<*> Creating NT transaction (seq <*> objectname [ <*> "(null)"  3
 <*> Store coherency cookie matches last scavenge cookie, skipping scavenge.  1
 Session: <*> initialized by client WindowsUpdateAgent.  608
 Session: <*> initialized by client SPP.  1
 Reboot mark refs incremented to: <*>  1
 Scavenge: Starts  1
-<*> <*> <*> <*> CSI Transaction <*> for deployment engine <*> with flags <*> and client id [ <*> <*> 0/"  1
+<*> <*> <*> <*> CSI Transaction <*> for deployment engine <*> with flags <*> and client id [ <*> <*> <*>  1

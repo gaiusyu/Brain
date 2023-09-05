@@ -253,7 +253,7 @@ def output_result(parse_result):
                     template.append('<*>')
                     i+=1
                     continue
-                if has_two_or_more_digits(this):
+                if exclude_digits(this):
                         template.append('<*>')
                         i += 1
                         continue
@@ -331,10 +331,15 @@ def save_result(dataset,df_output,template_set):
         f.close()
 
 
-def has_two_or_more_digits(string):
+def exclude_digits(string):
+    '''
+    exclude the digits-domain words from partial constant
+    '''
     pattern = r'\d'
     digits = re.findall(pattern, string)
-    return len(digits) >= 2 or string.isdigit() or re.match(r'^[\d.,;:]+$', string) or string.count('/') >= 2
+    if len(digits)==0:
+        return False
+    return len(digits)/len(string) >= 0.3
 
 
 class format_log:    # this part of code is from LogPai https://github.com/LogPai

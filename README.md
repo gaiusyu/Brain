@@ -2,7 +2,8 @@
 ## Brain: Log Parsing with Bidirectional Parallel Tree
 IEEE Transaction on Severice Computing
 
-###ABSTRACT
+
+### ABSTRACT
 
 Automated log analysis can facilitate failure diagnosis for developers and operators using a large volume of logs. Log
 parsing is a prerequisite step for automated log analysis, which parses semi-structured logs into structured logs. However, existing

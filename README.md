@@ -2,7 +2,7 @@
 ## Brain: Log Parsing with Bidirectional Parallel Tree
 IEEE Transaction on Severice Computing
 
-###LOGPAI
+### LOGPAI
 -[Code of Brain in LOGPAI](https://github.com/logpai/logparser/tree/main/logparser/Brain)
 
 ### ABSTRACT

@@ -2,7 +2,7 @@
 ## Brain: Log Parsing with Bidirectional Parallel Tree
 IEEE Transaction on Severice Computing
 
-### Notice: If you encounter any issues when using Brain or need technical support, please don't hesitate to contact me. Brain is capable of being efficient and effective on large datasets, and the streamlined version of Brain can be even faster and more efficient. I'll update the code when I have the time, and my responses to the issues you report will be more timely.
+### Notice: If you encounter any issues when using Brain or need technical support, please don't hesitate to contact me. Brain is capable of being efficient and effective on large datasets, and the simplized version of Brain can be even more efficient. I'll update the code when I have the time, and my responses to the issues you report will be more timely.
 
 ### LOGPAI
 -[Code of Brain in LOGPAI](https://github.com/logpai/logparser/tree/main/logparser/Brain)

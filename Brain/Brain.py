@@ -8,7 +8,10 @@ RED = "\033[31m"
 RESET = "\033[0m"
 PINK = "\033[38;2;255;192;203m"
 
-def get_frequecy_vector(sentences,filter,delimiter,dataset):
+
+
+
+def get_frequecy_vector(sentences,filter,delimiter,dataset,variable_list):
     '''
     Counting each word's frequency in the dataset and convert each log into frequency vector
     Output:
@@ -20,9 +23,19 @@ def get_frequecy_vector(sentences,filter,delimiter,dataset):
     group_len = {}
     set = {}
     line_id=0
-    for s in sentences:  # using delimiters to get split words
+    common_variables=[]
+    for s in sentences:
+        replaced_parts = []
+
+        def replacement(match):
+            replaced_parts.append(match.group(0))
+            return '<*>'
+
+        # using delimiters to get split words
         for rgex in filter:
-            s = re.sub(rgex, '<*>', s)
+            s = re.sub(rgex, replacement, s)
+        common_variables.append(replaced_parts)
+        variable_list.setdefault(line_id,[]).append(replaced_parts)
         for de in delimiter:
             s = re.sub(de, '', s)
         if dataset=='HealthApp':
@@ -179,7 +192,7 @@ class tupletree:
             i+=1
         return root_set_detail_ID,root_set,root_set_detail
 
-    def up_split(self,root_set_detail,root_set):
+    def up_split(self,root_set_detail,root_set,variable_set):
         for key in root_set.keys():
             tree_node=root_set[key]
             father_count = []
@@ -195,11 +208,15 @@ class tupletree:
                     for i in range(len(root_set_detail[key])):
                         for k in range(len(root_set_detail[key][i])):
                                 if father[0] == root_set_detail[key][i][k]:
+                                    variable_set.setdefault(
+                                        root_set_detail[key][i][len(root_set_detail[key][i]) - 1][0], []).append(
+                                        root_set_detail[key][i][k][1])
                                     root_set_detail[key][i][k]=(root_set_detail[key][i][k][0],'<*>',root_set_detail[key][i][k][2])
+
                     break
         return root_set_detail
 
-    def down_split(self,root_set_detail_ID,threshold, root_set_detail):
+    def down_split(self,root_set_detail_ID,threshold, root_set_detail,variable_list):
         for key in root_set_detail_ID.keys():
             thre = threshold
             detail_order=root_set_detail[key]
@@ -234,14 +251,18 @@ class tupletree:
                 while j < len(root_set_detail_ID[key][i]):
                     if isinstance(root_set_detail_ID[key][i][j],tuple):
                         if root_set_detail_ID[key][i][j][1] in variable:
+                            variable_list.setdefault(root_set_detail_ID[key][i][len(root_set_detail_ID[key][i]) - 1][0],
+                                                    []).append(root_set_detail_ID[key][i][j][1])
                             root_set_detail_ID[key][i][j] = (
                             root_set_detail_ID[key][i][j][0], '<*>', root_set_detail_ID[key][i][j][2])
+
                     j += 1
                 i+=1
         return root_set_detail_ID
 
 def output_result(parse_result):
     template_set={}
+    variable_set={}
     for key in parse_result.keys():
         for pr in parse_result[key]:
             sort = sorted(pr, key=lambda tup: tup[2])
@@ -252,10 +273,12 @@ def output_result(parse_result):
                 if bool('<*>' in this):
                     template.append('<*>')
                     i+=1
+                    variable_set.setdefault(pr[len(pr) - 1][0], []).append(this)
                     continue
                 if exclude_digits(this):
                         template.append('<*>')
                         i += 1
+                        variable_set.setdefault(pr[len(pr) - 1][0], []).append(this)
                         continue
                 template.append(sort[i][1])
                 i+=1
@@ -264,10 +287,12 @@ def output_result(parse_result):
     return template_set
 
 def parse(sentences,filter,dataset,threshold,delimiter,starttime,efficiency,df_input):
-    group_len, tuple_vector, frequency_vector = get_frequecy_vector(sentences, filter,delimiter,dataset)
+    variable_set={}
+    group_len, tuple_vector, frequency_vector = get_frequecy_vector(sentences, filter,delimiter,dataset,variable_set)
     sorted_tuple_vector, word_combinations, word_combinations_reverse= tuple_generate(group_len, tuple_vector,frequency_vector)
     df_example = df_input
     template_set = {}
+
     for key in group_len.keys():
         Tree = tupletree(sorted_tuple_vector[key], word_combinations[key], word_combinations_reverse[key], tuple_vector[key], group_len[key])
         root_set_detail_ID, root_set, root_set_detail = Tree.find_root(0)
@@ -289,8 +314,8 @@ def parse(sentences,filter,dataset,threshold,delimiter,starttime,efficiency,df_i
                     break
                 correct_choose+=1
         '''
-        root_set_detail_ID = Tree.up_split(root_set_detail_ID, root_set)
-        parse_result = Tree.down_split(root_set_detail_ID, threshold, root_set_detail)
+        root_set_detail_ID = Tree.up_split(root_set_detail_ID, root_set,variable_set)
+        parse_result = Tree.down_split(root_set_detail_ID, threshold, root_set_detail,variable_set)
         template_set.update(output_result(parse_result))
     '''
     ### code for root node selection evaluation.
@@ -318,6 +343,10 @@ def parse(sentences,filter,dataset,threshold,delimiter,starttime,efficiency,df_i
         IDnumber+=1
     df_example['EventTemplate']=template_
     df_example['EventId'] =EventID
+    variable_list=[]
+    for key in variable_set:
+        variable_list.append(variable_set[key])
+    df_example['variables'] = variable_list
     return df_example,template_set
 
 

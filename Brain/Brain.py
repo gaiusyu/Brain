@@ -35,7 +35,7 @@ def get_frequecy_vector(sentences,filter,delimiter,dataset,variable_list):
         for rgex in filter:
             s = re.sub(rgex, replacement, s)
         common_variables.append(replaced_parts)
-        variable_list.setdefault(line_id,[]).append(replaced_parts)
+        variable_list.setdefault(line_id,[]).extend(replaced_parts)
         for de in delimiter:
             s = re.sub(de, '', s)
         if dataset=='HealthApp':
@@ -346,7 +346,7 @@ def parse(sentences,filter,dataset,threshold,delimiter,starttime,efficiency,df_i
     variable_list=[]
     for key in variable_set:
         variable_list.append(variable_set[key])
-    df_example['variables'] = variable_list
+    df_example['ParameterList'] = variable_list
     return df_example,template_set
 
 

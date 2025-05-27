@@ -9,27 +9,21 @@ RESET = "\033[0m"
 PINK = "\033[38;2;255;192;203m"
 
 
-def get_frequecy_vector(sentences, filter, delimiter, dataset, variable_list):
+
+
+def get_frequecy_vector(sentences,filter,delimiter,dataset,variable_list):
+    '''
+    Counting each word's frequency in the dataset and convert each log into frequency vector
+    Output:
+        wordlist: log groups based on length
+        tuple_vector: the word in the log will be converted into a tuple (word_frequency, word_character, word_position)
+        frequency_vector: the word in the log will be converted into its frequency
+
+    '''
     group_len = {}
     set = {}
-    line_id = 0
-    common_variables = []
-
-    # 数据集对应的特殊字符列表（分割符），保持和原先加空格的字符一致
-    dataset_split_tokens = {
-        'HealthApp': [':', '=', r'\|'],
-        'Android': [r'\(', r'\)', ':', '='],
-        'HPC': ['=', '-', ':'],
-        'BGL': ['=', r'\.\.', r'\(', r'\)'],
-        'Hadoop': [r'_', ':', '=', r'\(', r'\)'],
-        'HDFS': [':'],
-        'Linux': ['=', ':'],
-        'Spark': [':'],
-        'Thunderbird': [':', '='],
-        'Windows': [':', '=', r'\[', r'\]'],
-        'Zookeeper': [':', '='],
-    }
-
+    line_id=0
+    common_variables=[]
     for s in sentences:
         replaced_parts = []
 
@@ -37,84 +31,98 @@ def get_frequecy_vector(sentences, filter, delimiter, dataset, variable_list):
             replaced_parts.append(match.group(0))
             return '<*>'
 
-        # 使用filter的正则替换为<*>
+        # using delimiters to get split words
         for rgex in filter:
             s = re.sub(rgex, replacement, s)
-
         common_variables.append(replaced_parts)
-        variable_list.setdefault(line_id, []).extend(replaced_parts)
-
-        # 先用delimiter去除干扰字符
+        variable_list.setdefault(line_id,[]).extend(replaced_parts)
         for de in delimiter:
             s = re.sub(de, '', s)
-
-        # 按数据集选取对应的分割符号，构造分割正则
-        split_tokens = dataset_split_tokens.get(dataset, [])
-
-        if split_tokens:
-            # 构造捕获分组形式的正则表达式，分割符保留在结果中
-            pattern = '(' + '|'.join(split_tokens) + ')'
-            parts = re.split(pattern, s)
-            # parts是一个列表，分割符和文本交替出现
-            # 去除空字符串，strip处理
-            tokens = []
-            for p in parts:
-                if p.strip() != '':
-                    tokens.append(p.strip())
-        else:
-            # 其他情况直接用空格分词
-            tokens = s.split()
-
-        # 再用delimiter去除空白等影响（如果需要）
-        # 这里保持不变，若delimiter中有空格，可以适当处理
-
-        # 将行号作为第一个token插入
-        tokens.insert(0, str(line_id))
-
-        # 按位置分组
+        if dataset=='HealthApp':
+            s = re.sub(':', ': ', s)
+            s = re.sub('=', '= ', s)
+            s = re.sub('\|', '| ', s)
+        if dataset=='Android':
+            s = re.sub('\(', '( ', s)
+            s = re.sub('\)', ') ', s)
+        if dataset=='Android':
+            s = re.sub(':', ': ', s)
+            s = re.sub('=', '= ', s)
+        if dataset=='HPC':
+            s = re.sub('=', '= ', s)
+            s = re.sub('-', '- ', s)
+            s = re.sub(':', ': ', s)
+        if dataset == 'BGL':
+                s = re.sub('=', '= ', s)
+                s = re.sub('\.\.', '.. ', s)
+                s = re.sub('\(', '( ', s)
+                s = re.sub('\)', ') ', s)
+        if dataset == 'Hadoop':
+                s = re.sub('_', '_ ', s)
+                s = re.sub(':', ': ', s)
+                s = re.sub('=', '= ', s)
+                s = re.sub('\(', '( ', s)
+                s = re.sub('\)', ') ', s)
+        if dataset == 'HDFS':
+                s = re.sub(':', ': ', s)
+        if dataset == 'Linux':
+            s = re.sub('=', '= ', s)
+            s = re.sub(':', ': ', s)
+        if dataset == 'Spark':
+            s = re.sub(':', ': ', s)
+        if dataset == 'Thunderbird':
+                s = re.sub(':', ': ', s)
+                s = re.sub('=', '= ', s)
+        if dataset == 'Windows':
+                s = re.sub(':', ': ', s)
+                s = re.sub('=', '= ', s)
+                s = re.sub('\[', '[ ', s)
+                s = re.sub(']', '] ', s)
+        if dataset == 'Zookeeper':
+                s = re.sub(':', ': ', s)
+                s = re.sub('=', '= ', s)
+        s = re.sub(',', ', ', s)
+        s = re.sub(' +',' ',s).split(' ')
+        s.insert(0,str(line_id))
         lenth = 0
-        for token in tokens:
+        for token in s:
             set.setdefault(str(lenth), []).append(token)
             lenth += 1
-
-        lena = len(tokens)
-        group_len.setdefault(lena, []).append(tokens)
-        line_id += 1
-
-    # 以下代码保持不变
+        lena=len(s)
+        group_len.setdefault(lena,[]).append(s)  # first grouping: logs with the same length
+        line_id+=1
     tuple_vector = {}
-    frequency_vector = {}
-    a = max(group_len.keys())
-    i = 0
-    fre_set = {}
+    frequency_vector={}
+    a = max(group_len.keys())  # a: the biggest length of the log in this dataset
+    i=0
+    fre_set={}   # saving each word's frequency
     while i < a:
-        for word in set[str(i)]:
-            word = str(i) + ' ' + word
-            if word in fre_set:
-                fre_set[word] += 1
+        for word in set[str(i)]:   # counting each word's frequency
+            word=str(i)+' '+word
+            if word in fre_set.keys():  # check if the "word" in fre_set
+                fre_set[word] = fre_set[word] + 1  # frequency of "word" + 1
             else:
                 fre_set[word] = 1
         i += 1
-
-    for key in group_len.keys():
-        for s in group_len[key]:
+    for key in group_len.keys():  # using fre_set to generate frequency vector for the log
+        for s in group_len[key]:  # in each log group with the same length
             position = 0
             fre = []
             fre_common = []
-            skip_lineid = 1
+            skip_lineid=1
             for word_character in s:
-                if skip_lineid == 1:
-                    skip_lineid = 0
+                if skip_lineid==1:
+                    skip_lineid=0
                     continue
-                frequency_word = fre_set[str(position + 1) + ' ' + word_character]
-                tup = (frequency_word, word_character, position)
-                fre.append(tup)
-                fre_common.append(frequency_word)
+                frequency_word=fre_set[str(position+1)+' '+word_character]
+                tuple = ((frequency_word), word_character, position)  # tuple=(frequency,word_character, position)
+                fre.append(tuple)
+                fre_common.append((frequency_word))
                 position += 1
-            tuple_vector.setdefault(key, []).append(fre)
-            frequency_vector.setdefault(key, []).append(fre_common)
+            tuple_vector.setdefault(key,[]).append(fre)
+            frequency_vector.setdefault(key,[]).append(fre_common)
+    return group_len,tuple_vector,frequency_vector
 
-    return group_len, tuple_vector, frequency_vector
 
 def tuple_generate(group_len,tuple_vector,frequency_vector):
     '''
@@ -423,5 +431,4 @@ class format_log:    # this part of code is from LogPai https://github.com/LogPa
     def load_data(self):
         headers, regex = self.generate_logformat_regex(self.log_format)
         self.df_log = self.log_to_dataframe(os.path.join(self.path, self.logName), regex, headers, self.log_format)
-
 

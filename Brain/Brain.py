@@ -207,7 +207,7 @@ class tupletree:
                 else:
                     for i in range(len(root_set_detail[key])):
                         for k in range(len(root_set_detail[key][i])):
-                                if father[0] == root_set_detail[key][i][k]:
+                                if father[0] == root_set_detail[key][i][k][0]:
                                     variable_set.setdefault(
                                         root_set_detail[key][i][len(root_set_detail[key][i]) - 1][0], []).append(
                                         root_set_detail[key][i][k][1])
